@@ -1,0 +1,25 @@
+name: Deploy to Github Pages
+on:
+  push:
+    branches:
+      - develop
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: pages-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: apt install hugo
+
+      - name: Build The Pathogens Portal
+        run: hugo --destination=dist
+
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.3
+        with:
+          folder: dist
