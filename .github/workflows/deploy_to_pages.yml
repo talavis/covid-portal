@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Hugo
-        run: apt install hugo
+        run: sudo apt install hugo
 
       - name: Build The Pathogens Portal
         run: hugo --destination=dist
