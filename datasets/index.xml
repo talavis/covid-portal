@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Available datasets on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/datasets/</link>
+    <description>Recent content in Available datasets on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/datasets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All data types</title>
+      <link>https://www.pathogens.se/datasets/all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/all/</guid>
+      <description>Published Data </description>
+    </item>
+    
+    <item>
+      <title>Biochemistry data</title>
+      <link>https://www.pathogens.se/datasets/biochemistry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/biochemistry/</guid>
+      <description>Published Data On our portal, “Biochemistry” has a broad meaning, including cell- and plasma profiling with, for example, biomarker concentrations in plasma.
+General useful data sources   Small molecule related data can be found in ChEMBL. ChEMBL is a manually curated database of bioactive molecules with drug-like properties. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.
+  IntAct Molecular Interaction Database - a freely available, open source database system and analysis tools for molecular interaction data.</description>
+    </item>
+    
+    <item>
+      <title>Drug discovery data</title>
+      <link>https://www.pathogens.se/datasets/drug-discovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/drug-discovery/</guid>
+      <description>Published Data </description>
+    </item>
+    
+    <item>
+      <title>Genomics &amp; transcriptomics data</title>
+      <link>https://www.pathogens.se/datasets/genomics-transcriptomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/genomics-transcriptomics/</guid>
+      <description>Published Data Data available on the European COVID-19 Data Portal Published raw and assembled sequences related to the COVID-19 outbreak, including outbreak isolates and records relating to coronavirus biology:
+ Raw and assembled sequence and analysis of SARS-CoV-2 and other coronaviruses (&amp;gt;500,000 deposited items as of June 2021) Raw and assembled sequence and analysis of human and other hosts (&amp;gt;15,000 deposited items as of June 2021) European Genome-phenome Archive (EGA) - service for permanent archiving and sharing of all types of personally identifiable genetic and phenotypic data resulting from biomedical research projects.</description>
+    </item>
+    
+    <item>
+      <title>Health data</title>
+      <link>https://www.pathogens.se/datasets/health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/health/</guid>
+      <description>Published Data Data available from Swedish public agencies and large data produces   Public Health Agency of Sweden:
+ Number of cases and tests: Official statistics about COVID-19 cases and tests in Sweden. Number of administered vaccine doses: Official statistics about the number of vaccines that have been administered in Sweden. Variants of concern: Official variants of concern in Sweden.    Swedish National Board of Health and Welfare (Socialstyrelsen): Statistics on COVID-19 in Sweden - underlying cause of death; infected and deceased among the elderly and among persons with disabilities and residential arrangements; inpatient care (updated every Wednesday).</description>
+    </item>
+    
+    <item>
+      <title>Imaging data</title>
+      <link>https://www.pathogens.se/datasets/imaging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/imaging/</guid>
+      <description>Published Data General useful data sources Imaging data at the EMBL-EBI:
+  BioImage Archive - stores and distributes biological images that are useful to life-science researchers currently in development. In its first phase, the BioImage Archive will provide archiving services to EMPIAR. Image data currently in BioStudies will also be migrated to the BioImage Archive, whilst new direct image-data submissions will be accepted by BioStudies, Cell-IDR or Tissue-IDR.
+  Electron Microscopy Public Image Archive(EMPIAR) - public resource for raw electron microscopy images.</description>
+    </item>
+    
+    <item>
+      <title>Other data</title>
+      <link>https://www.pathogens.se/datasets/other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/other/</guid>
+      <description>Published Data Information about available data of the types that do not fit into other categories of data on our portal is displayed on this page.</description>
+    </item>
+    
+    <item>
+      <title>Protein data</title>
+      <link>https://www.pathogens.se/datasets/protein/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/protein/</guid>
+      <description>Published Data General useful data sources   The Human Protein Atlas (HPA) provides open access to protein expression data across human organs, tissues and cells. This protein resource is organized into focused sections for tissue expression, subcellular expression, proteins in the brain or in blood, proteins related to pathology and metabolic pathways. A special page of HPA has been dedicated to human proteins and SARS-CoV-2.
+  PRIDE PRoteomics IDEntifications (PRIDE) Archive database - centralized, standards compliant, public data repository for mass spectrometry proteomics data, including protein and peptide identifications and the corresponding expression values, post-translational modifications and supporting mass spectra evidence (both as raw data and peak list files).</description>
+    </item>
+    
+    <item>
+      <title>Public health data</title>
+      <link>https://www.pathogens.se/datasets/public-health/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/public-health/</guid>
+      <description>Published Data General useful data sources  The COVID-19 Response Measures Database, compiled by the European Centre For Disease Prevention and Control (ECDC). The database is an archive of non-pharmaceutical interventions, or measures, introduced by 30 countries in the European Union and the European Economic Area in response to the coronavirus disease (COVID-19) pandemic, including the start and end date of each measure. The database is reviewed and updated every two weeks.</description>
+    </item>
+    
+    <item>
+      <title>Serology data</title>
+      <link>https://www.pathogens.se/datasets/serology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/serology/</guid>
+      <description>Published Data Data available from Swedish public agencies and large data produces  SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics. Hosted by us, updated manually on a weekly basis.  </description>
+    </item>
+    
+    <item>
+      <title>Social science and humanities data</title>
+      <link>https://www.pathogens.se/datasets/social-science-humanities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/datasets/social-science-humanities/</guid>
+      <description>Published Data General useful data sources   Consortium of European Social Science Data Archives (CESSDA) provides large-scale, integrates, and sustainable data services targetted at social science work. They bring together arcgives of social science data from across Europe. They promote social science findings, and support research and coorperation at both national and international levels.
+  BY-COVID resource filtering CESSDA resources.
+  Data available on the European COVID-19 Data Portal  Social science and humanities data from the CESSDA catalogue  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboards_topics on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/dashboards_topics/</link>
+    <description>Recent content in Dashboards_topics on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/dashboards_topics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID-19</title>
+      <link>https://www.pathogens.se/dashboards/topics/covid-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/topics/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enteric viruses</title>
+      <link>https://www.pathogens.se/dashboards/topics/enteric-viruses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/topics/enteric-viruses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infectious diseases</title>
+      <link>https://www.pathogens.se/dashboards/topics/infectious-diseases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/topics/infectious-diseases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influenza</title>
+      <link>https://www.pathogens.se/dashboards/topics/influenza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/topics/influenza/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="sv"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Mängd enteriska virus i avloppsvatten (GU) | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <link rel="alternate" hreflang="en" href="/dashboards/wastewater/enteric_quantification/" title="English">
+  
+  <meta http-equiv="content-language" content="sv">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Mängd enteriska virus i avloppsvatten (GU)" />
+<meta property="og:description" content="Svenska Pathogens Portalen" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.pathogens.se/sv/dashboards/wastewater/enteric_quantification/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Mängd enteriska virus i avloppsvatten (GU)"/>
+<meta name="twitter:description" content="Svenska Pathogens Portalen"/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Hoppa till innehållet</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/sv">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/enteric_quantification/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/enteric_quantification/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/enteric_quantification/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/enteric_quantification/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+            <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+              <a class="d-block" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+            
+              <a class="d-block" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+            
+              <a class="d-block" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+              <a class="d-block" href="/sv/dashboards/post_covid/">Postcovid</a>
+            
+              <a class="d-block" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+            
+              <a class="d-block" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+            
+              <a class="d-block" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+            
+              <a class="d-block" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-window-stack"></i>
+        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+         data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+         aria-expanded="false">Data Dashboards</a>
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/post_covid/">Postcovid</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+          
+        </div>
+      </div>
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+      </div>
+  </div>
+</div>
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Mängd enteriska virus i avloppsvatten (GU)
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      
+      <li class="breadcrumb-item"><a
+          href="/sv/">Patogens Portal Sverige</a></li>
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/">Dashboards</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser i Sverige</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Mängd enteriska virus i avloppsvatten (GU)</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<ul class="nav nav-tabs nav-justified">
+    
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/sv/dashboards/wastewater/">Introduktion</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/sv/dashboards/wastewater/covid_quantification/">SARS-CoV-2 kvantifiering</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link active font-weight-bold"
+            href="#">Enteriska virus kvantifiering (GU)</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/sv/dashboards/wastewater/influenza_quantification/">Influensa kvantifiering (SLU)</a>
+    </li>
+    
+</ul>
+
+<div class="container mt-4">
+    <div class="row">
+      
+        <!-- markdownlint-disable MD051 -->
+<h2 id="introduktion">Introduktion</h2>
+<p>Enteriska virus tillhör en större grupp virus som inkluderar calicivirus (norovirus och sapovirus), adenoviruses, och astroviruses. Dessa virus sprids via fekal-orala smittvägar och orsakar gastroenterit (som känneteckas av symptom som illamående, diarré och kräkningar).</p>
+<p>Avloppsvatten innehåller många olika typer av virus som infekterar allt levande även människor eftersom infekterade individer utsöndrar viruspartiklar i avföring och urin. Nordergruppen vid Göteborgs universitet har genom sin forsknings påvisat att nivåer av vissa enteriska virus i avloppsvatten kan förutsäga kommande virusutbrott, som att nivåerna av norovirus i avloppsvatten ökar 1-2 veckor innan större utbrott sker på äldreboenden och sjukhusavdelningar (<a href="https://pubmed.ncbi.nlm.nih.gov/25172863/">Hellmér <em>et al.</em>, 2014</a>). De visade även att olika hepatit A virusstammar som inte hade identifierats av smittskyddet cirkulerade, vilket visade att det finns personer med hepatit A som inte söker sjukvård. Dessa studier verifierades under 2017 då gruppen även kunde påvisa höga mängder av ett nytt hepatit E virus och av andra virus som orsakar magsjuka hos människa, men som inte undersöks för på mikrobiologiska laboratorierna.</p>
+<p>Från starten av COVID-19 pandemin och alltjämt utför Nordergruppen vid Göteborgs universitet (GU) veckovis samtidig övervakning av SARS-CoV-2 och ett antal enteriska virus i avloppsvattnet. Gruppen kvantifierar nivåerna av virus arvsmassa av enterovirus (inklusive poliovirus), adenovirus, GG2 (ett norovirus), astrovirus, sapovirus och som kontroll ett växtvirus, Pepper Mild Mottle virus (PMMoV). Om andra virus misstänkts orsaka utbrott kommer även dessa att övervakas. Se nedan för mer om <a href="#metoder">metoderna som används vid övervakning</a>, <a href="#grundl%C3%A4ggande-virusinformation">kort sammanfattande information om virusen</a>, och <a href="#dataset">information om insamlad data</a>.</p>
+<p>Den enteriska virusövervakningen av Norder-gruppen sker parallellet med gruppens pågående övervakning av SARS-CoV-2 nivåer i avloppsvatten. SARS-CoV-2 data delas <a href="/dashboards/wastewater/covid_quantification/covid_quant_gu/">på denna sida</a>.</p>
+<p>Projektet leds av professor Heléne Norder (Göteborgs universitet, GU), och stöds av medarbetare från Göteborgs universitet och Sahlgrenska Universitetssjukhuset (Marianela Patzi Churqui, Timur Tunovic, Hao Wang, Fredy Saguti, och Kristina Nyström). Provtagningarna av avloppsvatten utförs av Lucica Enache på Ryaverket, Gryaab AB, Göteborg.</p>
+<p>Data och visualiseringar på denna sida kommer att uppdateras ungefär en gång i veckan.</p>
+<h2 id="insamlingsplatser-för-avloppsvattenprov">Insamlingsplatser för avloppsvattenprov</h2>
+<p>Avloppsvattenprover för virusanalys samlas in vid Ryaverkets avloppsreningsverk i Göteborg (se metodavsnittet nedan för detaljer). Ryaverkets reningsverk tar emot avloppsvatten från samtliga hushåll i Göteborg, vilket omfattar 790 000 invånare, samt industrin i området. Avloppsvatten tas även emot från industri och boende i kringliggande kommuner, bland annat Ale, Härryda, Kungälv, Lerum, Mölndal och Partille, samt från storm- och snösmältvatten från äldre delar av Göteborg.</p>
+<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
+<p>Vänligen se <a href="#grundl%C3%A4ggande-virusinformation">avsnittet med sammanfattande information om virusen</a> för mer information om vart och ett av de virus som data samlas in för.</p>
+<div class="d-md-none alert alert-info">
+  Att rotera mobiltelefonen kan förbättra grafens layout
+</div>
+ <div class="plot_wrapper mb-3">
+  <div class="table-responsive">
+
+<div id="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" class="plotly" style="height:550px"></div>
+<script>
+Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json", function(err, fig) {
+    var config = {responsive: true};
+    
+    
+    
+    
+    Plotly.plot('https:\/\/blobserver.dc.scilifelab.se\/blob\/enteric_graph_gu.json', fig.data, fig.layout, config);
+});
+</script>
+</div>
+</div>
+<p><strong>Källkod som avvänts för att generera visualiseringar:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py">Källskod</a>.</p>
+<h2 id="kommentarer-från-forsksargruppen">Kommentarer från forsksargruppen</h2>
+<div><b>Date:</b> <span id="gu_enteric_comment_date"></span><br><b>Commentary:</b> <span id="gu_enteric_comment"></span></div>
+<p><script>
+   var metaDataFiles = new Array(
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json",
+       "to_update": ["last_modified_gu", "last_modified_enteric"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv/info.json",
+       "to_update": ["last_modified_uppsala", "last_modified_slu_flu"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json",
+       "to_update": ["last_modified_stockholm", "last_modified_malmo"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_slu.json",
+       "to_update": ["slu_comment_date", "slu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_kth.json",
+       "to_update": ["kth_comment_date", "kth_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_gu.json",
+       "to_update": ["gu_comment_date", "gu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/enteric_ww_comment_gu.json",
+       "to_update": ["gu_enteric_comment_date", "gu_enteric_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/influenza_comment_slu.json",
+       "to_update": ["slu_flu_comment_date", "slu_flu_comment"],
+       "type": "content"
+     }
+   );
+
+   metaDataFiles.forEach((file) => {
+     var request = new XMLHttpRequest();
+     request.open("GET", file.url, true);
+     request.onreadystatechange = function (oEvent) {
+       if (this.readyState == 4 && this.status == 200) {
+         var metaInfo = JSON.parse(this.responseText);
+         if (file.type === "dataset") {
+           file.to_update.forEach((dKey) => {
+             var lastModified = document.getElementById(dKey);
+             if (lastModified) {
+               lastModified.innerText = String(metaInfo.modified).substring(0, 10);
+             }
+           });
+         } else {
+           var commentDate = document.getElementById(file.to_update[0]);
+           if (commentDate){
+             commentDate.innerText = String(metaInfo.date);
+           };
+           var comment = document.getElementById(file.to_update[1]);
+           if (comment){
+             comment.innerText = String(metaInfo.comment);
+           };
+         };
+       };
+     };
+     request.send(null);
+   });
+
+</script>
+<br></p>
+<h2 id="dataset">Dataset</h2>
+<h6 id="nedladdning-av-data"><strong>Nedladdning av data:</strong></h6>
+<p><a href="https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx">Kvantifiering av mängd SARS-CoV-2 och enteriska virus i avloppsvatten</a>. Results för SARS-CoV-2 mätningar är tillgängliga från vecka 7 2020 (med ett avbrott vintern 2022-2023), och för enteriska virus från vecka 2 2023. Uppdatering sker varje vecka.</p>
+<p><strong>Kontakt:</strong> <a href="mailto:helene.norder@gu.se">helene.norder@gu.se</a></p>
+<h6 id="för-att-citera-datasetet"><strong>För att citera datasetet:</strong></h6>
+<p>Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. <a href="https://doi.org/10.17044/scilifelab.22510501">https://doi.org/10.17044/scilifelab.22510501</a>.</p>
+<h6 id="för-att-citera-metoden-som-används"><strong>För att citera metoden som används:</strong></h6>
+<p>Hellmér, M., Paxéus, N., Magnius, L., Enache, L., Arnholm, B., Johansson, A., Bergström, T., and Norder, H. (2014). Detection of pathogenic viruses in sewage provided early warnings of hepatitis A virus and norovirus outbreaks. <a href="https://doi.org/10.1128/AEM.01981-14">https://doi.org/10.1128/AEM.01981-14</a>.</p>
+<p>Saguti, F., Magnil, E., Enache, L., Churqui, M.P., Johansson, A., Lumley, D., Davidsson, F., Dotevall, L., Mattsson, A., Trybala, E., Lagging, M., Lindh, M., Gisslen, M., Brezicka, T., Nystrom, K. and Norder, H. (2021). Surveillance of wastewater revealed peaks of SARS-CoV-2 preceding those of hospitalized patients with COVID-19. <a href="https://doi.org/10.1016/j.watres.2020.116620">https://doi.org/10.1016/j.watres.2020.116620</a>.</p>
+<p>Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., Nilsson, S., Lagging, M., Andersson, M., Dotevall, L., Brezicka, T., Nystrom, K. and Norder, H. (2022). The amount of SARS-CoV-2 RNA in wastewater relates to the development of the pandemic and its burden on the health system. <a href="https://doi.org/10.1016/j.isci.2022.105000">https://doi.org/10.1016/j.isci.2022.105000</a>.</p>
+<h2 id="metoder">Metoder</h2>
+<p>Insamling av avloppsvatten sker genom en fast insamlare som samlar in 30ml avloppsvatten per 10,000m<sup>3</sup> av inkommande avloppsvatten. För analys veckovis poolas sju prover, varje avloppsvattenprov representerar insamling under ett dygn). En del av detta prov skickas till Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset för analys. Mängd prov som skickas varje vecka varierar mellan 1.5-15l beroende på vattenflödet, vilket till stor del beror på väderleken. Mängd avloppsvatten från hushåll och industri är relativt konstant över tid, men mängd avloppsvatten beror även på väderleksförhållandena, exempelvis ökar mängd avloppsvatten vid regnväder. För att ta hänsyn till detta under analysen är proverna som ska analyseras för virus flödesviktade. Det betyder att mängd avloppsvatten som samlas in och analyseras relaterar till flödet av inkommande avloppsvatten. Mer information om detta finns i <a href="https://pubmed.ncbi.nlm.nih.gov/25172863/">Hellmér <em>et al.</em> (2014)</a> och <a href="https://pubmed.ncbi.nlm.nih.gov/36035197/">Wang <em>et al.</em> (2022)</a>.</p>
+<p>På Klinisk Mikrobiologi på Sahlgrenska Universitetssjukhuset koncentreras proverna till en volym av 2.5ml med hjälp av en metod som utvecklas inom forskargruppen. Denna metod använder NanoCeram electropositive filter (Argonide, Florida, USA) för att koncentrera proverna, följt av ultracentrifugering som sekundär metod (<a href="https://doi.org/10.1016/j.watres.2020.116620">Saguti et al., 2021</a>). Nukleinsyror extraheras från ett koncentrerat prov på 1 ml med hjälp av QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Realtids- PCR (RT-qPCR) användes för att detekter och kvantifiera mängd virusgenom. Mer information om metoden som används för att beräkna virusmängd finns i <a href="https://doi.org/10.1128/AEM.01981-14">Hellmér et al. (2014)</a>, <a href="https://doi.org/10.1016/j.watres.2020.116620">Saguti et al. (2021)</a>, and <a href="https://doi.org/10.1016/j.isci.2022.105000">Wang et al. (2022)</a>.</p>
+<h3 id="grundläggande-virusinformation">Grundläggande virusinformation</h3>
+<p><strong>Enterovirus</strong> är det största släktet med flest olika virus som infekterar människor. Det omfattar 15 arter, med flertal typer inom varje art. Totalt är de drygt 300 olika virus typer som infekterar människa. I arterna enterovirus A-D (EV-A-EV-D) återfinns av 112 typer (inklusive poliovirus i EV-C)) och arterna rhinovirus A-C (RV-A-RV-C) återfinns 169 typer. Immunitet mot en typ ger inte immunitet mot en annan (dvs. det finns ingen korsimmunitet). Infektioner med enterovirus är ofta asymtomatiska, EV-infektioner är vanliga hos barn och unga vuxna. De kan ge influensaliknande symtom, konjunktivit (ögoninflammation), myokardit (hjärtmuskelinflammation), meningit (hjärnhinneinflammation), encefalit (hjärninflammation) och förlamning. Dessa virus kan orsaka större utbrott. Ungefär vart 5:e till 7:e år inträffar utbrott av hjärnhinneinflammation bland unga i Europa orsakade av en EV-typ som tillhör EV-A-C. RV-infektioner är mycket vanliga i alla åldrar, särskilt på vintern. De är oftast milda, men kan även ge influensaliknande symtom, sjukdomar i nedre luftvägarna och/eller förvärra kroniska sjukdomar t.ex. astma.</p>
+<p><strong>Adenovirus</strong> tillhör <em>adenoviridae-familjen</em>. Det finns 88 typer av humana adenovirus, klassificerade i 7 arter (HAdV-A till -G). Olika typer infekterar olika organ eller organsystem (dvs de har olika vävnadstropismer). Hos människa orsakar adenovirus ofta luftvägssjukdomar. Symtomen kan vara influensaliknande, halsont, akut bronkit och lunginflammation (HAdV-B och C), konjunktivit (ögoninflammation orsakad av HAdV-B och D) och gastroenterit (HAdV-F och G).Allvarliga komplikationer efter en adenovirus infektion är sällsynt. Barn under 9 år löper störst risk för symptomatisk infektion, men även vuxna drabbas främst av ögoninflammationer och magsjuka orsakat av adenovirus. Dessa virus orsakar inte epidemier men kan spridas mellan vuxna i trånga miljöer som på sjukhus och militäranläggningar eller i simbassänger.</p>
+<p><strong>Norovirus</strong>, inklusive GG2 (mer allmänt känt som “vinterkräksjukevirus”), tillhör familjen <em>Calicivirus</em>. Antalet fall av norovirus når vanligtvis sin topp på vintern ( januari/februari). Infektionen kan orsaka allvarliga komplikationer bland immunosupprimerade och äldre (se <a href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/calicivirus-noro-och-sapovirus/">Folkhälsomyndigheten</a> för mer information). GG2 är mycket smittsamt och sprider sig snabbt i miljöer där individer är i nära kontakt som skolor. Inkubationstiden är kort, mellan 12 och 48 timmar. Trots att GG2-infekterade individer återhämtar sig snabbt, kan de vara smittsamma under 2 dagar efter tillfrisknandet. Immuniteten är kortlivad och eftersom det finns flera GG2-genotyper kan en individ bli sjuk flera gånger.</p>
+<p><strong>Astrovirus</strong> som infekterar människor är en del av <em>Mamastrovirus</em>-släktet inom <em>Astroviridae-familjen</em>. Det finns 8 arter av humana astrovirus (HAst1 till 8) och ytterligare 7 oklassificerade typer. Virusen orsakar sjukdomar främst hos barn och äldre. Oftast orsakar de gastroenterit, men kan också huvudvärk, illamående, kräkningar, låggradig feber och (i sällsynta fall) hjärninflammation. Inkubationstiden är 1-4 dagar och infektioner brukar gå över på 2-4 dagar. I tempererade klimat är astrovirusinfektioner vanligast på vintern och våren. De flesta barn har blvit smittade tidigt och har utvecklar immunitet vid 10 års ålder, så infektioner är ovanliga hos immunkompetenta vuxna. Men immuniteten tenderar att avta med tiden, så äldre människor kan vara i riskzonen. Utbrott ses ofta på daghem och äldreboenden.</p>
+<p><strong>Sapovirus</strong> är en av de vanligaste orsakerna till akut gastroenterit hos människor och djur (vid sidan av norovirus). Symtom inkluderar diarré och kräkningar, som ofta åtföljs av feber, illamående och magkramper. Sapporovirus (SaV) är den enda arten av sapovirus. Den i fem genogrupper av SaV (GI till GV), där GI, GII, GIV och GV infekterar människa. Inkubationstiden liknar GG2 (12-48 timmar), men symtomen är vanligtvis lindrigare och varar 2-6 dagar. Förr ansågs SaV uteslutande smitta barn, men det finns allt fler bevis för att alla åldersgrupper kan bli sjuka. Utbrott av SaV ses exempelvis på sjukhus, skolor, oftast via förorenat livsmedel pga dålig handhygien hos livsmedelsarbetare.</p>
+<p><strong>Pepper mild mottle virus (PMMoV)</strong> är ett växtvirus som infekterar växter inom släktet <em>Capsicum</em>, som paprika, chilipeppar, cayennepeppar mfl. När människor konsumerar någon av dessa växter, som ofta är smittade med PMMoV, utsöndras viruset i avföringen. PMMoV används därför ofta som en känslig indikator på fekal kontaminering av vatten (t.ex. råvatten som ska bli dricksvatten). Nivåerna av PMMoV i avloppsvattenprov kan användas för att standardisera för antalet personer som bidrar till provet (detta används i kommersiella analyser för kvantifiering av SARS-CoV-2 i avloppsvatten). En sådan standardisering förutsätter att människor utsöndrar samma mängd PMMoV under hela året. Men enligt erfarenheten från Norder-gruppen vid GU är halterna av PPMoV i avloppsvattnet i Göteborg högre på sommaren (vilket tyder på att invånarna konsumerar mer av dessa växter under denna årstid).</p>
+
+      
+    </div>
+</div>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Om
+        dataportalen</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/sv/about/">Om dataportalen</a></li>
+        
+        <li><a href="/sv/partners/">Andra nationella dataportaler</a></li>
+        
+        <li><a href="/sv/contact/">Support och Feedback</a></li>
+        
+        <li><a href="/sv/privacy/">Integritetspolicy</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Webbplatskod (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Sektioner</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/sv/dashboards/">Dashboards</a></li>
+        <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Följ
+        oss</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

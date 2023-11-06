@@ -1,0 +1,10533 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Drug discovery data | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Drug discovery data" />
+<meta property="og:description" content="Published Data " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/datasets/drug-discovery/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="datasets" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Drug discovery data"/>
+<meta name="twitter:description" content="Published Data "/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/datasets/drug-discovery/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv/"><span lang="sv">sv
+                <img src="/img/flag-sv.svg" alt=""></span></a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/datasets/drug-discovery/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv/"><span lang="sv">sv
+              <img src="/img/flag-sv.svg" alt=""></span></a></li>
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Drug discovery data
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/">The Swedish Pathogens Portal</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/datasets/">Available datasets</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Drug discovery data</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<h2 id="published-data">Published Data</h2>
+
+
+<h4>Data available from research groups in Sweden</h4>
+
+<div>
+  <p>The list of available data on this Portal was curated manually until February 2022. After February 2022, we instead
+    began to use a script to query the <a href="https://europepmc.org">Europe PMC database</a> (making use of their API)
+    in order to locate relevant publications. We only include data from publications about COVID-19/SARS-CoV-2 that BOTH
+    involve at least one author affiliated with a Swedish research institution AND openly share reusable data and/or
+    code. <a href="https://github.com/ScilifelabDataCentre/covid-portal-scripts/tree/main/Available_data">The code
+      used for the query</a> is written in Python and, as with all of our code, it is openly available in GitHub. We
+    welcome others to reuse it and to repurpose it for other pathogens.</p>
+  <p>The lists of available data may not be exhaustive as the script used to generate it does not search for every
+    possible database/repository. If you find that a dataset is missing, or that the information related to it is
+    incorrect, <a href="/suggestions/">please get in touch with us</a></p>
+  <p><i>Last updated: 2023-11-02</i></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 px-0">
+      <div class="px-3 pt-1 pb-2 bg-light">
+        <h5>Data types</h5>
+        
+        
+
+        
+
+           
+                                  
+         
+           
+                
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+                    
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+                      
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+              
+         
+           
+                
+         
+           
+                          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+                          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+              
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+                
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+                      
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+              
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+                
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+              
+         
+           
+                            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+                  
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+              
+         
+           
+                
+         
+           
+              
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+              
+         
+           
+          
+         
+           
+          
+         
+           
+                  
+         
+           
+          
+         
+           
+            
+         
+           
+              
+         
+           
+              
+         
+           
+                
+         
+           
+            
+         
+           
+                    
+         
+           
+                  
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+                  
+         
+           
+          
+         
+           
+                  
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+              
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+                  
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+              
+         
+           
+            
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+                
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+              
+         
+           
+            
+         
+           
+                
+         
+           
+          
+         
+           
+              
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+              
+         
+           
+            
+         
+           
+              
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+                                    
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+              
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+                
+         
+           
+          
+         
+           
+              
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+                            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+              
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+              
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+            
+         
+           
+            
+         
+           
+          
+         
+           
+                      
+         
+           
+            
+         
+           
+              
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+              
+         
+           
+                
+         
+           
+            
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+          
+         
+           
+            
+         
+           
+          
+         
+           
+              
+         
+           
+              
+         
+           
+          
+         
+          
+
+        <div class="d-block"><a
+            href="/datasets/all/">All data types
+              (261)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                        
+             
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+            
+             
+            
+           
+            
+           
+                      
+           
+            
+           
+                
+             
+            
+             
+                
+             
+                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+            
+           
+          
+           
+            
+           
+          
+           
+                
+             
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+              
+           
+                            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+            
+           
+              
+           
+              
+           
+                
+           
+                
+             
+                    
+           
+                  
+           
+          
+           
+          
+           
+            
+           
+                            
+             
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+            
+             
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                                                                
+             
+          
+           
+          
+           
+            
+             
+                
+             
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+            
+             
+            
+             
+          
+           
+            
+             
+                
+             
+              
+           
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+                    
+             
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                
+             
+                                                
+             
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+            
+           
+            
+             
+          
+           
+            
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                
+             
+            
+             
+                                    
+             
+            
+           
+              
+           
+          
+           
+                
+             
+          
+           
+              
+           
+                        
+             
+            
+           
+          
+           
+          
+           
+            
+             
+            
+             
+            
+           
+          
+           
+              
+           
+              
+           
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/biochemistry/">Biochemistry data
+              (32)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+                
+             
+            
+           
+                      
+           
+            
+           
+            
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                
+             
+            
+           
+          
+           
+          
+           
+            
+           
+              
+           
+                            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+              
+           
+          
+           
+                
+             
+          
+           
+              
+           
+            
+             
+          
+           
+                  
+           
+            
+             
+                
+             
+              
+           
+              
+           
+                
+           
+            
+           
+                    
+           
+                  
+           
+          
+           
+          
+           
+            
+           
+                  
+           
+          
+           
+                  
+           
+                
+             
+          
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+                
+             
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+                
+             
+          
+           
+                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+                
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                                    
+           
+          
+           
+          
+           
+          
+           
+                
+             
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                    
+             
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+                    
+             
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                            
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+                      
+           
+            
+           
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+                
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+              
+           
+          
+          
+
+        <div class="d-block"><b>Drug discovery data
+              (15)</b></div>
+        
+
+        
+
+           
+                                                            
+             
+                
+           
+            
+             
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+                
+             
+            
+           
+                                    
+             
+            
+           
+            
+           
+          
+           
+                
+             
+                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+            
+           
+                  
+             
+                
+           
+                                            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+                                            
+             
+          
+           
+            
+           
+          
+           
+              
+           
+            
+             
+            
+           
+          
+           
+                
+             
+          
+           
+          
+           
+                
+             
+                        
+             
+            
+           
+          
+           
+          
+           
+                                    
+             
+          
+           
+            
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+             
+                    
+             
+            
+           
+            
+             
+            
+           
+          
+           
+                
+             
+                        
+             
+            
+             
+                
+             
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+                
+             
+          
+           
+            
+             
+                
+             
+              
+           
+                                                
+             
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+                            
+             
+                
+             
+            
+             
+            
+             
+            
+           
+          
+           
+            
+           
+                    
+             
+                
+           
+                    
+             
+            
+             
+            
+           
+          
+           
+              
+           
+          
+           
+          
+           
+                            
+             
+          
+           
+                
+             
+              
+           
+                    
+             
+                
+           
+                
+             
+                                
+             
+                            
+             
+          
+           
+          
+           
+            
+           
+                  
+           
+          
+           
+                  
+           
+            
+           
+            
+             
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                
+             
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+                
+             
+          
+           
+          
+           
+                            
+             
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+             
+            
+           
+            
+           
+          
+           
+                        
+             
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+                    
+             
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+            
+             
+            
+           
+            
+           
+              
+           
+            
+           
+                    
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                                    
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+            
+           
+              
+           
+          
+           
+          
+           
+            
+           
+                        
+             
+            
+             
+                    
+             
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+                
+             
+            
+           
+                            
+           
+          
+           
+            
+             
+          
+           
+                    
+             
+                
+             
+                
+             
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+            
+             
+            
+             
+            
+             
+                
+             
+                
+             
+            
+           
+            
+             
+                                    
+             
+            
+           
+              
+           
+          
+           
+                
+             
+            
+             
+                    
+             
+                
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+              
+           
+            
+            
+
+        <div class="d-block"><a
+            href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data
+              (79)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+            
+             
+            
+             
+            
+           
+                    
+           
+                
+             
+          
+           
+            
+           
+            
+           
+                                    
+             
+            
+           
+                
+             
+            
+             
+                
+             
+                
+             
+            
+             
+            
+             
+          
+           
+                
+             
+            
+           
+          
+           
+                
+             
+              
+           
+                        
+             
+                                            
+             
+            
+             
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+             
+            
+           
+            
+           
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+            
+             
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+            
+           
+          
+           
+                
+             
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+            
+             
+            
+             
+                
+             
+                
+             
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                    
+             
+                            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+             
+            
+           
+                    
+             
+                
+           
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+            
+           
+              
+           
+                    
+             
+                
+           
+                
+             
+                    
+           
+                  
+           
+          
+           
+          
+           
+            
+           
+                  
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+              
+           
+            
+             
+            
+             
+          
+           
+            
+           
+                
+             
+            
+           
+            
+             
+            
+             
+            
+           
+            
+             
+            
+             
+            
+             
+                
+             
+            
+           
+            
+             
+          
+           
+                
+             
+            
+             
+            
+             
+                  
+           
+            
+             
+          
+           
+          
+           
+            
+             
+            
+             
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                
+           
+          
+           
+            
+             
+            
+             
+            
+           
+            
+           
+          
+           
+            
+             
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+                        
+             
+            
+             
+              
+           
+            
+             
+                
+             
+          
+           
+            
+             
+            
+             
+                
+             
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+                
+             
+              
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+                                    
+           
+            
+             
+          
+           
+            
+             
+            
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+            
+             
+          
+           
+            
+           
+                    
+             
+            
+             
+            
+             
+                
+             
+                
+           
+          
+           
+              
+           
+            
+             
+          
+           
+          
+           
+            
+             
+            
+             
+            
+           
+            
+           
+                            
+           
+            
+             
+            
+             
+          
+           
+                    
+             
+                
+             
+            
+           
+            
+             
+            
+             
+                
+             
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                
+             
+                
+             
+            
+             
+                      
+           
+            
+           
+                    
+             
+            
+             
+                
+             
+            
+             
+              
+           
+                        
+             
+                
+             
+            
+             
+            
+             
+            
+             
+            
+             
+                
+             
+            
+             
+                    
+             
+                    
+             
+            
+            
+
+        <div class="d-block"><a
+            href="/datasets/health/">Health data
+              (95)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+            
+           
+            
+           
+                      
+           
+            
+           
+            
+           
+          
+           
+            
+           
+                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+              
+           
+                            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+              
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+          
+           
+          
+           
+                  
+           
+          
+           
+            
+           
+              
+           
+              
+           
+                
+           
+            
+           
+                    
+           
+                  
+           
+          
+           
+          
+           
+            
+           
+                  
+           
+          
+           
+                  
+           
+            
+           
+            
+             
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                                                                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                            
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+                      
+           
+            
+           
+              
+           
+          
+           
+                
+             
+          
+           
+              
+           
+                
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+             
+              
+           
+              
+           
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/imaging/">Imaging data
+              (7)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+            
+           
+            
+           
+                                    
+             
+            
+           
+            
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+             
+            
+           
+                
+             
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+          
+           
+          
+           
+            
+           
+                
+             
+          
+           
+          
+           
+            
+             
+                
+             
+                
+             
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+            
+             
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+            
+             
+            
+             
+                                    
+             
+          
+           
+                
+             
+                
+             
+          
+           
+            
+             
+          
+           
+                
+             
+          
+           
+              
+           
+            
+           
+          
+           
+                
+             
+            
+             
+            
+           
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+            
+           
+            
+             
+          
+           
+            
+           
+              
+           
+                            
+           
+            
+             
+            
+             
+                
+             
+                
+             
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+                
+             
+              
+           
+                
+           
+              
+           
+          
+           
+            
+           
+            
+             
+              
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+            
+           
+              
+           
+              
+           
+                
+           
+            
+           
+                    
+           
+                  
+           
+          
+           
+          
+           
+            
+           
+                  
+           
+            
+             
+                  
+           
+            
+           
+          
+           
+          
+           
+              
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+                
+             
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+            
+             
+          
+           
+            
+           
+            
+           
+          
+           
+                
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+                
+             
+              
+           
+            
+             
+          
+           
+            
+             
+                
+             
+            
+           
+                                    
+           
+            
+             
+            
+             
+          
+           
+            
+           
+          
+           
+            
+             
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+                
+             
+              
+           
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                
+             
+                                                
+             
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+          
+           
+            
+             
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+                      
+           
+            
+           
+              
+           
+          
+           
+                
+             
+          
+           
+              
+           
+                
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+              
+           
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/other/">Other data
+              (43)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                        
+             
+          
+           
+          
+           
+                
+             
+                                
+             
+            
+           
+            
+             
+            
+           
+            
+           
+                                    
+             
+            
+           
+            
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+            
+           
+                
+             
+                
+           
+                                            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                                            
+             
+          
+           
+                
+             
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                
+             
+            
+           
+          
+           
+          
+           
+            
+           
+                    
+             
+                                                
+             
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                        
+             
+              
+           
+            
+             
+            
+           
+          
+           
+              
+           
+            
+             
+          
+           
+                  
+           
+          
+           
+            
+           
+              
+           
+                    
+             
+                        
+             
+            
+           
+                    
+           
+                  
+           
+          
+           
+          
+           
+            
+           
+                            
+             
+          
+           
+                            
+             
+            
+           
+          
+           
+            
+             
+              
+           
+          
+           
+          
+           
+            
+             
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+                
+             
+          
+           
+          
+           
+            
+             
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+             
+                
+           
+            
+             
+          
+           
+          
+           
+                
+             
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+              
+           
+                
+             
+                
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+                
+             
+            
+           
+                    
+             
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                                                                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+            
+           
+              
+           
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+                    
+             
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                                                
+             
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                    
+             
+          
+           
+            
+             
+          
+           
+            
+           
+                
+             
+            
+           
+          
+           
+                                    
+             
+            
+           
+                    
+             
+          
+           
+                
+             
+          
+           
+              
+           
+                
+           
+            
+           
+            
+             
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+              
+           
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/protein/">Protein data
+              (43)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+            
+           
+                
+             
+                      
+           
+            
+           
+            
+           
+            
+             
+            
+           
+            
+           
+          
+           
+          
+           
+            
+             
+                
+             
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+             
+                
+             
+            
+           
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+                    
+             
+          
+           
+                
+             
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+            
+             
+            
+           
+            
+           
+          
+           
+            
+             
+          
+           
+            
+           
+          
+           
+              
+           
+                
+             
+          
+           
+            
+           
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+              
+           
+                            
+           
+          
+           
+            
+             
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+            
+           
+                    
+             
+              
+           
+                
+           
+            
+           
+                    
+           
+                  
+           
+            
+             
+            
+             
+                
+             
+                  
+           
+            
+             
+                            
+             
+            
+           
+          
+           
+          
+           
+                    
+             
+          
+           
+          
+           
+          
+           
+                
+             
+            
+           
+            
+           
+            
+             
+            
+             
+            
+           
+          
+           
+            
+             
+          
+           
+            
+           
+                
+             
+            
+             
+            
+             
+            
+           
+          
+           
+            
+             
+                            
+             
+          
+           
+            
+             
+          
+           
+            
+             
+          
+           
+                
+             
+                    
+             
+            
+           
+            
+             
+            
+           
+            
+             
+            
+             
+          
+           
+                
+             
+                
+             
+          
+           
+                
+           
+            
+             
+            
+             
+            
+             
+            
+           
+            
+           
+            
+             
+          
+           
+          
+           
+            
+             
+            
+             
+          
+           
+          
+           
+              
+           
+            
+           
+                
+           
+          
+           
+                    
+             
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+                
+             
+                
+             
+            
+             
+          
+           
+            
+           
+                
+             
+              
+           
+            
+           
+              
+           
+          
+           
+            
+             
+          
+           
+                
+             
+                
+             
+                                    
+           
+          
+           
+            
+             
+          
+           
+            
+           
+            
+             
+          
+           
+          
+           
+          
+           
+            
+             
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+            
+             
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+                            
+           
+          
+           
+          
+           
+            
+             
+              
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+             
+              
+           
+          
+           
+          
+           
+          
+           
+                
+             
+            
+           
+            
+           
+          
+           
+                      
+           
+                
+             
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+                
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+              
+           
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/public-health/">Public health data
+              (61)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+            
+           
+            
+           
+                      
+           
+            
+           
+                
+             
+            
+             
+                
+             
+            
+           
+            
+             
+            
+             
+          
+           
+            
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+           
+            
+           
+          
+           
+          
+           
+                      
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+            
+             
+          
+           
+            
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                    
+             
+                            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+            
+           
+              
+           
+              
+           
+                
+           
+            
+           
+                    
+           
+                  
+           
+          
+           
+            
+             
+            
+           
+                  
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+                  
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+                
+           
+          
+           
+          
+           
+          
+           
+                
+             
+                
+             
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+              
+           
+            
+           
+                        
+             
+          
+           
+              
+           
+          
+           
+                
+             
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+            
+           
+              
+           
+          
+           
+            
+             
+          
+           
+            
+           
+            
+           
+                                    
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+              
+           
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+                            
+           
+          
+           
+          
+           
+          
+           
+              
+           
+            
+           
+            
+           
+            
+             
+          
+           
+                
+             
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+                      
+           
+            
+           
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+                        
+             
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+                    
+             
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/serology/">Serology data
+              (18)</a></div>
+        
+
+        
+
+           
+                                  
+           
+                
+           
+          
+           
+          
+           
+            
+           
+                    
+           
+            
+           
+          
+           
+            
+           
+            
+           
+                      
+           
+                
+             
+            
+           
+          
+           
+            
+           
+            
+           
+          
+           
+          
+           
+          
+           
+                
+             
+            
+           
+          
+           
+            
+           
+              
+           
+                
+           
+                          
+           
+            
+             
+            
+             
+                
+             
+            
+           
+          
+           
+            
+             
+          
+           
+            
+           
+                
+             
+          
+           
+                          
+           
+            
+             
+            
+           
+            
+             
+              
+           
+          
+           
+            
+           
+            
+             
+            
+           
+            
+             
+            
+             
+            
+           
+                
+           
+                
+             
+            
+             
+            
+             
+                      
+           
+          
+           
+                
+             
+            
+           
+          
+           
+          
+           
+            
+             
+            
+           
+          
+           
+              
+           
+            
+           
+          
+           
+            
+           
+          
+           
+            
+           
+                
+           
+          
+           
+            
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+            
+           
+            
+             
+          
+           
+            
+           
+              
+           
+                            
+           
+            
+             
+            
+             
+                
+             
+            
+           
+          
+           
+                  
+           
+            
+           
+          
+           
+          
+           
+                
+             
+          
+           
+                
+             
+              
+           
+                
+           
+              
+           
+          
+           
+            
+           
+            
+             
+              
+           
+          
+           
+            
+             
+                  
+           
+          
+           
+            
+           
+              
+           
+              
+           
+                
+           
+            
+           
+                    
+           
+                  
+           
+            
+             
+          
+           
+            
+           
+                  
+           
+            
+             
+                  
+           
+            
+           
+          
+           
+          
+           
+              
+           
+          
+           
+          
+           
+          
+           
+                
+             
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                
+             
+            
+             
+            
+             
+            
+           
+            
+             
+            
+             
+                  
+           
+          
+           
+            
+             
+          
+           
+            
+             
+          
+           
+                
+             
+                    
+             
+            
+           
+            
+             
+            
+           
+          
+           
+            
+             
+          
+           
+                
+             
+            
+           
+          
+           
+                
+           
+          
+           
+            
+             
+          
+           
+            
+           
+            
+           
+            
+             
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+              
+           
+            
+           
+                
+           
+            
+             
+              
+           
+            
+             
+            
+           
+          
+           
+          
+           
+            
+             
+            
+           
+            
+           
+          
+           
+          
+           
+            
+           
+                
+             
+              
+           
+            
+           
+              
+           
+            
+             
+          
+           
+          
+           
+            
+           
+            
+           
+                                    
+           
+            
+             
+            
+             
+          
+           
+            
+           
+          
+           
+          
+           
+          
+           
+          
+           
+          
+           
+            
+             
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+                    
+             
+          
+           
+          
+           
+            
+           
+                
+           
+          
+           
+              
+           
+          
+           
+          
+           
+            
+             
+          
+           
+            
+             
+            
+           
+            
+           
+                            
+           
+          
+           
+          
+           
+            
+             
+              
+           
+            
+           
+                
+             
+          
+           
+          
+           
+            
+           
+            
+           
+              
+           
+          
+           
+          
+           
+          
+           
+            
+           
+            
+           
+            
+           
+          
+           
+                      
+           
+                
+             
+              
+           
+          
+           
+            
+           
+          
+           
+              
+           
+                
+           
+                
+             
+          
+           
+          
+           
+          
+           
+          
+           
+            
+           
+          
+           
+              
+           
+              
+           
+          
+          
+
+        <div class="d-block"><a
+            href="/datasets/social-science-humanities/">Social science and humanities data
+              (58)</a></div>
+        
+      </div>
+    </div>
+    <div class="col-lg px-0 ms-3">
+      <div class="table-responsive">
+        <table id="datasets" class="table table-hover" width="100%">
+          <thead class="table-light">
+            <tr>
+              <th scope="col">Publication</th>
+              <th scope="col">Available dataset and code</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1038/s41598-023-42127-9">
+                    <span style="font-weight:500;">Identification of essential genes associated with SARS-CoV-2 infection as potential drug target candidates with machine learning algorithms</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Taheri G., Habibi M. (2023)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Springer Science and Business Media LLC
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1038/s41598-023-42127-9
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/MahnazHabibi/Gene_analysis">Unsupervised learning methods to Identify essential genes associated with SARS-CoV-2</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/MahnazHabibi/Gene_analysis">Unsupervised learning methods to Identify essential genes associated with SARS-CoV-2</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1016/j.imu.2021.100529">
+                    <span style="font-weight:500;">The screening and evaluation of potential clinically significant HIV drug combinations against the SARS-CoV-2 virus</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Tomić D., Davidović D., Szasz A. M., Rezeli M., et al (2022)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Elsevier BV
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1016/j.imu.2021.100529
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="http://fulir.irb.hr/6161/">Results of the efficacy of FDA approved antiviral drugs on SARS-CoV-2 spike glycoprotein.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/draskot/Vini">The Vini in silico model of cancer.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.3389/fgene.2022.792090">
+                    <span style="font-weight:500;">Network Crosstalk as a Basis for Drug Repurposing</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Guala D., Sonnhammer E. L. L. (2022)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Frontiers Media SA
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.3389/fgene.2022.792090
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://bitbucket.org/sonnhammergroup/drugrepurposingbench/src/master/">Dataset used to to assess cross-talk based approaches for drug repurposing</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          BitBucket
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://bitbucket.org/sonnhammergroup/drugrepurposingbench/src/master/">Code used for analysis</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          BitBucket
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1039/d0sc05064d">
+                    <span style="font-weight:500;">Molecular mechanism of inhibiting the SARS-CoV-2 cell entry facilitator TMPRSS2 with camostat and nafamostat</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Hempel T., Raich L., Olsson S., Azouz N. P., et al (2022)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Royal Society of Chemistry (RSC)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1039/d0sc05064d
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/noegroup/tmprss2_structures">Structural ensembles of camostat, GBPA, and nafamostat</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1021/jacs.1c08402">
+                    <span style="font-weight:500;">Ultralarge Virtual Screening Identifies SARS-CoV-2 Main Protease Inhibitors with Broad-Spectrum Activity against Coronaviruses</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Luttens A., Gullberg H., Abdurakhmanov E., Vo D. D., et al (2022)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    American Chemical Society (ACS)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1021/jacs.1c08402
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://doi.org/10.1021/jacs.1c08402">Information on methods, data on chemical structures and assay data</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Figshare
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1038/s41598-022-05597-x">
+                    <span style="font-weight:500;">An in silico analysis identifies drugs potentially modulating the cytokine storm triggered by SARS-CoV-2 infection</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Sanchez-Burgos L., Gómez-López G., Al-Shahrour F., Fernandez-Capetillo O. (2022)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Springer Science and Business Media LLC
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1038/s41598-022-05597-x
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63229">Expression profiling by array</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Gene Expression Omnibus:
+                          GSE63229
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE123574">Genome binding/occupancy profiling by high throughput sequencing</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Gene Expression Omnibus:
+                          GSE123574
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.7554/eLife.73641">
+                    <span style="font-weight:500;">Structure-guided glyco-engineering of ACE2 for improved potency as soluble SARS-CoV-2 decoy receptor</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Capraz T., Kienzl N. F., Laurent E., Perthold J. W., et al (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    eLife Sciences Publications, Ltd
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.7554/eLife.73641
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://covid.bioexcel.eu/simulations/">Molecular models and simulation trajectories</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://covid.molssi.org//targets/#blocking-sars-cov-2-spike-protein-binding-to-human-ace2-receptor">Drug targeting modalities for COVID-19 drug discovery</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1038/s41598-021-99721-y">
+                    <span style="font-weight:500;">Drug repurposing improves disease targeting 11-fold and can be augmented by network module targeting, applied to COVID-19</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Rivero-García I., Castresana-Aguirre M., Guglielmo L., Guala D., et al (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Springer Science and Business Media LLC
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1038/s41598-021-99721-y
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://bitbucket.org/sonnhammergroup/unadrug">Raw and processed data available in Bitbucket</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://bitbucket.org/sonnhammergroup/unadrug">Code for data processing and figure reproduction available in Bitbucket</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1186/s12915-021-01086-1">
+                    <span style="font-weight:500;">A phenomics approach for antiviral drug discovery</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Rietdijk J., Tampere M., Pettke A., Georgiev P., et al (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Springer Science and Business Media LLC
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1186/s12915-021-01086-1
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/pharmbio/antiviral-phenomics">Data analysis code.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://doi.org/10.17044/scilifelab.14188403.v1">Images, analysis pipelines, and feature data.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Figshare
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1371/journal.pone.0255270">
+                    <span style="font-weight:500;">Topological network based drug repurposing for coronavirus 2019</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Habibi M., Taheri G. (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Public Library of Science (PLoS)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1371/journal.pone.0255270
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/MahnazHabibi/Drug-repurposing">Information on interactions between proteins &amp; human cells, potential drug targets, genes related to potential targets.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/MahnazHabibi/Drug-repurposing">Matlab analysis code required to process data.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.3390/md19070391">
+                    <span style="font-weight:500;">Blue Biotechnology: Computational Screening of Sarcophyton Cembranoid Diterpenes for SARS-CoV-2 Main Protease Inhibition</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Ibrahim M. A. A., Abdelrahman A. H. M., Atia M. A. M., Mohamed T. A., et al (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    MDPI AG
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.3390/md19070391
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://www.mdpi.com/1660-3397/19/7/391/htm">All data are included in the article or supplementary material (Sarcophyton cembranoid diterpenes metabolites).</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1038/s41467-021-21085-8">
+                    <span style="font-weight:500;">Efficacy and tolerability of bevacizumab in patients with severe Covid-19</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Pang J., Xu F., Aondio G., Li Y., et al (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Springer Science and Business Media LLC
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1038/s41467-021-21085-8
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://figshare.com/articles/dataset/Source_Data_xls/13482810">Raw data with demographic and clinical characteristics of the patients, progress of treatment and control groups.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Figshare
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://figshare.com/articles/dataset/Source_Data_xls/13482810">All relevant codes used in SAS software for statistical analysis.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Figshare
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1038/s41467-020-20653-8">
+                    <span style="font-weight:500;">SARS-CoV-2 spike glycoprotein vaccine candidate NVX-CoV2373 immunogenicity in baboons and protection in mice</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Tian J., Patel N., Haupt R., Zhou H., et al (2021)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Springer Science and Business Media LLC
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1038/s41467-020-20653-8
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20653-8/MediaObjects/41467_2020_20653_MOESM4_ESM.xlsx">Source data behind study.</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.1093/rheumatology/keaa771">
+                    <span style="font-weight:500;">Risk of depression, suicide and psychosis with hydroxychloroquine treatment for rheumatoid arthritis: a multinational network cohort study</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Lane J. C. E., Weaver J., Kostka K., Duarte-Salles T., et al (2020)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    Oxford University Press (OUP)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.1093/rheumatology/keaa771
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/ohdsi-studies/Covid19EstimationHydroxychloroquine2">Study protocol and analysis source code</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://github.com/OHDSI/">Analysis tools used in study</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_code">code</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          GitHub
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="http://data.ohdsi.org/Covid19EstimationHydroxychloroquine2">Data and results artefacts that do not include patient-level health information</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="https://doi.org/10.3390/v12121423">
+                    <span style="font-weight:500;">Novel Broad-Spectrum Antiviral Inhibitors Targeting Host Factors Essential for Replication of Pathogenic RNA Viruses</span>
+                  </a>
+                </div>
+                <div>
+                  
+                  
+                  
+                  
+                  <span class="text-muted" style="font-size:0.82em">
+                    Tampere M., Pettke A., Salata C., Wallner O., et al (2020)
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    MDPI AG
+                  </span>
+                </div>
+                
+                <div>
+                  <span class="text-muted" style="font-size:0.82em">
+                    DOI: 10.3390/v12121423
+                  </span>
+                </div>
+              </td>
+              <td>
+                <ul class="mt-1 mb-0 ps-0" style="list-style-type: none;">
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://scilifelab.figshare.com/articles/dataset/Thermal_Proteome_Profiling_dataset_from_Hazara_virus_infected_SW13_cells_treated_with_DMSO_or_antiviral_inhibitor_20_M_TH6744_/13089023">Thermal Proteome Profiling dataset from Hazara virus infected SW13 cells treated with DMSO or antiviral inhibitor 20 µM TH6744</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          Figshare
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="https://www.mdpi.com/1999-4915/12/12/1423/s1">Antiviral screening; Dose-response treatment of TH6744 and TH3289; List of proteins from 2D-TPP analysis in U87 cells (FDR); List of proteins from 2D-TPP analysis in U87 cells (Fold-change); Uniprot annotation of overlapping TPP-TR and 2D-TPP hits</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                  <div>
+                    <li class="mb-2">
+                      <div style="font-size:0.92em; line-height: 1.3em;">
+                        
+                        <a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD021494">Raw mass spectrometry data</a>
+                        
+                      </div>
+                      <div>
+                        
+                        <span class="badge dataset_badge_data">data</span>
+                        
+                        <span class="text-muted" style="font-size:0.82em">
+                          ProteomeXchange Consortium:
+                          PXD021494
+                        </span>
+                      </div>
+                    </li>
+                  </div>
+                  
+                </ul>
+              </td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('#datasets').DataTable({
+      "sDom": '<"top row"<"col-md"i><"col-md"f>>rt<"bottom row"<"col-md"l><"col-md"p>><"clear">',
+      "order": [],
+      "language": {
+        "lengthMenu": "Show _MENU_ entries per page",
+        "zeroRecords": "Nothing found.",
+        "info": "Showing _START_ to _END_ of _TOTAL_ entries.",
+        "infoEmpty": "No records available",
+        "infoFiltered": "(filtered from _MAX_ total records)",
+        "search": "Search:",
+        "paginate": {
+          "first": "First",
+          "last": "Last",
+          "next": "»",
+          "previous": "«"
+        }
+      }
+    }
+    );
+  });
+</script>
+
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8"
+  src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

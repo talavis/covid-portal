@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SARS-CoV-2 kvantifiering on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/</link>
+    <description>Recent content in SARS-CoV-2 kvantifiering on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Historiska data för Stockholm</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_stockholm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_stockholm/</guid>
+      <description>Den här sidan visar data om mängden SARS-CoV-2 i Stockholm mellan april 2020 och augusti 2021 beräknat som genkopienummer/vecka (från avloppsvatten) standardiserat med bovint coronavirus+ PMMoV. Från september 2021 ändrades metoden. Se den här sidan för de senaste uppgifterna.
+Data som visas här samlades in inom ett forskningsprojekt lett av prof. Zeynep Cetecioglu Gurol och kollegor (KTH) är ett samarbete mellan SciLifeLab COVID-19 National Research Program och avdelningarna SEED och Chemical Engineering vid KTH, i nära samarbete med Stockholm Vatten och Avfall och Käppala Association.</description>
+    </item>
+    
+    <item>
+      <title>Historiska data för Örebro och Umeå</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/</guid>
+      <description>Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se den här sidan för de senaste uppgifterna.
+Data som visas här samlades in inom ett forskningsprojekt av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med SciLifeLab COVID-19 National Research Program och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mättes i avloppsreningsanläggningen i Örebro och Umeå.</description>
+    </item>
+    
+    <item>
+      <title>Mängd SARS-COV-2 i avloppsvatten (GU)</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/</guid>
+      <description>Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden  Introduktion Detta projekt leds av professor Helene Norder (Göteborgs universitet, GU), i samarbete med anställda vid Göteborgs universitet och Sahlgrenska Universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström). Avloppsvattenprover insamlas av Lucica Enache vid Ryaverkets avloppsreningsverk, Gryaab AB, Göteborg.
+Data och visualiseringar på denna sida uppdateras veckovis.
+Insamlingsplatser för avloppsvatten Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.</description>
+    </item>
+    
+    <item>
+      <title>Mängd SARS-COV-2 i avloppsvatten (SEEC-KTH)</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_kth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_kth/</guid>
+      <description>Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 finns tillgängligt från andra forskargrupper.  Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden  Introduktion Projektet leds av professor Zeynep Cetecioglu Gurol med hjälp av Mariel Perez-Zabaleta and Isaac Owusu-Agyeman verksamna vid Kungliga Tekniska högskolan (KTH). Bioinformatikanalyser av avloppsvattendata sker i samarbete med professor Luisa Hugerth (Uppsala Universitet). Forskarsamarbetet utgör SEEC-KTH. SEEC-KTH är nu en del av Institutionen för Industriell bioteknologi vid KTH.</description>
+    </item>
+    
+    <item>
+      <title>Mängd SARS-COV-2 i avloppsvatten (SEEC-SLU)</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/</guid>
+      <description>Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden  Introduktion Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) är ett enkelsträngat RNA-virus som orsakar COVID-19 (coronavirus disease 2019), den luftvägsinfektion som orsakade COVID-19-pandemin. SARS-CoV-2 identifierades först i staden Wuhan, Hubei, Kina, och Världshälsoorganisationen (WHO) deklarerade att viruset var ett internationellt akut hot mot människors hälsa mellan den 30 januari 2020 och 5 maj 2023.
+SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan även förekomma i avföringen hos smittade individer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swedish COVID-19 Sample Collection Database on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/biobanks/</link>
+    <description>Recent content in Swedish COVID-19 Sample Collection Database on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/biobanks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a new biobank to the Swedish COVID-19 Sample Collection database</title>
+      <link>https://www.pathogens.se/biobanks/add_biobank/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/biobanks/add_biobank/</guid>
+      <description>The form below can be used to add a new biobank to the Swedish COVID-19 Sample Collection database which is part of the Swedish national COVID-19 data portal. All information provided in the form below will be displayed on the page of the biobank in the registry. Please fill in as many fields as possible so that the researchers have a good idea about what they can expect from the biobank.</description>
+    </item>
+    
+    <item>
+      <title>Add a new collection to the Swedish COVID-19 Sample Collection database</title>
+      <link>https://www.pathogens.se/biobanks/add_collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/biobanks/add_collection/</guid>
+      <description>The form below can be used to add a new collection to the Swedish COVID-19 Sample Collection database which is part of the Swedish national COVID-19 data portal. All information provided in the form below will be displayed on the page of the collection in the registry. Please fill in as many fields as possible so that the researchers have a good idea about what they can expect from the collection.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="sv"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik | The Swedish Pathogens Portal</title>
+  <meta name="description" content='Nationellt Pandemiskt Center (NPC) genomförde testning för SARS-CoV-2 från pandemins början. Data som visas inkluderar antal positiva och negativa test samt antal test med oklart testresultat. Denna dashboard visar endast historiska data och uppdateras inte längre.'>
+  
+  <link rel="alternate" hreflang="en" href="/dashboards/npc-statistics/" title="English">
+  
+  <meta http-equiv="content-language" content="sv">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik" />
+<meta property="og:description" content="Nationellt Pandemiskt Center (NPC) genomförde testning för SARS-CoV-2 från pandemins början. Data som visas inkluderar antal positiva och negativa test samt antal test med oklart testresultat. Denna dashboard visar endast historiska data och uppdateras inte längre." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/sv/dashboards/npc-statistics/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="dashboards" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik"/>
+<meta name="twitter:description" content="Nationellt Pandemiskt Center (NPC) genomförde testning för SARS-CoV-2 från pandemins början. Data som visas inkluderar antal positiva och negativa test samt antal test med oklart testresultat. Denna dashboard visar endast historiska data och uppdateras inte längre."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Hoppa till innehållet</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/sv">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/npc-statistics/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/npc-statistics/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/npc-statistics/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/npc-statistics/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+            <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+              <a class="d-block" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+            
+              <a class="d-block" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+            
+              <a class="d-block" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+              <a class="d-block" href="/sv/dashboards/post_covid/">Postcovid</a>
+            
+              <a class="d-block" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+            
+              <a class="d-block" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+            
+              <a class="d-block" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+            
+              <a class="d-block" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-window-stack"></i>
+        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+         data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+         aria-expanded="false">Data Dashboards</a>
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/post_covid/">Postcovid</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+          
+        </div>
+      </div>
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+      </div>
+  </div>
+</div>
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/sv/">Patogens Portal Sverige</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/">Dashboards</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<div class="alert alert-info small">
+  <p><i class="bi bi-exclamation-triangle-fill"></i>Nationellt Pandemiskt center på Karolinska Institutet upphörde med högkapacitets PCR diagnostik 2020-12-21.</p>
+  <p><span class="font-weight-bold">Den data som visas här har slutat uppdateras</span> och utgör endast historisk dokumentation.</p>
+  <a href="https://nyheter.ki.se/covid-19-tester-ki-atergar-till-ordinarie-laboratorieverksamhet-men-har-fortsatt-beredskap">KIs pressmeddelande</a>
+</div>
+<h4 id="totala-antalet-tester-vid-npc">Totala antalet tester vid NPC</h4>
+<p>Det totala antalet SARS-CoV-2 (covid-19)-virustester analyserade vid NPC
+uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
+resultat.</p>
+<div class="d-lg-none alert alert-info">
+  Skrolla grafen horisontellt för att se all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="grand-total-chart"></div>
+</div>
+<h4 id="antal-tester-vid-npc">Antal tester vid NPC</h4>
+<p>Antalet SARS-CoV-2 (covid-19)-virustester analyserade för varje dag eller varje vecka
+uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt
+resultat.</p>
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_stacked_bar_chart" aria-expanded="true" aria-controls="#daily_stacked_bar_chart">
+  Per dag
+</button>
+</div>
+<div class="collapse show" id="daily_stacked_bar_chart">
+<div class="d-lg-none alert alert-info">
+  Skrolla grafen horisontellt för att se all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="stacked-bar-chart"></div>
+</div>
+</div>
+<div id="dwbuttons">
+<button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_stacked_bar_chart" aria-expanded="true" aria-controls="weekly_stacked_bar_chart">
+Per vecka
+</button></div>
+<div class="collapse show" id="weekly_stacked_bar_chart">
+<div class="d-lg-none alert alert-info">
+  Skrolla grafen horisontellt för att se all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="stacked-bar-chart-weekly"></div>
+</div>
+</div>
+<h4 id="fraktion-positiva-tester-vid-npc">Fraktion positiva tester vid NPC</h4>
+<p>Fraktionen SARS-CoV-2 (COVID-19)-virustester för varje dag eller vecka som är positiva,
+i procent av alla tester (exkluderande icke-avgjort/felaktiga).</p>
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#daily_positive_bar_chart" aria-expanded="true" aria-controls="#daily_positive_bar_chart">
+  Per dag
+</button></div>
+<div class="collapse show" id="daily_positive_bar_chart">
+    <div class="d-lg-none alert alert-info">
+      Skrolla grafen horisontellt för att se all data.
+    </div>
+    <div class="plot_wrapper">
+      <div class="w-100" id="positive-bar-chart"></div>
+    </div>
+    <p class="small"><i>*Observera att eftersom antalet rapporterade analyser varierar kan vissa dagar ha ett lågt antal prover, vilket påverkar statistiken mycket för den dagen, t.ex. 24 augusti där endast sju prover rapporterades, alla positiva.</i></p>
+</div>
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#weekly_positive_bar_chart" aria-expanded="true" aria-controls="weekly_positive_bar_chart">
+  Per vecka
+</button></div>
+<div class="collapse show" id="weekly_positive_bar_chart">
+  <div class="d-lg-none alert alert-info">
+    Skrolla grafen horisontellt för att se all data.
+  </div>
+  <div class="plot_wrapper">
+    <div class="w-100" id="positive-bar-chart-weekly"></div>
+  </div>
+</div>
+<h4 id="kumulativt-antal-tester-vid-npc">Kumulativt antal tester vid NPC</h4>
+<p>Summan av alla SARS-CoV-2 (covid-19)-virustester analyserade vid NPC
+sedan start.</p>
+<div class="d-lg-none alert alert-info">
+  Skrolla grafen horisontellt för att se all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="cumulative-plot"></div>
+</div>
+<p>Nationellt Pandemicenter (NPC) var en facilitet för
+<a href="https://ki.se/mtc/ctmr-and-covid-19">SARS-CoV-2 (COVID-19)-tester</a>
+som byggdes upp vid
+<a href="https://ki.se/en/research/centre-for-translational-microbiome-research-ctmr">Centre for Translational Microbiome Research (CTMR)</a>
+vid <a href="https://ki.se/">Karolinska Institutet (KI)</a>/<a href="https://www.scilifelab.se/">SciLifeLab</a>.
+Under slutet av mars 2020 byggdes det storskaliga mikrobiom-forskningslabbet
+om till ett center för att bidra till testning av SARS-CoV-2 i Sverige.
+Detta möjliggjordes genom en donation från
+<a href="https://kaw.wallenberg.org/">Knut and Alice Wallenberg Foundation (KAW)</a>
+tillsammans med ett redan tidigare etablerat samarbete med
+<a href="https://en.mgitech.cn/">MGI Tech</a> i Shenzen, Kina. Efter att först ha
+bidragit med kapacitet för RNA-extraktion åt Karolinska
+Universitetslaboratoriet, expanderade NPC snabbt till att bli en
+facilitet för ökad kapacitet för SARS-CoV-2-tester åt alla regioner i
+Sverige.</p>
+<p>Kapaciteten vid Nationellt Pandemicenter vid KI/SciLifeLab nådde
+till slut ungefär 10.000 tester per dag, och resultaten skickades
+i de flesta fall tillbaka inom 24 timmar efter att provet inkommit
+till labbet. NPC utförde endast PCR-baserad analys, inte serologisk
+(antikropps-baserad) analys.</p>
+<p>Data som visas på den här sidan är automatiskt sammanställd och stämmer inte
+nödvändigtvis överens med data som publicerats via andra kanaler
+av olika anledningar.</p>
+<p>Datasetet som visualiseras i graferna finns tillgängligt
+<a href="https://datagraphics.dc.scilifelab.se/dataset/bbbaf64a25a1452287a8630503f07418">här</a>.
+Källkoden för graferna finns
+<a href="https://datagraphics.dc.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1">här</a>,
+<a href="https://datagraphics.dc.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc">här</a>,
+<a href="https://datagraphics.dc.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65">här</a>
+och <a href="https://datagraphics.dc.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6">här</a>.</p>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/ba0b27320fe74ad0aef59a26be6c37f1.js?id=grand-total-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/ddb1119aefce47d58d0b3a49e98b4fcc.js?id=stacked-bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/1f2322f4301c4773878c956c578e8caf.js?id=stacked-bar-chart-weekly"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/b31c50be59c84c93986c25b052115a65.js?id=positive-bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/9145856246004419983d39fcf56d9eb6.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/7f27ae237b8146a498ab4014aadc35db.js?id=positive-bar-chart-weekly"></script>
+
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Om
+        dataportalen</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/sv/about/">Om dataportalen</a></li>
+        
+        <li><a href="/sv/partners/">Andra nationella dataportaler</a></li>
+        
+        <li><a href="/sv/contact/">Support och Feedback</a></li>
+        
+        <li><a href="/sv/privacy/">Integritetspolicy</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Webbplatskod (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Sektioner</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/sv/dashboards/">Dashboards</a></li>
+        <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Följ
+        oss</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

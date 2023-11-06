@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandemic Preparedness Subprojects on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/resources-subprojects/</link>
+    <description>Recent content in Pandemic Preparedness Subprojects on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/resources-subprojects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Highly parallelised multi-taxonomic profiling of shotgun metagenomic data (taxprofiler)</title>
+      <link>https://www.pathogens.se/resources-subprojects/taxprofiler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources-subprojects/taxprofiler/</guid>
+      <description>A pipeline for taxonomic profiling of shotgun metagenomic data. It is currently in development and does not yet have any stable releases.
+The pipeline supports metagenomic data generated both from Illumina and Nanopore sequencing technology. It performs in-parallel taxonomic profiling with multiple taxonomic classifiers against multiple databases and produces standardised output tables. In addition, it performs quality control and optional read pre-processing (adapter trimming, low-complexity filtering and host read removal).</description>
+    </item>
+    
+    <item>
+      <title>SARS-CoV-2 bioinformatics pipeline – GMS Arctic</title>
+      <link>https://www.pathogens.se/resources-subprojects/gms-arctic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources-subprojects/gms-arctic/</guid>
+      <description>A pipeline for bioinformatical analysis of SARS-CoV-2 data was developed within Genomics Medicine Sweden during the spring of 2021. The pipeline extends on the analysis developed by the international collaboration ArticNetwork and the COG-UK consortium. It is currently in clinical use across Sweden and is continually updated with the latest SARS-CoV-2 variants.
+The pipeline performs typing of SARS-CoV-2 data using both the Pangolin and Nextstrain classification systems. In addition, it also runs quality control, variant calling and supplies a genome consensus sequence for each sample.</description>
+    </item>
+    
+    <item>
+      <title>SARS-CoV-2 Reporter for visualization of SARS-CoV-2 genome sequence data (SC2reporter)</title>
+      <link>https://www.pathogens.se/resources-subprojects/sc2reporter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources-subprojects/sc2reporter/</guid>
+      <description>A web-based visualization application for the ongoing SARS-CoV-2 pandemic. The tool is primarily used for epidemiological analysis where pipeline analysis results and metadata are loaded into a mongoDB database. The SNVs and indels can then be compared between all isolated in the database.
+For more information on the Pandemic Laboratory Preparedness resources associated with this subproject, see Genomic Pandemic Preparedness Portfolio (G3P). Please also refer to other associated subprojects; GMS Arctic and taxprofiler.</description>
+    </item>
+    
+    <item>
+      <title>State-of-the-art biosafety level 3 (BSL3) facility</title>
+      <link>https://www.pathogens.se/resources-subprojects/bsl3-facility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources-subprojects/bsl3-facility/</guid>
+      <description>BSL3 Biomedicum is fully equipped with state-of-the-art equipment and expertise staff to perform a wide range of research with any BSL3 pathogens. Our facility offers unique applications for pathogen aerobiology and high-throughput screening and service-based projects for external users.
+BSL3 Biomedicum is open for companies to perform their research with pathogenic viruses. As an example, Biomedrex is developing CRISPR-based antivirals at BSL3 Biomedicum.
+For more information on the Pandemic Laboratory Preparedness resources associated with this subproject, see BSL3 Biomedicum-SciLifeLab Collaborative Platform and Swedish biosafety level 3 (BSL3) network.</description>
+    </item>
+    
+    <item>
+      <title>Swedish biosafety level 3 (BSL3) network</title>
+      <link>https://www.pathogens.se/resources-subprojects/bsl3-network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources-subprojects/bsl3-network/</guid>
+      <description>High-level containment laboratories are a cornerstone for pandemic laboratory preparedness. The purpose of the Swedish BSL3 Network is to strengthen national pandemic laboratory preparedness by improving interactions between BSL3 facilities in the country.
+For more information on the Pandemic Laboratory Preparedness resources associated with this subproject, see BSL3 Biomedicum-SciLifeLab Collaborative Platform and State-of-the-art biosafety level 3 (BSL3) facility.
+Current members of the Swedish BSL3 network  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Support Services on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/support_services/</link>
+    <description>Recent content in Support Services on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/support_services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resources</title>
+      <link>https://www.pathogens.se/support_services/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/resources/</guid>
+      <description>Infrastructures COVID-19 HPC Consortium The consortium encompasses computing capabilities from some of the most powerful and advanced computers in the world. It is possible to request allocations of up to 6 months.
+ELIXIR Computing Resources ELIXIR nodes have made available a broad variety of computing resources.
+European Galaxy COVID-19 Project Publicly accessible infrastructure and workflows for SARS-CoV-2 data analyses from different scientific domains (genomics, proteomics, metabolomics, cheminformatics&amp;hellip;).
+Partnership for Advanced Computing in Europe (PRACE) PRACE provides access to world-class high performance computing resources for researchers from academia and industry.</description>
+    </item>
+    
+    <item>
+      <title>Text and literature</title>
+      <link>https://www.pathogens.se/support_services/text_and_literature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/text_and_literature/</guid>
+      <description>For central COVID-19 hubs of text and literature, please see:
+ EuropePMC at the COVID-19 Data Portal BioRxiv and MedRxiv COVID-19 preprints  CDC COVID-19 Research Articles A downloadable database of COVID-19 literature. This database is updated by systematically searching various bibliographic databases and hand searching selected grey literature sources.
+CORD-19 dataset Large collection of scientific articles (currently 128000) related to coronaviruses from Pubmed, biorxiv, medrxiv and other sources. All articles are provided in a standardized JSON format.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_contact/</guid>
+      <description>Getting Further Support About the use of this tutorial/Brokering to ENA If you have any questions/comments regarding the tutorial itself, need general advice with submission, or would like the Swedish COVID Data Portal team to broker a submission, please contact us using this form or send an email to us at datacentre@scilifelab.se.
+Whilst making a submission If you require specific support while making a submission, please contact ENA support.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_faqs/</guid>
+      <description>Frequently Asked Questions (FAQs) Why should I submit sequences? The availability of sequence data has been vital for tracking the spread of variants, the identification of new variants, and understanding the relative risk to public health posed by different variants. If sequences had not been made available, it would have hindered efforts to fight the pandemic. Specifically, it would have been more difficult to develop effective policies to prevent the spread of the virus (e.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_intro/</guid>
+      <description>About this tutorial The research community has put considerable effort into research on the SARS-CoV-2 virus and COVID-19. Fast and open access to different data types (societal, molecular, epidemiological, among others) has been key to the swift development and deployment of, for example, preventative measures, tests, vaccines, and treatments for COVID-19. The pandemic has thus further highlighted how important making data open and FAIR (Findable, Accessible, Interoperable, Reusable) is in facilitating research efforts.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_selectsub/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_selectsub/</guid>
+      <description>Introduction to submission routes and methods There are multiple ways to submit data and sequences into ENA. In order to do a submission of of &amp;lsquo;raw&amp;rsquo; sequences and/or assemblies, you need to use a combination of interactive interfaces in ENA, command-line based software, and APIs for scripts/custom software. The prospect of using multiple tools and determining which tools are better to use for a given part of a submission can seem daunting, especially if you are unfamiliar with the tools.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subprep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subprep/</guid>
+      <description>It is necessary to do some preparation of files before submission, regardless of the eventual submission route that you select. This page explains how to perform these initial steps, so that you can successfully complete your submission.
+Required file formats All sequence files that are submitted to ENA must be in an appropriate file format to be accepted. Details of the formats are listed in the Terminology and Metadata tab. Once all the files are in order, you can start the submission process.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subroute1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subroute1/</guid>
+      <description>When to use this route Route 1 is recommended for users with little to no experience using the command line, and for small scale (usually 1-10, but could be more) or infrequent submissions. It makes use of a combination of a web submission interface (Webin submission portal) and a command-line tool (Webin-CLI).
+Data required for route 1 All of the data required to complete this submission can be downloaded together in a single zip file by clicking here.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subroute2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subroute2/</guid>
+      <description>When to use this route Route 2 is recommended for those with advanced knowledge of using command line, and for those doing bulk submissions. It is the most suitable route for high-throughput, frequent submissions and automated systems. For this route, the metadata is typically provided to ENA in XML documents. This is true in all cases except for sequence assemblies, where the metadata is instead provided in JSON format. In either case, the metadata are submitted using cURL.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial for SARS-CoV-2 genome data submission to ENA</title>
+      <link>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_terminology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_terminology/</guid>
+      <description>Definition of data types (as used in ENA)   &amp;lsquo;Raw&amp;rsquo; sequence data - Sequence data that is obtained directly from a sequencing instrument (e.g. in FASTA, FASTQ, BAM, or CRAM files). ENA recommends the use of FASTA/FASTQ file formats (described below), but accepts also other file formats.
+  Analysed sequence data - Sequence data that has been processed in some way after being obtained from a sequencing instrument. Such data has been normalised, and perhaps also subject to other processing (e.</description>
+    </item>
+    
+  </channel>
+</rss>

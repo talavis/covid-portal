@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enteric viruses on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/highlights/topics/enteric-viruses/</link>
+    <description>Recent content in Enteric viruses on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/highlights/topics/enteric-viruses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ</title>
+      <link>https://www.pathogens.se/highlights/poliovirus_replication/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/poliovirus_replication/</guid>
+      <description>Dahmane et al (2022) used Cryo-electron tomography to provide an integrated structural framework for multiple stages of the poliovirus life cycle. Data and code are shared openly.</description>
+    </item>
+    
+  </channel>
+</rss>

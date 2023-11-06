@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About the Swedish Pathogens Portal on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/about/</link>
+    <description>Recent content in About the Swedish Pathogens Portal on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editorial committee</title>
+      <link>https://www.pathogens.se/about/editorial_committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/about/editorial_committee/</guid>
+      <description>Below are the six editorial committee members for 2023, alongside their affiliation and area of expertise. The editorial committee enable a more direct link between the Portal and the wider research community. They collaborate with the Portal team to create content and advise on resources that would be beneficial to researchers in their area of expertise.
+  Ben Murrell, PhD   Karolinska Institute   Expertise: Computational biology,</description>
+    </item>
+    
+    <item>
+      <title>Partner organisations</title>
+      <link>https://www.pathogens.se/about/partner_organisations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/about/partner_organisations/</guid>
+      <description>Pathogens Portal The Pathogens Portal, maintained by the European Molecular Biology Laboratory&#39;s European Bioinformatics Institute (EMBL-EBI) and partners, was launched in July 2023. The Pathogens Portal is a resource for e.g. researchers, clinicians, and policymakers. Its aim is to facilitate access to the latest and most comprehensive datasets on pathogens. The COVID-19 pandemic put a spotlight on the importance of data sharing and for focused access to relevant datasets.</description>
+    </item>
+    
+    <item>
+      <title>Programs and organisations behind the portal</title>
+      <link>https://www.pathogens.se/about/organisations_and_programs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/about/organisations_and_programs/</guid>
+      <description>Pandemic Laboratory Preparedness (PLP) Program SciLifeLab (Science for Life Laboratory) was commissioned by the Swedish govenment to prepare resources and capabilities that can be used to deal with future pandemics. The assignment broadly involved supporting research related to infectious diseases (e.g. in diagnostics, analysis of infection, immunity, and the development of resistance to therapies in pathogens), and building competence and developing technologies related to pandemic research (e.g. in sequencing, genetic analysis, immunology, and big data).</description>
+    </item>
+    
+  </channel>
+</rss>

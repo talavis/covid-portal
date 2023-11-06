@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Influenza on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/dashboards/topics/influenza/</link>
+    <description>Recent content in Influenza on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/dashboards/topics/influenza/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wastewater-based epidemiology in Sweden</title>
+      <link>https://www.pathogens.se/dashboards/wastewater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/wastewater/</guid>
+      <description>Introduction Wastewater surveillance can be used to effectively monitor the levels of pathogens, including SARS-CoV-2, in the population. It can even help to predict upcoming outbreaks, thus acting as an &amp;lsquo;early-warning system&amp;rsquo;. See below for a general introduction to wastewater epidemiology.
+This dashboard presents wastewater epidemiology data from various Swedish cities. Combined, the cities included here have a total population of over 3.5 million people (or 34% of the Swedish population).</description>
+    </item>
+    
+  </channel>
+</rss>

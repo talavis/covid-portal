@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Amount of enteric virus in wastewater (GU) | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <link rel="alternate" hreflang="sv" href="/sv/dashboards/wastewater/enteric_quantification/" title="Svenska">
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Amount of enteric virus in wastewater (GU)" />
+<meta property="og:description" content="The Swedish Pathogens Portal" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.pathogens.se/dashboards/wastewater/enteric_quantification/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Amount of enteric virus in wastewater (GU)"/>
+<meta name="twitter:description" content="The Swedish Pathogens Portal"/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/enteric_quantification/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/enteric_quantification/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/enteric_quantification/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/enteric_quantification/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Amount of enteric virus in wastewater (GU)
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      
+      <li class="breadcrumb-item"><a
+          href="/">The Swedish Pathogens Portal</a></li>
+      
+      <li class="breadcrumb-item"><a href="/dashboards/">Dashboards</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/dashboards/wastewater/">Wastewater-based epidemiology in Sweden</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Amount of enteric virus in wastewater (GU)</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<ul class="nav nav-tabs nav-justified">
+    
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/dashboards/wastewater/">Introduction</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/dashboards/wastewater/covid_quantification/">SARS-CoV-2 quantification</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link active font-weight-bold"
+            href="#">Enteric virus quantification (GU)</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/dashboards/wastewater/influenza_quantification/">Influenza quantification (SLU)</a>
+    </li>
+    
+</ul>
+
+<div class="container mt-4">
+    <div class="row">
+      
+        <h2 id="introduction">Introduction</h2>
+<p>Enteric viruses are a large group of viruses including, for example, calicivirus (including norovirus and sapovirus), adenoviruses, and astroviruses. They are transmitted via faecal-oral route, and cause enteric disease (i.e. diseases with symptoms such as nausea, diarrhea, and vomiting).</p>
+<p>Wastewater contains many different types of viruses that infect humans because viruses are shed in the faeces and urine of infected individuals. The Norder group at the University of Gothenburg showed that the relative levels of some enteric viruses in wastewater could be used to predict upcoming outbreaks (<a href="https://pubmed.ncbi.nlm.nih.gov/25172863/">Hellmér <em>et al.</em>, 2014</a>). Indeed, previous studies by the Norder group have shown that the levels of noroviruses in wastewater increase 1-2 weeks before larger outbreaks in nursing homes and hospital wards.</p>
+<p>In 2017, and since 2020, the Norder group at the University of Gothenburg (GU) conducted weekly monitoring of the levels of some enteric viruses in wastewater. They quantify the levels of enteroviruses (including poliovirus), adenoviruses, GG2 (a norovirus causing winter vomiting disease), astroviruses, sapoviruses and also pepper molt mild virus (PMMoV). This page details the <a href="#methods">methods used in monitoring</a>, as well as <a href="#basic-virus-information">brief summary information about the viruses</a>, and <a href="#dataset">information about the data collected</a>. Only the data collected since 2023 are included on this page.</p>
+<p>The enteric virus monitoring by the Norder group was done alongside their ongoing monitoring of SARS-CoV-2 in wastewater, the data for which is <a href="/dashboards/wastewater/covid_quantification/covid_quant_gu/">also shared on this portal</a>.</p>
+<p>The project is led by Professor Heléne Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Marianela Patzi Churqui, Timur Tunovic, Hao Wang, Fredy Saguti, and Kristina Nyström). The wastewater sample collections are performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.</p>
+<p>The data and visualisations on this page will be updated approximately weekly.</p>
+<h2 id="wastewater-collection-sites">Wastewater collection sites</h2>
+<p>The wastewater samples for virus analysis are collected at Ryaverket&rsquo;s wastewater treatment plant in Gothenburg (see the methods section below for details). The Ryaverket treatment plant receives wastewater from all of the households in Gothenburg, which includes 790,000 inhabitants, as well as from industry in the area. Wastewater is also received from industry and residents in surrounding municipalities, including Ale, Härryda, Kungälv, Lerum, Mölndal, and Partille, and also from storm and snowmelt water from older parts of Gothenburg.</p>
+<h2 id="visualisations">Visualisations</h2>
+<div class="alert alert-info">Last updated: <span id="last_modified_enteric"></span></div>
+<p>Please see <a href="#basic-virus-information">the section with summary information about the viruses</a> for more information on each of the viruses for which data is being collected.</p>
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+ <div class="plot_wrapper mb-3">
+  <div class="table-responsive">
+
+<div id="https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json" class="plotly" style="height:550px"></div>
+<script>
+Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/enteric_graph_gu.json", function(err, fig) {
+    var config = {responsive: true};
+    
+    
+    
+    
+    Plotly.plot('https:\/\/blobserver.dc.scilifelab.se\/blob\/enteric_graph_gu.json', fig.data, fig.layout, config);
+});
+</script>
+</div>
+</div>
+<p><strong>Code used to produce plot:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/enteric_viruses_gu.py">Script to produce plot</a>.</p>
+<h2 id="commentary-from-the-research-group">Commentary from the research group</h2>
+<div><b>Date:</b> <span id="gu_enteric_comment_date"></span><br><b>Commentary:</b> <span id="gu_enteric_comment"></span></div>
+<p><script>
+   var metaDataFiles = new Array(
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json",
+       "to_update": ["last_modified_gu", "last_modified_enteric"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv/info.json",
+       "to_update": ["last_modified_uppsala", "last_modified_slu_flu"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json",
+       "to_update": ["last_modified_stockholm", "last_modified_malmo"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_slu.json",
+       "to_update": ["slu_comment_date", "slu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_kth.json",
+       "to_update": ["kth_comment_date", "kth_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_gu.json",
+       "to_update": ["gu_comment_date", "gu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/enteric_ww_comment_gu.json",
+       "to_update": ["gu_enteric_comment_date", "gu_enteric_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/influenza_comment_slu.json",
+       "to_update": ["slu_flu_comment_date", "slu_flu_comment"],
+       "type": "content"
+     }
+   );
+
+   metaDataFiles.forEach((file) => {
+     var request = new XMLHttpRequest();
+     request.open("GET", file.url, true);
+     request.onreadystatechange = function (oEvent) {
+       if (this.readyState == 4 && this.status == 200) {
+         var metaInfo = JSON.parse(this.responseText);
+         if (file.type === "dataset") {
+           file.to_update.forEach((dKey) => {
+             var lastModified = document.getElementById(dKey);
+             if (lastModified) {
+               lastModified.innerText = String(metaInfo.modified).substring(0, 10);
+             }
+           });
+         } else {
+           var commentDate = document.getElementById(file.to_update[0]);
+           if (commentDate){
+             commentDate.innerText = String(metaInfo.date);
+           };
+           var comment = document.getElementById(file.to_update[1]);
+           if (comment){
+             comment.innerText = String(metaInfo.comment);
+           };
+         };
+       };
+     };
+     request.send(null);
+   });
+
+</script>
+<br></p>
+<h2 id="dataset">Dataset</h2>
+<h6 id="download-the-data"><strong>Download the data:</strong></h6>
+<p><a href="https://blobserver.dckube.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx">Quantification of SARS-CoV-2 and enteric viruses in wastewater</a>. Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.</p>
+<p><strong>Contact:</strong> <a href="mailto:helene.norder@gu.se">helene.norder@gu.se</a></p>
+<h6 id="how-to-cite-the-dataset"><strong>How to cite the dataset:</strong></h6>
+<p>Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. <a href="https://doi.org/10.17044/scilifelab.22510501">https://doi.org/10.17044/scilifelab.22510501</a>.</p>
+<h6 id="how-to-cite-method"><strong>How to cite method:</strong></h6>
+<p>Hellmér, M., Paxéus, N., Magnius, L., Enache, L., Arnholm, B., Johansson, A., Bergström, T., and Norder, H. (2014). Detection of pathogenic viruses in sewage provided early warnings of hepatitis A virus and norovirus outbreaks. <a href="https://doi.org/10.1128/AEM.01981-14">https://doi.org/10.1128/AEM.01981-14</a>.</p>
+<p>Saguti, F., Magnil, E., Enache, L., Churqui, M.P., Johansson, A., Lumley, D., Davidsson, F., Dotevall, L., Mattsson, A., Trybala, E., Lagging, M., Lindh, M., Gisslen, M., Brezicka, T., Nystrom, K. and Norder, H. (2021). Surveillance of wastewater revealed peaks of SARS-CoV-2 preceding those of hospitalized patients with COVID-19. <a href="https://doi.org/10.1016/j.watres.2020.116620">https://doi.org/10.1016/j.watres.2020.116620</a>.</p>
+<p>Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., Nilsson, S., Lagging, M., Andersson, M., Dotevall, L., Brezicka, T., Nystrom, K. and Norder, H. (2022). The amount of SARS-CoV-2 RNA in wastewater relates to the development of the pandemic and its burden on the health system. <a href="https://doi.org/10.1016/j.isci.2022.105000">https://doi.org/10.1016/j.isci.2022.105000</a>.</p>
+<h2 id="methods">Methods</h2>
+<p>Samples of wastewater are collected using a fixed-site sampler that collects 30ml per 10,000m<sup>3</sup> of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. Part of this weekly sample was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis. The amount of sample sent varies between 1.5-15l of wastewater depending on the flow, which is determined in large part by the weather. Whilst the amount of wastewater from households and industry is generally reasonably constant over time, the overall levels of wastewater are affected by weather conditions. For example, the levels are higher when the levels of rainfall are high. In order to account for this during analysis, the samples to be analysed for viruses are flow-weighted. This means that the amount of wastewater collected and analysed relates to the flow of incoming wastewater. More information on this can be found in <a href="https://pubmed.ncbi.nlm.nih.gov/25172863/">Hellmér <em>et al.</em> (2014)</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/36035197/">Wang <em>et al.</em> (2022)</a>.</p>
+<p>At the Clinical Microbiology Laboratory, viruses are concentrated to a final volume of 2.5ml using a method that was developed in-house. This method uses the NanoCeram electropositive filter (Argonide, Florida, USA) as the primary means of concentration, and then ultracentrifugation as secondary concentration method (<a href="https://doi.org/10.1016/j.watres.2020.116620">Saguti et al., 2021</a>). Nucleic acids are extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) is performed to detect and quantify the viral genomes Details about the method of calculation are provided in <a href="https://doi.org/10.1128/AEM.01981-14">Hellmér et al. (2014)</a>, <a href="https://doi.org/10.1016/j.watres.2020.116620">Saguti et al. (2021)</a>, and <a href="https://doi.org/10.1016/j.isci.2022.105000">Wang et al. (2022)</a>.</p>
+<h3 id="basic-virus-information">Basic virus information</h3>
+<p><strong>Enterovirus</strong> is the largest genus of enteric viruses infecting humans. It includes 15 species with several types classified within each species. In two of these species, enteroviruses (EV) and rhinoviruses (RV), there are around 300 types infecting humans (112 EV-A to -D types (including polioviruses) and 169 RV-A to -C types). Immunity to one type does not confer immunity to another (i.e. there is no cross-immunity). EV infections are usually seen in children and young adults. Infections can cause flu-like symptoms, conjunctivitis, myocarditis, meningitis, encephalitis, and flaccid paralysis. These viruses can cause larger outbreaks. About every 5 to 7 years, there is an outbreak of meningitis among young people in Europe caused by an EV type belonging to EV-A-C. RV infections are common in all ages, especially in winter. Infections are usually mild, but can also cause flu-like symptoms, diseases of the lower respiratory tract, and/or worsen chronic diseases (e.g. asthma).</p>
+<p><strong>Adenoviruses</strong> belong to the <em>Adenoviridae</em> family. There are 88 types of human adenoviruses, classified into 7 species (HAdV-A to -G). Different types infect different organs or organ systems (i.e. they have different tissue tropisms). In humans, adenoviruses often cause respiratory diseases. Symptoms can be flu-like (i.e. sore throat, acute bronchitis, and pneumonia (HAdV-B and C)) but can also include conjunctivitis (HAdV-B and D) and gastroenteritis (HAdV-F and G). Serious complications after an adenovirus infection are rare. Children under the age of 9 are at greatest risk of symptomatic infection, but adults may also be affected (mainly by eye inflammation and gastroenteritis). These viruses do not cause epidemics but can spread between adults in crowded environments such as hospitals and military installations, or in swimming pools.</p>
+<p><strong>Norovirus</strong>, including GG2 (more commonly known as “winter vomiting disease virus”), belong to the <em>Caliciviridae</em> family. The number of norovirus cases usually peaks in the winter (January/February). The infection can cause serious complications among the immunosuppressed and the elderly (see <a href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/smittsamma-sjukdomar/calicivirus-noro-och-sapovirus/">Folkhälsomyndigheten</a> for more information). GG2 is highly contagious and spreads rapidly in environments where individuals are in close contact. The incubation period is short, between 12 and 48 hours. Although GG2-infected individuals recover quickly, they may be infectious for 2 days after recovery. Immunity is short-lived and because there are several GG2 genotypes, so an individual can get sick multiple times.</p>
+<p><strong>Astroviruses</strong> belong to the <em>Astroviridae</em> family and infect birds and mammals. Those infecting humans (HAst) are part of the <em>Mamastrovirus</em> genus, they form 8 species (HAst1 to 8) and an additional 7 unclassified types. HAst mainly cause illness in children and the elderly. Most often they cause gastroenteritis, but can also cause headache, nausea, vomiting, low-grade fever, and (in rare cases) encephalitis. The incubation period is 1-4 days and infections usually resolve in 2-4 days. In temperate climates, astrovirus infections are most common in winter and spring. Most children have developed immunity by the age of 10, so infections are uncommon in immunocompetent adults. However, immunity tends to wane over time, so older people can be at risk of symptomatic infection. Outbreaks are often seen in daycare centers and nursing homes.</p>
+<p><strong>Sapovirus</strong>, like norovirus, belongs to the <em>Calicivirdae</em> family and infect both humans and animals. Sapporovirus (SaV) is the only species of sapovirus. There are five genogroups of SaV (GI to GV), with GI, GII, GIV, and GV infecting humans and being one of the most common causes of acute gastroenteritis (along with norovirus). Symptoms include diarrhea and vomiting, which are often accompanied by fever, nausea, and stomach cramps. The incubation period is similar to GG2 (12-48 hours), but symptoms are usually milder and last 2-6 days. In the past, SaV was thought to exclusively infect children, but there is increasing evidence that most age groups can be infected. Outbreaks of SaV have been reported from schools, childcare, adult long-term care, and hospitals, often due to contaminated food.</p>
+<p><strong>Pepper mild mottle virus (PMMoV)</strong> is a plant virus infecting plants in the genus <em>Capsicum</em>, such as peppers, chili peppers, cayenne peppers, etc. When humans consume any of these plants, which are often infected with PMMoV, the virus is excreted in the faeces. This virus is often used as an indicator of faecal contamination of water (e.g. recreational waters and raw water). In commercial assays for SARS-CoV-2 detection, quantification of PMMoV is used as an indicator of the number of people contributing to the wastewater; inherently assuming that people consume the same amount of peppers and chilies every week. However, according to the experience of the Norder group at GU, the levels of PPMoV in the wastewater in Gothenburg are higher in the summer (indicating that the inhabitants consume more of these plants during this time of year). In their analyses, it is used as a control of the technique.</p>
+
+      
+    </div>
+</div>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

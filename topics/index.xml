@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topics on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/topics/</link>
+    <description>Recent content in Topics on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/topics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antibiotic resistance</title>
+      <link>https://www.pathogens.se/topics/antibiotic-resistance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/topics/antibiotic-resistance/</guid>
+      <description>Antibiotic resistance is a new topic on the Portal, and we are currently working on adding more information.  Background COVID-19 has been the focus of people across the world during the last two years of the current pandemic. Antibiotic resistance, by contrast, has been termed a &amp;lsquo;silent pandemic&amp;rsquo; because whilst, like COVID-19, it is widespread and poses a real and present danger to public health, it is receiving relatively little attention.</description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://www.pathogens.se/topics/covid-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/topics/covid-19/</guid>
+      <description>Background Coronavirus disease (COVID-19) is an infectious disease caused by the novel SARS-CoV-2 virus. Since its start in early 2020, the COVID-19 pandemic has challenged societies worldwide. While most people infected experience mild to moderate respiratory illness and recover without treatment, the disease can be severe or fatal. Advanced age and underlying medical conditions, such as cardiovascular disease, diabetes, cancer, or chronic respiratory disease, have all been associated with increased risk of severe outcome.</description>
+    </item>
+    
+    <item>
+      <title>Enteric viruses</title>
+      <link>https://www.pathogens.se/topics/enteric-viruses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/topics/enteric-viruses/</guid>
+      <description>Background Enteric viruses are viruses that are primarily transmitted via the faecal-oral route, and that cause enteric disease (with symptoms e.g. nausea, diarrhea, vomiting, and abdominal pain). Many families of viruses are enteric viruses, including, for example, calicivirus (including norovirus and sapovirus), adenoviruses, astroviruses, rotaviruses, hepatitis viruses, and enteroviruses. Most enteric viruses cause only relatively mild symptoms in healthy individuals, some enteric viruses (e.g. poliovirus) can have serious health effect, with symptoms including meningitis and paralysis.</description>
+    </item>
+    
+    <item>
+      <title>Infectious diseases</title>
+      <link>https://www.pathogens.se/topics/infectious-diseases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/topics/infectious-diseases/</guid>
+      <description>Background Infectious diseases are one of the most prominent threats to public health globally. Multiple types of organisms cause infectious disease, including bacteria (for example, urinary tract infections, tuberculosis), viruses (for example, the common cold, influenza, and coronaviruses), fungi (for example, ringworm), and parasitic organisms (for example, malaria).
+Infectious diseases can spread directly or indirectly in multiple different ways. For example, they may spread through droplets in the air, by exchanging bodily fluids, and by consuming contaminated food.</description>
+    </item>
+    
+    <item>
+      <title>Mpox</title>
+      <link>https://www.pathogens.se/topics/mpox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/topics/mpox/</guid>
+      <description>This page is under development, with more resources being added shortly. In the meantime, check out the mpox page in our &#39;emerging pathogens&#39; section. That page contains more extensive information and useful links to other related resources.  Background Mpox a.k.a. Monkeypox is caused by the mpox virus, and is a zoonotic disease (i.e. it is transmitted from animals to humans). The mpox virus is a member of the Orthopoxvirus genus in the family Poxviridae.</description>
+    </item>
+    
+  </channel>
+</rss>

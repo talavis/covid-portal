@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="sv"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Historiska data för Örebro och Umeå | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <link rel="alternate" hreflang="en" href="/dashboards/wastewater/covid_quantification/historic_orebro_umea/" title="English">
+  
+  <meta http-equiv="content-language" content="sv">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Historiska data för Örebro och Umeå" />
+<meta property="og:description" content="Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se den här sidan för de senaste uppgifterna.
+Data som visas här samlades in inom ett forskningsprojekt av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med SciLifeLab COVID-19 National Research Program och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mättes i avloppsreningsanläggningen i Örebro och Umeå." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="dashboards" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Historiska data för Örebro och Umeå"/>
+<meta name="twitter:description" content="Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se den här sidan för de senaste uppgifterna.
+Data som visas här samlades in inom ett forskningsprojekt av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med SciLifeLab COVID-19 National Research Program och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mättes i avloppsreningsanläggningen i Örebro och Umeå."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Hoppa till innehållet</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/sv">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/covid_quantification/historic_orebro_umea/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/covid_quantification/historic_orebro_umea/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+            <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+              <a class="d-block" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+            
+              <a class="d-block" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+            
+              <a class="d-block" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+              <a class="d-block" href="/sv/dashboards/post_covid/">Postcovid</a>
+            
+              <a class="d-block" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+            
+              <a class="d-block" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+            
+              <a class="d-block" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+            
+              <a class="d-block" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-window-stack"></i>
+        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+         data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+         aria-expanded="false">Data Dashboards</a>
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/post_covid/">Postcovid</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+          
+        </div>
+      </div>
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+      </div>
+  </div>
+</div>
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Historiska data för Örebro och Umeå
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      
+      <li class="breadcrumb-item"><a
+          href="/sv/">Patogens Portal Sverige</a></li>
+      
+      <li class="breadcrumb-item"><a
+          href="/sv/dashboards/">Dashboards</a></li>
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser i Sverige</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/wastewater/covid_quantification/">SARS-CoV-2 kvantifiering</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Historiska data för Örebro och Umeå</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<p>Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se <a href="../">den här sidan</a> för de senaste uppgifterna.</p>
+<p>Data som visas här samlades in inom ett forskningsprojekt av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med <a href="https://www.scilifelab.se/covid-19">SciLifeLab COVID-19 National Research Program</a> och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mättes i avloppsreningsanläggningen i Örebro och Umeå. Se <a href="/wastewater/map_orebro.pdf">den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Örebro</a>; se <a href="/wastewater/map_umeaa.jpg">den här kartan för det exakta avrinningsområdet för insamlingskanalerna i Umeå</a>.</p>
+<p>Efter beredning har proverna extraherats och ultrafiltrats samt analyserats för SARS CoV-2 med RT-qPCR analys , proverna har normaliserats med PMMoV. Fram till januari 2021, samlades tre prover in per vecka, dessa prov poolades till ett prov per vecka. Från och med februari 2021 samlades endast prover in vid en tidpunkt per vecka. Primers som används för att detektera förekomsten av SARS-CoV-2 RNA har tidigare används av <a href="https://doi.org/10.2807/1560-7917.ES.2020.25.3.2000045">Corman et al , 2020</a>. Mängd SARS-CoV-2 RNA per vecka jämfört med mängd SARS-CoV-2 som uppmättes on November 6 2020.</p>
+<h3 id="mängd-sars-cov-2-i-avloppsvatten-från-umeå-mellan-oktober-2020-och-juni-2021">Mängd SARS-CoV-2 i avloppsvatten från Umeå mellan oktober 2020 och juni 2021</h3>
+<p><strong>Ladda ner data:</strong> <a href="https://blobserver.dc.scilifelab.se/blob/wastewater_data_Umeaa.xlsx">Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil.</a>. Data startar vecka 44 of 2020; uppdateras en gång per månad.</p>
+<p><strong>Referera till detta dataset:</strong>
+Malmberg, M., Myrmel, M. &amp; Khatri, M. Dataset of SARS-CoV-2 in wastewater in Umeå, Sweden. <a href="https://doi.org/10.17044/scilifelab.14376881.v1">https://doi.org/10.17044/scilifelab.14376881.v1</a> (2021).</p>
+<div class="d-md-none alert alert-info">
+  Skrolla grafen horisontellt för att se alla data.
+</div>
+<div class="plot_wrapper">
+  <div class="table-responsive" id="umea_combined"></div>
+</div>
+<div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
+<div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
+<h3 id="mängd-sars-cov-2-i-avloppsvatten-från-örebro-mellan-oktober-2020-och-juni-2021">Mängd SARS-CoV-2 i avloppsvatten från Örebro mellan oktober 2020 och juni 2021</h3>
+<p><strong>Ladda ner data:</strong> <a href="https://blobserver.dc.scilifelab.se/blob/wastewater_data_Orebro.xlsx">Förändring i mängd SARS CoV-2 RNA (%) jämfört med Nov 6 2020 och flöde varje dag samt veckonummer, Excel fil</a>. Data startar vecka 44 of 2020; uppdateras en gång per månad.</p>
+<p><strong>Referera till detta dataset:</strong>
+Malmberg, M., Myrmel, M. &amp; Khatri, M. Dataset of SARS CoV-2 in wastewater in Örebro, Sweden. <a href="https://doi.org/10.17044/scilifelab.14377097.v1">https://doi.org/10.17044/scilifelab.14377097.v1</a> (2021).</p>
+<div class="d-md-none alert alert-info">
+  Skrolla grafen horisontellt för att se alla data.
+</div>
+<div class="plot_wrapper">
+  <div class="table-responsive" id="orebro_combined"></div>
+</div>
+<div class="small text-muted">*Data från dessa veckor är inte tillgängliga.</div>
+<div class="small text-muted">**Proverna från vecka 11 och 12 har förvarats i +4 °C under 2-3 veckor innan analys vilket skiljer sig från övriga insamlade prover.</div>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/030ac237d44248dda87e2c9277a49cc7.js?id=umea_combined"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/fe03ef2220814eeeb3e99eb26a7c46e2.js?id=orebro_combined"></script>
+
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Om
+        dataportalen</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/sv/about/">Om dataportalen</a></li>
+        
+        <li><a href="/sv/partners/">Andra nationella dataportaler</a></li>
+        
+        <li><a href="/sv/contact/">Support och Feedback</a></li>
+        
+        <li><a href="/sv/privacy/">Integritetspolicy</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Webbplatskod (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Sektioner</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/sv/dashboards/">Dashboards</a></li>
+        <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Följ
+        oss</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

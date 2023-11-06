@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patogens Portal Sverige on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/sv/</link>
+    <description>Recent content in Patogens Portal Sverige on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/sv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Administrering av covid-19 vaccin och vaccinforskning i Sverige</title>
+      <link>https://www.pathogens.se/sv/dashboards/vaccines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/vaccines/</guid>
+      <description>Uppgifterna på den här sidan uppdateras inte längre vid datakällan. Vi utvärderar för närvarande användningen av andra datakällor för vaccindata. Se vår RECOVAC dashboard för mer information om vaccin effektivitet och säkerhet (denna dashboard är endast tillgänglig på engelska).  General information on COVID-19 vaccines Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide. In response, vaccines and therapeautic treatments have been rapidly developed.</description>
+    </item>
+    
+    <item>
+      <title>Andra nationella dataportaler</title>
+      <link>https://www.pathogens.se/sv/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/partners/</guid>
+      <description>Patogens Portal Sverige lanserades ursprungligen som den &amp;lsquo;svenska Covid-19 dataportalen. Portalen var den första nationella noden av den Europeiska COVID-19 dataportalen; en europeisk plattform som möjliggör för forskare att dela, får åtkomst till och analysera Covid-19-relaterade data. Europeiska COVID-19 dataportalen finansieras av den Europeiska kommissionen och drivs av European Biobinformatics Institute (EBI) som är en del av Europeiska molekylärbiologiska laboratoriet (EMBL).
+Ett nätverk av nationella dataportaler växte sedan fram då ett antal andra länder lanserade egna nationella Covid-19 dataportaler.</description>
+    </item>
+    
+    <item>
+      <title>Bidra till Portalen</title>
+      <link>https://www.pathogens.se/sv/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/contribute/</guid>
+      <description>Den Patogens Portal Sverige har som syfte att stödja forskare som arbetar inom de forskningsområden som Portalen specifikt är inriktade på. Vi välkomnar både förslag på och bidrag till Portalens innehåll och förslag på hur Portalen kan utvecklas för att bättre stödja forskningen. Som forskare uppmanar vi dig att interagera med Portalen, exempelvis genom att dela data eller information genom Portalen. Vi tar även gärna emot förslag på nytt innehåll, nya sektioner samt förslag på hur nuvarande sektioner kan utvecklas och förnyas.</description>
+    </item>
+    
+    <item>
+      <title>COVID Symptom Study Sverige</title>
+      <link>https://www.pathogens.se/sv/dashboards/symptom_study_sweden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/symptom_study_sweden/</guid>
+      <description>COVID Symptom Study Sverige är ett nationellt forskningsinitiativ för att samla in och kartlägga symptom på covid-19 och studera trender i smittspridning samt studera riskfaktorer associerade med covid-19 infektion. Projektet drivs av Lunds universitet och Uppsala universitet i samarbete med King’s College London och hälsoföretaget ZOE Global Ltd som utvecklat och driver appen. COVID Symptom Study Sverige leds av professor Paul Franks och professor Maria Gomez (Lunds universitet) samt professor Tove Fall (Uppsala universitet).</description>
+    </item>
+    
+    <item>
+      <title>CRUSH Covid data och dashboard, Region Uppsala</title>
+      <link>https://www.pathogens.se/sv/dashboards/crush_covid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/crush_covid/</guid>
+      <description>CRUSH Covid Uppsala är ett forskningsprojekt där Region Uppsala samarbetar med forskare från fem olika forskningsavdelningar vid Uppsala universitet. Syftet med projektet är att kartlägga utbrott av covid-19 i Uppsala län och att försöka mildra effekterna av utbrott genom att informera allmänheten.
+CRUSH Covid leds av Mats Martinell (universitetslektor vid Institutionen för folkhälso-och vårdvetenskap, Allmänmedicin och Preventivmedicin, Uppsala universitet) och Tove Fall (professor vid Institutionen för medicinska vetenskaper, Molekylär epidemiologi, Uppsala universitet).</description>
+    </item>
+    
+    <item>
+      <title>Dela data</title>
+      <link>https://www.pathogens.se/sv/share-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/share-data/</guid>
+      <description>En svensk översättning av denna sida kommer inom kort.  Share data in a public repository Publish your infectious disease and pandemic preparedness data to make it available for the rest of the research community. The data should be deposited in a public repository together with descriptive metadata. For many biological datatypes, there are international databases that can be considered de facto standards.
+The European Bioinformatics Institute (EBI) hosts many different international data repositories which should be used if appropriate.</description>
+    </item>
+    
+    <item>
+      <title>Editorial committee</title>
+      <link>https://www.pathogens.se/sv/about/editorial_committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/about/editorial_committee/</guid>
+      <description>Här är en presentation av de sex medlemmarna i portalens editorial committee för 2023. Kommittén möjliggör ett närmare samarbete mellan Portalen och forskarsamhället och dess medlemmar kommer, i samarbeta med Portalenteamet, skapa innehåll och även omvärldsbevaka sina respektive forskningsområden.
+  Ben Murrell, PhD   Karolinska Institute   Expertise: Computational biology,
+Immunology and Virology
+       Johan Ankarklev, PhD   Stockholm University   Expertise: Parasitology and Genetics</description>
+    </item>
+    
+    <item>
+      <title>Forskningsprogram och organisationer bakom portalen</title>
+      <link>https://www.pathogens.se/sv/about/organisations_and_programs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/about/organisations_and_programs/</guid>
+      <description>SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap SciLifeLab (Science for Life Laboratory) fick i uppdrag av regeringen att bygga upp resurser och ”capabilities” som kan användas för att möta framtida pandemier. Uppdraget innebär övergripande att stödja forskning inom infektionssjukdomar (exempelvis inom diagnostik, immunitet, och utveckling av resistens mot läkemedel), samt att bygga upp kompetens och utveckla teknologier för pandemisk beredskap (exempelvis sekvensering, genetiska analys, immunologi och hantera stora datamängder.
+Forskningsprogrammet för pandemisk laboratorieberedskap startades genom ett regeringsuppdrag i december 2020.</description>
+    </item>
+    
+    <item>
+      <title>Historiska data för Stockholm</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_stockholm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_stockholm/</guid>
+      <description>Den här sidan visar data om mängden SARS-CoV-2 i Stockholm mellan april 2020 och augusti 2021 beräknat som genkopienummer/vecka (från avloppsvatten) standardiserat med bovint coronavirus+ PMMoV. Från september 2021 ändrades metoden. Se den här sidan för de senaste uppgifterna.
+Data som visas här samlades in inom ett forskningsprojekt lett av prof. Zeynep Cetecioglu Gurol och kollegor (KTH) är ett samarbete mellan SciLifeLab COVID-19 National Research Program och avdelningarna SEED och Chemical Engineering vid KTH, i nära samarbete med Stockholm Vatten och Avfall och Käppala Association.</description>
+    </item>
+    
+    <item>
+      <title>Historiska data för Örebro och Umeå</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/historic_orebro_umea/</guid>
+      <description>Denna sida visar data för mängd SARS-CoV-2 i avloppsvatten från Umeå och Örebro mellan oktober 2020 och juni 2021. Från juni 2021 ändrades metoden. Se den här sidan för de senaste uppgifterna.
+Data som visas här samlades in inom ett forskningsprojekt av prof. Maja Malmberg (SLU, Sveriges Lantbruksuniversitet) i samarbete med SciLifeLab COVID-19 National Research Program och Mette Myrmel vid Norwegian University of Life Sciences. Mängden SARS-CoV-2-virus i avloppsvattnet mättes i avloppsreningsanläggningen i Örebro och Umeå.</description>
+    </item>
+    
+    <item>
+      <title>Integritetspolicy / Dataskyddspolicy</title>
+      <link>https://www.pathogens.se/sv/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/privacy/</guid>
+      <description>SciLifeLab driver webbplatsen pathogens.se och covid19dataportal webbplatser (inkluderande subdomäner som exempelvis biobanks.covid19dataportal.se), som tillhandahåller tjänsten.
+Denna sida informerar webbsidans besökare om vår integritetspolicy. Om du väljer att använda vår tjänst, kommer dina personuppgifter behandlas i enlighet med denna policy. De personuppgifter som vi samlar in används för att driva och förbättra vår tjänst. Vi kommer inte dela dina personuppgifter med andra om det inte är beskrivet i denna integritetspolicy.
+Vi kommer inte dela din information med andra partners än som anges i denna dataskyddspolicy.</description>
+    </item>
+    
+    <item>
+      <title>Mängd SARS-COV-2 i avloppsvatten (GU)</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/</guid>
+      <description>Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden  Introduktion Detta projekt leds av professor Helene Norder (Göteborgs universitet, GU), i samarbete med anställda vid Göteborgs universitet och Sahlgrenska Universitetssjukhuset (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti och Kristina Nyström). Avloppsvattenprover insamlas av Lucica Enache vid Ryaverkets avloppsreningsverk, Gryaab AB, Göteborg.
+Data och visualiseringar på denna sida uppdateras veckovis.
+Insamlingsplatser för avloppsvatten Ingående avloppsvattenprover insamlas från Ryaverkets avloppsreningsverk (eng.</description>
+    </item>
+    
+    <item>
+      <title>Mängd SARS-COV-2 i avloppsvatten (SEEC-KTH)</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_kth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_kth/</guid>
+      <description>Från juni 2023 kommer SARS-COV-2 data från SEEK-KTH inte längre uppdateras. SARS-COV-2 data efter juni 2023 finns tillgängligt från andra forskargrupper.  Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden  Introduktion Projektet leds av professor Zeynep Cetecioglu Gurol med hjälp av Mariel Perez-Zabaleta and Isaac Owusu-Agyeman verksamna vid Kungliga Tekniska högskolan (KTH). Bioinformatikanalyser av avloppsvattendata sker i samarbete med professor Luisa Hugerth (Uppsala Universitet). Forskarsamarbetet utgör SEEC-KTH. SEEC-KTH är nu en del av Institutionen för Industriell bioteknologi vid KTH.</description>
+    </item>
+    
+    <item>
+      <title>Mängd SARS-COV-2 i avloppsvatten (SEEC-SLU)</title>
+      <link>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/wastewater/covid_quantification/covid_quant_slu/</guid>
+      <description>Gå tillbaka till SARS-CoV-2-kvantifiering inom avloppsvattenbaserad epidemiologi-dashboarden  Introduktion Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) är ett enkelsträngat RNA-virus som orsakar COVID-19 (coronavirus disease 2019), den luftvägsinfektion som orsakade COVID-19-pandemin. SARS-CoV-2 identifierades först i staden Wuhan, Hubei, Kina, och Världshälsoorganisationen (WHO) deklarerade att viruset var ett internationellt akut hot mot människors hälsa mellan den 30 januari 2020 och 5 maj 2023.
+SARS-CoV-2-viruspartiklar kan utsöndras via andningsdroppar, aerosoler och kan även förekomma i avföringen hos smittade individer.</description>
+    </item>
+    
+    <item>
+      <title>Nationellt Pandemicenter SARS-CoV-2 (covid-19)-analysstatistik</title>
+      <link>https://www.pathogens.se/sv/dashboards/npc-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/npc-statistics/</guid>
+      <description>Nationellt Pandemiskt center på Karolinska Institutet upphörde med högkapacitets PCR diagnostik 2020-12-21.
+Den data som visas här har slutat uppdateras och utgör endast historisk dokumentation.
+KIs pressmeddelande  Totala antalet tester vid NPC Det totala antalet SARS-CoV-2 (covid-19)-virustester analyserade vid NPC uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.
+Skrolla grafen horisontellt för att se all data.    Antal tester vid NPC Antalet SARS-CoV-2 (covid-19)-virustester analyserade för varje dag eller varje vecka uppdelade på de med positivt, negativt eller icke-avgjort/felaktigt resultat.</description>
+    </item>
+    
+    <item>
+      <title>Post COVID-19 i Sverige, statistik, forskningsprojekt, tillgängliga data</title>
+      <link>https://www.pathogens.se/sv/dashboards/post_covid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/post_covid/</guid>
+      <description>Vänligen notera att graferna endast har engelska figurtexter. Sedan början av 2020 har covid-19 pandemin utmanat hälso- och sjukvården och förändrat samhällen runt om i världen. Forskning och empiri har visat att covid-19 under den akuta infektionen kan ha olika svårighetsgrad, från mild till moderat till svår. De flesta individer som insjuknar i Covid-19, oavsett sjukdomens svårighetsgrad under den akuta infektionen, återhämtar sig och uppvisar inga kvarstående symptom efter återhämtningen. Vissa patienter uppvisar dock, efter den akuta infektionen, kvarstående eller sena symptom efter covid-19.</description>
+    </item>
+    
+    <item>
+      <title>Registerbaserade COVID-19 vaccindata (RECOVAC)</title>
+      <link>https://www.pathogens.se/sv/dashboards/recovac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/recovac/</guid>
+      <description>En svensk översättning av denna sida kommer inom kort.  RECOVAC project overview The RECOVAC project (register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety) is a register-based national population study focused on monitoring the effectiveness and safety of COVID-19 vaccinations. It is a subproject of SCIFI-PEARL (the Swedish COVID-19 Investigation for Future Insights – a Population Epidemiology Approach using Register Linkage). The RECOVAC project uses a multi-register observational research approach to track the effectiveness of COVID-19 vaccination research and vaccine safety in Sweden.</description>
+    </item>
+    
+    <item>
+      <title>Samarbetsorganisationer</title>
+      <link>https://www.pathogens.se/sv/about/partner_organisations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/about/partner_organisations/</guid>
+      <description>Pathogens Portal The Pathogens Portal som drivs av European Molecular Biology Laboratory&#39;s European Bioinformatics Institute (EMBL-EBI) och partners lanserades i juli 2023. Portalen är en resurs för forskare, sjukvård och beslutsfattare. Syftet är att att ge tillgång till de senaste och mest omfattande patogendata. Covid-19-pandemin satte fokus på vikten av datadelning och tillgång till relevanta data. Pathogens Portal är en centraliserad plattform för datadelning och datatillgång med fokus på patogendata.</description>
+    </item>
+    
+    <item>
+      <title>SARS-CoV-2-varianter upptäckta i Region Uppsala</title>
+      <link>https://www.pathogens.se/sv/dashboards/variants_region_uppsala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/variants_region_uppsala/</guid>
+      <description>Introduktion Att ha en kontinuerlig övervakning av en viral patogen är avgörande för att kunna minimera den specifika patogenens påverkan på samhället. Utan övervakning saknas information om en viss patogen förekommer i ett geografiskt området, om nya stammar har skapats eller om det finns risk för utbrott.
+Under hela COVID-19 pandemin och fram till idag har Sektionen för klinisk mikrobiologi och sjukhushygien vid Akademiska sjukhuset i Uppsala genomfört övervakning av SARS-CoV-2 i Uppsala.</description>
+    </item>
+    
+    <item>
+      <title>SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester</title>
+      <link>https://www.pathogens.se/sv/dashboards/serology-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/serology-statistics/</guid>
+      <description>Grafiken på denna sida är baserad på data senast uppdaterad den  var xmlhttp = new XMLHttpRequest(); xmlhttp.onreadystatechange = function() { if (this.readyState == 4 &amp;&amp; this.status == 200) { var dataset_info = JSON.parse(this.responseText); document.getElementById(&#34;last_modified&#34;).innerText = String(dataset_info.modified).substring(0,10); } }; xmlhttp.open(&#34;GET&#34;, &#34;https://datagraphics.dc.scilifelab.se/api/dataset/6d6f551abc10413a97a6ab64ebac46bd&#34;, true); xmlhttp.send();  . Totala antalet tester Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&amp;amp;D-tester (research and development).</description>
+    </item>
+    
+    <item>
+      <title>Stödtjänster</title>
+      <link>https://www.pathogens.se/sv/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/support/</guid>
+      <description>En översikt över relevanta supporttjänster (avgiftsfria eller avgiftsbelagda) som ges av forskningsinfrastrukturer runt om i Sverige och är tillgängliga för forskningsprojekt inom pandemisk beredskap följer nedan.
+ Supporttjänster om Portalen Om du har frågor eller förslag för den Patogens Portal Sverige, kontakta teamet som arbetar med Portalen antingen genom att fylla i kontaktformuläret eller via epost till datacentre@scilifelab.se.
+Kontakta Portalenteamet 
+ Datahanteringsstöd Alla forskare som är affilierade till ett svenskt lärosäte och arbetar inom forskningsfältet pandemisk beredskap har möjlighet till avgiftsfria individuella konsultationer och hands-on stöd (i mån av tid) från Portalenteamet.</description>
+    </item>
+    
+    <item>
+      <title>Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications</title>
+      <link>https://www.pathogens.se/sv/dashboards/covid_publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/dashboards/covid_publications/</guid>
+      <description>En svensk översättning av denna sida kommer inom kort.  The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves can be found on this page, and is available for download, please see DOI: 10.</description>
+    </item>
+    
+    <item>
+      <title>Visualisering av svensk covid-19 forskning</title>
+      <link>https://www.pathogens.se/sv/projects/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/projects/dashboard/</guid>
+      <description>Visualiseringarna på denna sida återspeglar hur produktionen av vetenskapliga forskningsartiklar kopplade till covid-19 och SARS-CoV-2 utvecklas över tid. Vi har valt att presentera en sammanställning av publicerade vetenskapliga artiklar och preprint där minst en författare är affilierad till ett svenskt lärosäte. Den svenska covid-19 publikationsdatabasen nås här. Observera att sammanställningen görs manuellt och kan därför inte kan anses komplett. Den fullständiga sammanställningen av publikationer som visas på denna sida finns tillgänglig för nedladdning och användning för andra ändamål, se DOI: 10.</description>
+    </item>
+    
+  </channel>
+</rss>

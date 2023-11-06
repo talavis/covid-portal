@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Amount of SARS-CoV-2 in wastewater (GU) | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <link rel="alternate" hreflang="sv" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/" title="Svenska">
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Amount of SARS-CoV-2 in wastewater (GU)" />
+<meta property="og:description" content="Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard  Introduction This project is led by Professor Helene Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The wastewater sample collections were performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.
+The data and visualisation on this page are usually updated weekly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/dashboards/wastewater/covid_quantification/covid_quant_gu/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="dashboards" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Amount of SARS-CoV-2 in wastewater (GU)"/>
+<meta name="twitter:description" content="Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard  Introduction This project is led by Professor Helene Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The wastewater sample collections were performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.
+The data and visualisation on this page are usually updated weekly."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/covid_quantification/covid_quant_gu/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/covid_quantification/covid_quant_gu/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/covid_quantification/covid_quant_gu/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Amount of SARS-CoV-2 in wastewater (GU)
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      
+      <li class="breadcrumb-item"><a
+          href="/">The Swedish Pathogens Portal</a></li>
+      
+      <li class="breadcrumb-item"><a
+          href="/dashboards/">Dashboards</a></li>
+      
+      <li class="breadcrumb-item"><a href="/dashboards/wastewater/">Wastewater-based epidemiology in Sweden</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/dashboards/wastewater/covid_quantification/">SARS-CoV-2 quantification</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Amount of SARS-CoV-2 in wastewater (GU)</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<div class="mt-3">
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>This project is led by Professor Helene Norder (University of Gothenburg, GU), and supported by co-workers from the University of Gothenburg and Sahlgrenska University Hospital (Hao Wang, Marianela Patzi Churqui, Timur Tunovic, Fredy Saguti, and Kristina Nyström). The wastewater sample collections were performed by Lucica Enache at Ryaverket, Gryaab AB, Gothenburg.</p>
+<p>The data and visualisation on this page are usually updated weekly.</p>
+<h2 id="wastewater-collection-sites">Wastewater collection sites</h2>
+<p>Influent wastewater samples were collected from Ryaverket wastewater treatment plant (WWTP) in Gothenburg. Wastewater sample collection began on February 10th (week 7) of 2020. Ryaverket WWTP receives wastewater from the households of more than 790,000 residents of Gothenburg, as well as from industry in the area. Wastewater is also received from residents and industry in surrounding municipalities, including Ale, Härryda, Kungälv, Lerum, Mölndal, and Partille, as well as storm and snow-melt water from older parts of Gothenburg. The amount of wastewater from households remains relatively consistent throughout the year. However, the amount of wastewater overall can be affected by the weather (with higher precipitation resulting in greater amounts). More information about the sample location, sample week, volume, and influent wastewater flow, is available in <a href="https://pubmed.ncbi.nlm.nih.gov/36035197/">Wang <em>et al.</em> (2022)</a>.</p>
+<h2 id="visualisations">Visualisations</h2>
+<div class="alert alert-info">Last updated: <span id="last_modified_gu"></span></div>
+<p><em>The blue block on the graph indicates the period where sample collection was not completed (week 45 2022 - week 2 2023).</em></p>
+<!-- <button type="button" class="btn btn-sm btn-outline-secondary mb-2" data-bs-toggle="modal" data-bs-target="#interactiveFeaturesModal">
+  How to use the interactive features of the plot
+</button>
+
+ <div class="modal fade" id="interactiveFeaturesModal" tabindex="-1" aria-labelledby="interactiveFeaturesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="interactiveFeaturesModalLabel">Information on how to use the interactive features of the plot</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>The line plots on this page have multiple interactive features. You can use the features to view the data in them in different ways. For example, you can choose to view data only within a certain time period, or from a given collection site. Below, we explain how to use different interactive features to meet your needs.</p>
+        <h6>View data from particular sites</h6>
+        <p>To view only data from a single site, double click on the name on that site in the legend to the right. To toggle data from a site on/off, single click on the name in the legend. If the data is 'deselected', the name will appear 'greyed out' in the legend, and it will not be displayed on the graph. Initially, all data will be 'selected'. To 'deselect' all data, use the 'Deselect all areas' button. You can use the 'Reselect all areas' button to 'select' data from every site (i.e. return to the default view).</p>
+        <h6>View only certain y- and/or x-axes ranges</h6>
+        <p>In the below plots, the y-axis represents the copy number of SARS-CoV-2 relative to PMMoV while the x-axis represents the date. If you would like to view values within a given range of the values on the axes, you can do this by clicking and dragging with your mouse. For example, to view all data within a given timeframe, you can click near the start date on the x-axis and drag to create a rectangle that encompasses the whole y-axis and the range of dates on the x-axis that you want to view. The plot will then zoom into the range that you selected.</p>
+        <h6>Accurately read data values</h6>
+        <p>It is difficult to accurately read the exact values of data from a graph. In order to view the exact data values, hover over the data point of interest. A box will appear that shows the y-axis values for all sites on that date (i.e. that x-axis value).</p>
+        <h6>Other features</h6>
+        <p>If you hover your cursor over the plot, you will see some additional options as grey icons in the top right. You can use these features to zoom in/out of the plot (using the + and - icons), and scale the axes so that the data from the 'selected' sites are shown on the most appropriate axes (this can be done using the autoscale or reset axes icons, which look like a box containing arrows and a house, respectively).</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+ <div class="plot_wrapper mb-3">
+  <div class="table-responsive">
+
+<div id="https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json" class="plotly" style="height:550px"></div>
+<script>
+Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/wastewater_gothenburg.json", function(err, fig) {
+    var config = {responsive: true};
+    
+    
+    
+    
+    Plotly.plot('https:\/\/blobserver.dc.scilifelab.se\/blob\/wastewater_gothenburg.json', fig.data, fig.layout, config);
+});
+</script>
+</div>
+</div>
+<p><strong>Code used to produce plot:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/gothenburg_covid.py">Script to produce plot</a>.</p>
+<h2 id="commentary-from-the-research-group">Commentary from the research group</h2>
+<div><b>Date:</b> <span id="gu_comment_date"></span><br><b>Commentary:</b> <span id="gu_comment"></span></div>
+<script>
+   var metaDataFiles = new Array(
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json",
+       "to_update": ["last_modified_gu", "last_modified_enteric"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv/info.json",
+       "to_update": ["last_modified_uppsala", "last_modified_slu_flu"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json",
+       "to_update": ["last_modified_stockholm", "last_modified_malmo"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_slu.json",
+       "to_update": ["slu_comment_date", "slu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_kth.json",
+       "to_update": ["kth_comment_date", "kth_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_gu.json",
+       "to_update": ["gu_comment_date", "gu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/enteric_ww_comment_gu.json",
+       "to_update": ["gu_enteric_comment_date", "gu_enteric_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/influenza_comment_slu.json",
+       "to_update": ["slu_flu_comment_date", "slu_flu_comment"],
+       "type": "content"
+     }
+   );
+
+   metaDataFiles.forEach((file) => {
+     var request = new XMLHttpRequest();
+     request.open("GET", file.url, true);
+     request.onreadystatechange = function (oEvent) {
+       if (this.readyState == 4 && this.status == 200) {
+         var metaInfo = JSON.parse(this.responseText);
+         if (file.type === "dataset") {
+           file.to_update.forEach((dKey) => {
+             var lastModified = document.getElementById(dKey);
+             if (lastModified) {
+               lastModified.innerText = String(metaInfo.modified).substring(0, 10);
+             }
+           });
+         } else {
+           var commentDate = document.getElementById(file.to_update[0]);
+           if (commentDate){
+             commentDate.innerText = String(metaInfo.date);
+           };
+           var comment = document.getElementById(file.to_update[1]);
+           if (comment){
+             comment.innerText = String(metaInfo.comment);
+           };
+         };
+       };
+     };
+     request.send(null);
+   });
+
+</script>
+<h2 id="dataset">Dataset</h2>
+<p><strong>Download the data:</strong> <a href="https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx">Quantification of SARS-CoV-2 and enteric viruses in wastewater</a>. Results are available for SARS-CoV-2 from week 7 of 2020 (with a small gap over winter 2022-2023), and for enteric viruses from week 2 of 2023. Updated weekly.<br>
+<strong>Contact:</strong> <a href="mailto:helene.norder@gu.se">helene.norder@gu.se</a></p>
+<p><strong>How to cite the dataset:</strong> Norder, H., Nyström, K. Patzi Churqui, M., Tunovic, T., Wang, H. (2023). Detection of SARS-CoV-2 and other human enteric viruses in wastewater from Gothenburg. <a href="https://doi.org/10.17044/scilifelab.22510501">https://doi.org/10.17044/scilifelab.22510501</a>.</p>
+<p><strong>How to cite method:</strong>
+Saguti, F., Magnil, E., Enache, L., Churqui, M.P., Johansson, A., Lumley, D., Davidsson, F., Dotevall, L., Mattsson, A., Trybala, E., Lagging, M., Lindh, M., Gisslen, M., Brezicka, T., Nystrom, K. and Norder, H. (2021). Surveillance of wastewater revealed peaks of SARS-CoV-2 preceding those of hospitalized patients with COVID-19. <a href="https://doi.org/10.1016/j.watres.2020.116620">https://doi.org/10.1016/j.watres.2020.116620</a>.</p>
+<p>Wang, H., Churqui, M.P., Tunovic, T., Enache, L., Johansson, A., Karmander, A., Nilsson, S., Lagging, M., Andersson, M., Dotevall, L., Brezicka, T., Nystrom, K. and Norder, H. (2022). The amount of SARS-CoV-2 RNA in wastewater relates to the development of the pandemic and its burden on the health system. <a href="https://doi.org/10.1016/j.isci.2022.105000">https://doi.org/10.1016/j.isci.2022.105000</a>.</p>
+<h2 id="methods">Methods</h2>
+<p>Samples of wastewater were collected using a fixed-site sampler that collected 30ml per 10,000m<sup>3</sup> of the incoming wastewater. For the purposes of analysis, seven samples (each representing a 24 hour period) were pooled to create a weekly sample. The weekly sample, which consisted of 1.5-15l of wastewater (depending on the flow) was sent to the Clinical Microbiology Laboratory at Sahlgrenska University Hospital for analysis. Analyses were conducted on the Monday after the sample was collected.</p>
+<p>At the Clinical Microbiology Laboratory, viruses were concentrated to a final volume of 2.5ml, using a method that was developed in-house. This method uses the NanoCeram electropositive filter (Argonide, Florida, USA) as the primary means of concentration, and then ultracentrifugation as secondary concentration method (<a href="https://pubmed.ncbi.nlm.nih.gov/33212338/">Saguti <em>et al.</em>, 2021</a>). Nucleic acids were extracted from 1ml of the concentrated sample using the QIAamp Circulating Nucleic Acid Kit (Qiagen, Hilden, Germany). Real-time quantitative PCR (RT-qPCR) was performed to detect the RNA-dependent RNA polymerase (RdRP) region of SARS-CoV-2. In all runs, a 10-fold serial diluted plasmid (Eurofins Genomics, Ebersberg, Germany) that contained the target SARS-CoV-2 region was used as a positive control. Nuclease-free water was used as a negative control. The Ct values from the qPCR were used to quantify the amount of SARS-CoV-2 genome in the sample. Details about the method of calculation are provided in <a href="https://pubmed.ncbi.nlm.nih.gov/33212338/">Saguti <em>et al.</em> (2021)</a>. The relative amount of viral genome in the wastewater was calculated by dividing the amount of viral genome in the sample by the amount of SARS-CoV-2 genome in the incoming wastewater during week 11 (mid-March) of 2020. Samples from all subsequent weeks contained detectable SARS-CoV-2 genome.</p>
+<br>
+<div class="mt-3">
+  <a href="/dashboards/wastewater/covid_quantification/"><i class="bi bi-arrow-left-circle-fill"></i> Go back to SARS-CoV-2 quantification within the wastewater epidemiology dashboard</a>
+</div>
+
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

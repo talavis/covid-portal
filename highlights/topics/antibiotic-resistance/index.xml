@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antibiotic resistance on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/highlights/topics/antibiotic-resistance/</link>
+    <description>Recent content in Antibiotic resistance on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/highlights/topics/antibiotic-resistance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New study shows that perserverance can be the reason for antibiotic resistance development</title>
+      <link>https://www.pathogens.se/highlights/antibiotic_resistance_development/</link>
+      <pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/antibiotic_resistance_development/</guid>
+      <description>A study from Elf lab at Uppsala University/SciLifeLab shows perseverance can be a reason for antibiotic resistance development in &lt;em&gt;E. coli&lt;/em&gt;. Microscopy image data shared in SciLifeLab Data Repository.</description>
+    </item>
+    
+  </channel>
+</rss>

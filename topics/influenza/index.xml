@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Influenza on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/topics/influenza/</link>
+    <description>Recent content in Influenza on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/topics/influenza/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Influenza resources</title>
+      <link>https://www.pathogens.se/topics/influenza/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/topics/influenza/resources/</guid>
+      <description>Resource or database connected to Influenza WHO Global Influenza Programme https://www.who.int/teams/global-influenza-programme
+The Global Influenza Program (GIP) from the World Health Organisation (WHO) is providing its member states with strategic guidance eg. surveillance, monitoring and technical support. The GIP program collects and analyzes virological and epidemiological data from the member states which will allow WHO to monitor trends in influenza. WHO also supports selection of influenza strains for seasonal vaccines. The GIP is also working to support the members states with pandemic preparedness efforts such as seasonal, zoonotic, and pandemic influenza threats.</description>
+    </item>
+    
+  </channel>
+</rss>

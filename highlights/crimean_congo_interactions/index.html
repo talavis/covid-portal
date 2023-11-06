@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs" />
+<meta property="og:description" content="New study gives insight into host-viral interactions of Crimean-Congo hemorrhagic fever, an infectious disease without available treatments. Raw RNAseq, mass spectrometry proteomics data and code shared." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/highlights/crimean_congo_interactions/" /><meta property="og:image" content="https://www.pathogens.se/highlights/banners/crimean_congo_interactions.jpg" /><meta property="article:section" content="highlights" />
+<meta property="article:published_time" content="2022-05-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-05-06T00:00:00+00:00" /><meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/highlights/banners/crimean_congo_interactions.jpg"/>
+
+<meta name="twitter:title" content="Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs"/>
+<meta name="twitter:description" content="New study gives insight into host-viral interactions of Crimean-Congo hemorrhagic fever, an infectious disease without available treatments. Raw RNAseq, mass spectrometry proteomics data and code shared."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/highlights/crimean_congo_interactions/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv/highlights/"><span lang="sv">sv <img
+                  src="/img/flag-sv.svg" alt=""></span></a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/highlights/crimean_congo_interactions/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv/highlights/"><span lang="sv">sv <img
+                src="/img/flag-sv.svg" alt=""></span></a></li>
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/">The Swedish Pathogens Portal</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+
+
+<h2>Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs</h2>
+<p class="text-muted">Published: 2022-05-06</p>
+
+<figure class="figure float-md-end mx-2">
+  <img src="/highlights/banners/crimean_congo_interactions_large.jpg" alt="Study of host-viral interactions of Crimean-Congo haemorrhagic fever identified potential new drugs" class="img-thumbnail">
+  <figcaption class="figure-caption mt-1"><i>Fig 3c. from Neogi et al. (2022). Heatmap of significant correlation (adj. p &lt; 0.05) between key metabolic and signaling pathways. Column and row annotation denotes corresponding pathways.</i></figcaption>
+</figure>
+
+<p>The COVID-19 pandemic is now moving into a more endemic phase in Sweden, as well as many other parts of the world. Regardless, SARS-CoV-2 still poses a serious global health threat, particularly when considering the potential effects of novel variants. Continuous pandemic preparedness efforts are therefore warranted. Global preparedness is also beneficial to safeguard against the threat of pandemics caused by other emerging pathogens.</p>
+<p>At present, Crimean-Congo hemorrhagic fever virus (CCHFV) is uncommon in most parts of the world. However, it is endemic to almost 30 countries across sub-Saharan Africa, South-Eastern Europe, the Middle East, and Central Asia (<a href="https://doi.org/10.1016/j.antiviral.2013.07.006">Bente et al., 2013</a>; <a href="https://doi.org/10.3390/v8040106">Zivcec et al., 2016</a>), and is spreading into new populations. CCHFV has been capable of infecting humans for thousands of years; archeological blood samples indicate that it was endemic to Celtic Iron Age populations near the Danube river. CCHFV is an RNA virus that belongs to the <em>Nairoviridae</em> family, and causes Crimean-Congo hemorrhagic fever (CCHF) disease. CCHF is transmitted through bites from infected ticks and can pass from animals to humans as well as between humans. Symptoms of the disease include fever, joint pain, vomiting, and uncontrolled bleeding, which can ultimately lead to organ failure. To date, there are no effective treatments for or vaccine against CCHF, and mortality rates for the disease vary between 3 and 40%.</p>
+<p>Knowledge about the pathogenesis of CCHFV, and how it interacts with host cells is key to enable future drug and vaccine development. However, very little is currently known, primarily because outbreaks of CCHF are sporadic and usually occur in regions lacking the infrastructure to conduct the necessary studies.</p>
+<p>Recently, a large study looking at the pathogenesis and host-viral interactions of the CCHFV has been published (first author: Ujjwal Neogi; corresponding author: Ali Mirazimi). The work involved researchers from multiple Swedish institutions, including Karolinska Institutet, the Public Health Agency, Stockholm University, Bioinformatics Infrastructure Sweden (NBIS), Science for Life Laboratory (SciLifeLab), and the National Veterinary Institute of Sweden. They were joined by research groups from India, Turkey, Germany and the UK, making this a truly international effort.</p>
+<p>Neogi and colleagues used a <em>multi-omics systems biology approach</em> to study the complex host-viral interaction of the CCHFV. The same approach was recently used by the team to study the response of other viruses e.g. HIV-1, SARS, MERS and SARS-CoV-2, (<a href="https://doi.org/10.1080/22221751.2020.1799723">Appelberg et al., 2020</a>; <a href="https://doi.org/10.1016/j.mcpro.2021.100159">Krishnan et al., 2021</a>). We previously wrote a <a href="https://covid19dataportal.se/highlights/metabolic_perturbation_therapeutic_target">Data Highlight</a> about some of their earlier work on the <em>Swedish Pathogens Portal</em>. In that study, the researchers aimed to mimic the alternations that occur during the acute CCHFV viral phases.</p>
+<p>In the present study, the researchers completed a longitudinal study of a CCHFV patient cohort originating from Turkey (initial N=18, mortality rate 5.6%, 12 were included in the study). They analyzed peripheral blood mononuclear cells (PBMCs) during both the acute and convalescent (after one year of recovery) phases of the disease. They used a differential gene expression (DGE) profile to compare gene expression in the two phases. This showed that 2891 genes were up-regulated, and 2738 genes were down-regulated. The researchers then used RNAseq analysis of PBMCs in order to compare the metabolic pathways used in the acute and convalescent phases. In brief, the results showed a number of changes (N=205), with ~30% up-regulated and ~10% down-regulated in the interferon signaling-related pathways, which are known to be involved in viral response during CCHFV infection. In addition, pathways involved in central carbon and energy metabolism (CCEM) were found to be important during the CCHFV infection. Notably, an up-regulation of oxidative phosphorylation (OXPHOS) was detected in both transcriptomics and Huh7 proteomics data from patients. In addition, a time-series analysis of a Huh-1 cell culture confirmed that OXPHOS was increasingly up-regulated during the productive viral replication phase. The researchers then directly tested how viral replication was affected by blocking two key CCEM pathways fueling OXPHOS in the Huh7 cells; glycolysis and glutaminolysis. Specifically, they used 2-deoxy-D-glucose (2-DG) and 6-diazo-5-oxo-L-norleucine (DON), both of which are known drug candidates. This resulted in suppressed CCHFV-replication and successfully controlled viral replication in the lab setting.</p>
+<blockquote>
+<p>“Our main goal to take this approach targeting host to limit the viral replication subsequently disease severity to the clinic, and we are initiating the pre-clinical studies in animal experiments.” said Ujjwal Neogi, professor at the Department of Laboratory Medicine, Karolinska Institutet.</p>
+</blockquote>
+<p>In summary, the findings in this article could represent the first step towards the new antiviral drug treatment against CCHF disease. It is clear that further studies into the CCHF pathogenesis are required to investigate the host-virus interactions of CCHF. However, this study showed that targeting OXPHOS, and increasing the host antiviral response, may be one way to develop an attractive host-directed therapy during the acute CCHFV infection. CCHFV has been infecting human populations for thousands of years, and remains rare globally. However, CCHF is already an endemic in some parts of the world and continues to spread. This, taken together with the fact that no effective vaccines or treatments available for the disease, means that it poses a serious risk to human health that cannot be ignored. The development of treatments and vaccines against infectious diseases for which none are currently available is an important part of pandemic preparedness efforts.</p>
+<h4 id="data">Data</h4>
+<ul>
+<li>Raw RNAseq data is available in Sequence Read Archive (SRA) with ID <a href="https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA680886">PRJNA680886</a>.</li>
+<li>Mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium via the PRIDE partner repository with the dataset identifier <a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD022672">PXD022672</a>.</li>
+<li>Analysis code is <a href="https://github.com/neogilab/CCHF-Turkey">available on GitHub</a>.</li>
+</ul>
+<h4 id="article">Article</h4>
+<p>DOI: <a href="https://doi.org/10.7554/eLife.76071">10.7554/eLife.76071</a></p>
+<p><em>Multi-omics insights into host-viral response and pathogenesis in Crimean-Congo hemorrhagic fever viruses for novel therapeutic target.</em> Ujjwal Neogi , Nazif Elaldi, Sofia Appelberg, Anoop Ambikan, Emma Kennedy, Stuart Dowall, Binnur K Bagci, Soham Gupta, Jimmy E Rodriguez, Sara Svensson-Akusjärvi, Vanessa Monteil, Akos Vegvari, Rui Benfeitas, Akhil Banerjea, Friedemann Weber, Roger Hewson, Ali Mirazimi. eLife 2022;11:e76071.</p>
+<h4 id="funding">Funding</h4>
+<p>This study was supported by grants from the Swedish Research Council, the Public Health England Grant In Aid, Karolinska Institutet and the European Union Horizon 2020 CCHF Vaccine Grant.</p>
+
+
+
+<div class="row">
+  <div class="col-md">
+    <span><b>Topics: </b></span>
+    
+    <span class="topic_badge_small"><a href="/highlights/topics/infectious-diseases/">Infectious diseases</a></span>
+    
+  </div>
+  <div class="col-md text-md-end mt-2 mt-md-0">
+    <span><b>Share this: </b></span>
+    <a target="_blank" class="share-button" href="https://twitter.com/intent/tweet?text=Data%20highlight%20on%20the%20Pathogens%20Portal:%20Study%20of%20host-viral%20interactions%20of%20Crimean-Congo%20haemorrhagic%20fever%20identified%20potential%20new%20drugs, https%3a%2f%2fwww.pathogens.se%2fhighlights%2fcrimean_congo_interactions%2f"><i class="bi bi-twitter-x me-1"></i></a>
+    <a target="_blank" class="share-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fwww.pathogens.se%2fhighlights%2fcrimean_congo_interactions%2f"><i class="bi bi-linkedin me-1"></i></a>
+    <a target="_blank" class="share-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.pathogens.se%2fhighlights%2fcrimean_congo_interactions%2f"><i class="bi bi-facebook me-1"></i></a>
+  </div>
+</div>
+
+<div class="containerborder">
+
+
+
+  <div class="mt-4">
+    <h3>Similar data highlights</h3>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4
+            g-2 g-lg-3">
+
+  
+  <div class="col data-highlight" 
+    >
+    <div class="bg-highlight">
+      <div>
+        <a href="/highlights/insights_from_genetic_mapping/">
+          <img class="img-fluid rounded-top" src="/highlights/banners/chromosome__hullstrom_small.png" alt="Human genetic mapping can provide insight about COVID-19 pathogenesis and drug development">
+        </a>
+      </div>
+      <div class="mt-2">
+              <small>August 10, 2021</small>
+      </div>
+      <div>
+        <h6 class="my-1"><a href="/highlights/insights_from_genetic_mapping/">Human genetic mapping can provide insight about COVID-19 pathogenesis and drug development</a></h6>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+</div>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

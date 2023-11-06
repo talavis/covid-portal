@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandemic Preparedness Resources on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/resources/</link>
+    <description>Recent content in Pandemic Preparedness Resources on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BSL3 Biomedicum-SciLifeLab Collaborative Platform</title>
+      <link>https://www.pathogens.se/resources/bsl3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/bsl3/</guid>
+      <description>This resource involves two separate components:
+1. Swedish biosafety level 3 (BSL3) network For more information on the BSL3 network (including information on access, use, and contact), please see the dedicated BSL3 network page.
+Current members of the Swedish BSL3 network  2. State-of-the-art biosafety level 3 (BSL3) facility For more information on the BSL3 facility (including information on access, use, and contact), please see the dedicated BSL3 facility page.</description>
+    </item>
+    
+    <item>
+      <title>Development of a targeted metagenomic NGS platform for diagnostics and epidemiological surveillance of viral pandemic threats</title>
+      <link>https://www.pathogens.se/resources/ngs_surveillance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/ngs_surveillance/</guid>
+      <description>The aim of this project is to develop and implement a targeted metagenomic next-generation sequencing-based (mNGS) platform that utilizes a hybrid-capture and amplification approach for sensitive and accurate detection of viral pathogens. The focus will be on an enrichment panel that can detect &amp;gt; 3,000 viral species.
+Project outline
+The proposed system includes implementation of validated methods for:
+ Constructing Illumina TruSeq sequencing libraries Performing target-capture using Twist BioScience oligomer panels Performing post-capture library amplification Sequencing on Illumina instruments (MiniSeq, MiSeq, NextSeq) Automated, reproducible bioinformatics workflow (NextFlow) Data storage and management User-friendly presentation of results (secure web application, LDAP/AD user authentication, database backend) Submission of data generated as part of consented academic studies to the ScliLifeLabs Data Centre in adherence with open science standards (FAIR)  Project development</description>
+    </item>
+    
+    <item>
+      <title>Establishing sequencing-based viral diagnostics for future clinical use: towards pandemic and outbreak preparedness in the clinical laboratory</title>
+      <link>https://www.pathogens.se/resources/seq_based_diagnostics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/seq_based_diagnostics/</guid>
+      <description>This proposal builds on the collaboration between the Dept. of Clinical Microbiology at Region Skåne, the Dept. of Translational Medicine, Section of Clinical Virology at Lund University, and Clinical Ge- nomics Lund at SciLifeLab, to develop and disseminate new state-of-the-art viral diagnostics meth- ods for improved Swedish healthcare. This collaboration already successfully established and im- plemented whole-genome sequencing (WGS) of SARS-CoV-2 during the pandemic (since February 2021).
+WGS of pathogens is becoming increasingly important for clinical science and practice.</description>
+    </item>
+    
+    <item>
+      <title>Genomic Pandemic Preparedness Portfolio (G3P) – Nationally scalable genomics portfolio for detection and surveillance of viral outbreaks</title>
+      <link>https://www.pathogens.se/resources/g3p/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/g3p/</guid>
+      <description>The current SARS-CoV-2 pandemic highlights the need of building pandemic preparedness capabilities for genetic monitoring (surveillance) of pathogens causing pandemics, as well as early detection of emerging pathogens and antimicrobial resistance in future pandemics and outbreaks. Therefore, our project focus on sequencing-based pandemic preparedness, by developing laboratory assays, along with associated bioinformatics analysis workflows, data visualisation for knowledge sharing and interpretation, and other tools for efficient national coverage.
+Developed assays and tools will be established across the SciLifeLab´s Clinical Genomics nodes, Genomic Medicine Centers, and clinical microbiology laboratories to reach national coverage, minimise the distance to point-of-care, and ensuring rapid turnaround times.</description>
+    </item>
+    
+    <item>
+      <title>Gothenburg initiative for pandemic laboratory preparedness (GILP)</title>
+      <link>https://www.pathogens.se/resources/glip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/glip/</guid>
+      <description>Clinical Microbiology, Sahlgrenska University Hospital (CMSU) is one of the largest microbiology laboratories in northern Europe. It provides microbiological diagnostics to a population of 1.2 million people and collaborates with the Institute of Biomedicine, University of Gothenburg, on a broad range of research projects, including several on Covid-19. During the Covid-19 pandemic CMSU was the first hospital laboratory in Sweden to offer SARS-CoV-2 RNA testing and the first to provide test results on mobile phones.</description>
+    </item>
+    
+    <item>
+      <title>Metagenomic sequencing for pathogen identification and analysis</title>
+      <link>https://www.pathogens.se/resources/metagenomic_seq_pathogens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/metagenomic_seq_pathogens/</guid>
+      <description>Clinical Microbiology at Linköping University Hospital plans to develop a capability to quickly identify and characterize unknown pathogens through metagenomic sequencing. This will enable detection and sequence analysis of pathogens directly from clinical samples of unknown etiology, without the need of pathogen-specific reagents.
+Since the middle of June, an M.Sc. in engineering biology has been recruited for the project and is currently learning the already developed methods for whole-genome sequencing of bacteria and target enrichment sequencing of SARS-CoV-2, with supervision from a biologist and a bioinformatician involved in the project.</description>
+    </item>
+    
+    <item>
+      <title>Monitoring the Swedish population-level neutralization of current and emerging SARS-CoV-2 variants (SwedN)</title>
+      <link>https://www.pathogens.se/resources/swedn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/swedn/</guid>
+      <description>From an overwhelming array of evidence from clinical trials, observational studies, and animal models, the most reliable correlate of protection from SARS-CoV-2 infection, and from severe disease, is neutralizing antibody potency. With potent neutralizing antibodies against a circulating SARS-CoV-2 variant, the individual is less likely to be infected and less likely to develop severe disease if infected.
+While large amounts of money are spent on virus sequencing to monitor circulating SARS-CoV-2 variants, it is difficult to convert this “variant prevalence” information into an assessment of risk without knowing the distribution of antibody responses against these circulating variants.</description>
+    </item>
+    
+    <item>
+      <title>Multiplex and high-throughput multi-disease serology</title>
+      <link>https://www.pathogens.se/resources/serology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/serology/</guid>
+      <description>High-throughput serology analysis is an important tool for evaluating the serostatus and potential immunity of the population. The information provided can both monitor the spread of a disease and aid in making informed decisions regarding efficient societal restrictions and vaccination strategies. A critical concern for performing high-throughput serology, especially during a pandemic, is continuous access to the required reagents.
+During spring 2020, a highly performing, high-throughput and multiplex SARS-CoV-2 serology assay was in short time developed by a multidisciplinary team from KTH and SciLifeLab, also involving multiple actors within public, commercial, and healthcare sectors.</description>
+    </item>
+    
+    <item>
+      <title>Next generation clinical virology</title>
+      <link>https://www.pathogens.se/resources/ng_clinical_virology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/ng_clinical_virology/</guid>
+      <description>Next generation sequencing offers numerous possibilities for improved diagnostics and management of infectious diseases. A comprehensive goal for Clinical Microbiology at Karolinska is to apply viral metagenomics and human immune transcriptomics in healthcare, and develop the following capabilities:
+ Diagnostic metagenomic sequencing. Metagenomic virus surveillance of respiratory samples. Characterization of unclassifiable metagenomic sequences. Host immune transcriptome based microbial diagnostics. Immunotherapy guidance.  Activities so far have focused on establishing diagnostic metagenomic sequencing with a focus on viral infections.</description>
+    </item>
+    
+    <item>
+      <title>Pandemic preparedness against antimicrobial resistance through wastewater monitoring</title>
+      <link>https://www.pathogens.se/resources/amr_wastewater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/amr_wastewater/</guid>
+      <description>The increasing spread of antimicrobial resistance (AMR) is a serious threat to human and animal health, and a OneHealth approach is needed to reduce the transmission of AMR microorganisms. AMR monitoring is considered essential to assess: (i) the overall AR status in a human population or community; (ii) the risks that AMR evolves and spread across One-Health compartments; (iii) the risk of AMR transmission to humans. The difficulties in global monitoring of AMR are many; ranging from ethical issues regarding human samples to lack of comparable methods available across nations.</description>
+    </item>
+    
+    <item>
+      <title>Pandemic sample centers - enabling SciLifeLab infrastructures to form pandemic preparedness capability</title>
+      <link>https://www.pathogens.se/resources/sample-center/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/sample-center/</guid>
+      <description>In order to allow the molecular analysis of emerging biological threats, early access to biological samples is warranted. During the early stages of the COVID-19 pandemic, progress was limited by a lack of relevant clinical samples. This project aims to create a unit, early pandemic sample center, that allows rapid handling of biological specimens and facilitates connections between SciLifeLab facilities and university hospitals. Karolinska and Uppsala University Hospitals will be used in trials to test the proposed model.</description>
+    </item>
+    
+    <item>
+      <title>Pre-analytics for pandemic preparedness</title>
+      <link>https://www.pathogens.se/resources/preanalytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/preanalytics/</guid>
+      <description>This project will focus on the crucial pre-analytical steps for detection of viruses and bacteria with metagenomics in order to deliver a national standard operating procedure. The main focus will be to compare and evaluate matrices for sample transportation, effect of storage and nucleic acid extraction methods. The main outcome measure will be the effect on the quality (quantity and fragmentation of DNA/cDNA, the amount of microbial reads, bias in relative composition and ability to use sequences for further typing) of fast long-read sequencing using Oxford Nanopore technology and bioinformatics tools.</description>
+    </item>
+    
+    <item>
+      <title>Preparedness by early detection of infections in the elderly</title>
+      <link>https://www.pathogens.se/resources/early_detection_elderly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/early_detection_elderly/</guid>
+      <description>Susceptibility to viral or bacterial infections and risk for severe or fatal disease increases with age and development of comorbidities. Accordingly, half of all fatal covid-19 cases at the initial phase of the pandemic in Sweden’s population of 10 million occurred among approximately 80 000 people living in in nursing homes. Similarly, age over 65 is a significant risk factor for fatal influenza type A infection. Rapid, sensitive, and specific surveillance of respiratory infections and disease outcomes among people in nursing homes may provide information that can help early outbreak detection and to predict the epidemic or pandemic potential of new outbreaks.</description>
+    </item>
+    
+    <item>
+      <title>Preparedness for tracking resistant and virulent bacterial and fungal pathogens (TRACK-PATH)</title>
+      <link>https://www.pathogens.se/resources/track_path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/track_path/</guid>
+      <description>The project consists of three parts:
+ Characterization of microbial strains (bacteria and fungi) with resistance to recently introduced antimicrobials. Characterization of virulent pathogens causing unexpectedly severe infections. Exploring methods for studying host-pathogen interaction. During the first months of the project a bioinformatician has been recruited to work on transcriptomics and on establishing pipelines for characterization of virulent pathogens.  We have selected &amp;gt;40 isogenic mutants of Escherichia coli, Klebsiella pneumoniae, Pseudomonas aeruginosa, and Acinetobacter baumannii with resistance to at least one of the two novel antimicrobials cefiderocol and aztreonam-avibactam.</description>
+    </item>
+    
+    <item>
+      <title>Rapid discovery of neutralizing monoclonal antibodies for first line defense</title>
+      <link>https://www.pathogens.se/resources/monoclonal_antibodies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/monoclonal_antibodies/</guid>
+      <description>With the ongoing SARS-CoV-2 pandemic, there is a need to identify broadly neutralizing monoclonal antibodies (mAbs) that can be used as first-line defense against newly emerging variants. Already in the first year of the pandemic, the scientific community showed that highly effective neutralizing mAbs can be isolated from convalescent donors, some of which were rapidly approved for clinical use. Because of their exquisite specificities, monoclonal antibodies are generally safe and rarely give side effects.</description>
+    </item>
+    
+    <item>
+      <title>Rapid establishment of comprehensive laboratory pandemic preparedness – RAPID-SEQ</title>
+      <link>https://www.pathogens.se/resources/rapid-seq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/rapid-seq/</guid>
+      <description>The emergence of SARS-CoV-2 VOCs has shown the need for continuous large- scale surveillance to monitor for future pandemic threats. This project builds on established collaboration between SciLifeLab and the Karolinska University Laboratory, and provide samples, data and expertise from Sweden’s largest microbiology laboratory. In addition, the structure is part of Genomic Medicine Sweden (GMS) which is ensuring the coordination with other national efforts.
+The laboratory has established large-scale WGS of SARS-CoV-2 (to-date 2000+ samples sequenced and reported to SMInet.</description>
+    </item>
+    
+    <item>
+      <title>Rapid typing of emerging variants in a clinical setting</title>
+      <link>https://www.pathogens.se/resources/rapid_type_variants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/rapid_type_variants/</guid>
+      <description>Throughout the recent SARS-CoV-2 pandemic, it has been evident that a swift response relies on the capacity to quickly establish methodologies for clinical diagnostics and epidemiologic surveillance. The first generation of commercial kits were sold as &amp;ldquo;Research Use Only&amp;rdquo;, had low capacity, and were often characterised by poor performance. Robust methodologies were, despite tremendous effort from the manufacturers and the frequent use of &amp;ldquo;Emergency Use&amp;rdquo; labelling by regulatory agencies, not available until the first wave was almost over.</description>
+    </item>
+    
+    <item>
+      <title>SEEC: Swedish Environmental Epidemiology Center</title>
+      <link>https://www.pathogens.se/resources/seec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/seec/</guid>
+      <description>SEEC is a national capacity-building center that bridges the current gap between epidemiology and environmental assessment. It provides for rapid and effective response to detected pathogens as well as population level epidemiology. SEEC also stands for the standardization of molecular and experimental methods for continuous assessment of known and emerging pathogens of concern in Sweden.
+Our aim is to provide:
+ Continued and extended wastewater-based monitoring of the ongoing Covid-19 pandemic.</description>
+    </item>
+    
+    <item>
+      <title>Strengthening population health surveillance and epidemics monitoring by microsampling</title>
+      <link>https://www.pathogens.se/resources/microsampling_monitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/microsampling_monitor/</guid>
+      <description>Minimally invasive biofluid collections through microsampling devices coupled with molecular analyses has shown the potential to enable large-scale population and epidemiological studies. Patient-centric sampling approach such as dried blood spots (DBS) could have a tremendous impact on the prevention and management of future pandemics facilitating monitoring of disease spread, virulence, incubation period, immunogenicity, impact of new variants and eventually resistance to therapy. Despite the increasing interest in implementing microsampling strategies in research, healthcare and pharma, the field still lacks widespread use of devices with robust and standardized protocols of analysis.</description>
+    </item>
+    
+    <item>
+      <title>Systems-level immunomonitoring to unravel immune response to a novel pathogen</title>
+      <link>https://www.pathogens.se/resources/immunomonitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/immunomonitoring/</guid>
+      <description>Early research into SARS-CoV-2 immune responses and the how the immune responses varied among different patients, based on age, sex and prior health status in relation to COVID-19 disease outcome, has been of outmost importance for improved COVID-19 survival rates. The TBy unpacking the complex immune system pathways involved in sensing the SARS-CoV-2 virus, as well as the interference of the virus in antiviral IFN-I responses are examples of immunological findings based on patient-data.</description>
+    </item>
+    
+    <item>
+      <title>ZSC: National core facility for Pandemic Preparedness</title>
+      <link>https://www.pathogens.se/resources/zsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/resources/zsc/</guid>
+      <description>1. Clinical study To understand the virus shedding and further the disease management for COVID-19 patients in intensive care unit (ICU), we have isolated SARS-CoV-2 from nasopharynx samples collected from COVID-19 patients admitted to ICU with severe respiratory failure at the Uppsala University Hospital, between December 2020 and June 2021. The resources are the clinical data from patients who were enrolled in the PronMed study.
+2. Virome study The resources are samples and RNA-sequencing data from important zoonotic reservoirs: Swedish rodents and shrews, as well as mosquitoes and ticks.</description>
+    </item>
+    
+  </channel>
+</rss>

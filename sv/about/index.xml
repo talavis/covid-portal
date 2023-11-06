@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Om dataportalen on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/sv/about/</link>
+    <description>Recent content in Om dataportalen on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/sv/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editorial committee</title>
+      <link>https://www.pathogens.se/sv/about/editorial_committee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/about/editorial_committee/</guid>
+      <description>Här är en presentation av de sex medlemmarna i portalens editorial committee för 2023. Kommittén möjliggör ett närmare samarbete mellan Portalen och forskarsamhället och dess medlemmar kommer, i samarbeta med Portalenteamet, skapa innehåll och även omvärldsbevaka sina respektive forskningsområden.
+  Ben Murrell, PhD   Karolinska Institute   Expertise: Computational biology,
+Immunology and Virology
+       Johan Ankarklev, PhD   Stockholm University   Expertise: Parasitology and Genetics</description>
+    </item>
+    
+    <item>
+      <title>Forskningsprogram och organisationer bakom portalen</title>
+      <link>https://www.pathogens.se/sv/about/organisations_and_programs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/about/organisations_and_programs/</guid>
+      <description>SciLifeLabs forskningsprogram för pandemisk laboratorieberedskap SciLifeLab (Science for Life Laboratory) fick i uppdrag av regeringen att bygga upp resurser och ”capabilities” som kan användas för att möta framtida pandemier. Uppdraget innebär övergripande att stödja forskning inom infektionssjukdomar (exempelvis inom diagnostik, immunitet, och utveckling av resistens mot läkemedel), samt att bygga upp kompetens och utveckla teknologier för pandemisk beredskap (exempelvis sekvensering, genetiska analys, immunologi och hantera stora datamängder.
+Forskningsprogrammet för pandemisk laboratorieberedskap startades genom ett regeringsuppdrag i december 2020.</description>
+    </item>
+    
+    <item>
+      <title>Samarbetsorganisationer</title>
+      <link>https://www.pathogens.se/sv/about/partner_organisations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/sv/about/partner_organisations/</guid>
+      <description>Pathogens Portal The Pathogens Portal som drivs av European Molecular Biology Laboratory&#39;s European Bioinformatics Institute (EMBL-EBI) och partners lanserades i juli 2023. Portalen är en resurs för forskare, sjukvård och beslutsfattare. Syftet är att att ge tillgång till de senaste och mest omfattande patogendata. Covid-19-pandemin satte fokus på vikten av datadelning och tillgång till relevanta data. Pathogens Portal är en centraliserad plattform för datadelning och datatillgång med fokus på patogendata.</description>
+    </item>
+    
+  </channel>
+</rss>

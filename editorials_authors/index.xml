@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editorials_authors on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/editorials_authors/</link>
+    <description>Recent content in Editorials_authors on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/editorials_authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Katarina Öjefors Stark</title>
+      <link>https://www.pathogens.se/editorials/authors/katarina-%C3%B6jefors-stark/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/editorials/authors/katarina-%C3%B6jefors-stark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mahmoud M. Naguib</title>
+      <link>https://www.pathogens.se/editorials/authors/mahmoud-m.-naguib/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/editorials/authors/mahmoud-m.-naguib/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

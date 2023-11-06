@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Tutorial for SARS-CoV-2 genome data submission to ENA | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Tutorial for SARS-CoV-2 genome data submission to ENA" />
+<meta property="og:description" content="When to use this route Route 1 is recommended for users with little to no experience using the command line, and for small scale (usually 1-10, but could be more) or infrequent submissions. It makes use of a combination of a web submission interface (Webin submission portal) and a command-line tool (Webin-CLI).
+Data required for route 1 All of the data required to complete this submission can be downloaded together in a single zip file by clicking here." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/support_services/tutorial_ena/tutorial_ena_subroute1/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="support_services" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Tutorial for SARS-CoV-2 genome data submission to ENA"/>
+<meta name="twitter:description" content="When to use this route Route 1 is recommended for users with little to no experience using the command line, and for small scale (usually 1-10, but could be more) or infrequent submissions. It makes use of a combination of a web submission interface (Webin submission portal) and a command-line tool (Webin-CLI).
+Data required for route 1 All of the data required to complete this submission can be downloaded together in a single zip file by clicking here."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_subroute1/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv/"><span lang="sv">sv
+                <img src="/img/flag-sv.svg" alt=""></span></a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_subroute1/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv/"><span lang="sv">sv
+              <img src="/img/flag-sv.svg" alt=""></span></a></li>
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Tutorial for SARS-CoV-2 genome data submission to ENA
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/">The Swedish Pathogens Portal</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/support_services/">Support Services</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Tutorial for SARS-CoV-2 genome data submission to ENA</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<ul class="nav nav-tabs nav-justified">
+  
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_intro/">Introduction</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_terminology/">Terminology and Metadata</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_subprep/">Preparation for Submissions</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_selectsub/">Select Submission Route</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link active font-weight-bold" href="#">Submission Route 1</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_subroute2/">Submission Route 2</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_contact/">Get Help</a>
+  </li>
+  
+  <li class="nav-item">
+    <a class="nav-link" href="/support_services/tutorial_ena/tutorial_ena_faqs/">FAQs</a>
+  </li>
+  
+</ul>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3 order-md-last toc">
+          <aside class="sticky-top toc pt-2">
+              <h5>In this section:</h5>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#when-to-use-this-route">When to use this route</a></li>
+    <li><a href="#data-required-for-route-1">Data required for route 1</a></li>
+    <li><a href="#doing-a-test-submission-vs-a-real-submission">Doing a test submission vs a &lsquo;real&rsquo; submission</a></li>
+    <li><a href="#install-webin-cli">Install Webin-CLI</a></li>
+    <li><a href="#the-webin-submission-portal">The Webin submission portal</a></li>
+    <li><a href="#how-to-do-a-route-1-submission">How to do a route 1 submission</a>
+      <ul>
+        <li><a href="#register-a-study-project">Register a study (project)</a></li>
+        <li><a href="#prepare-information-for-samples">Prepare information for samples</a></li>
+        <li><a href="#submit-samples">Submit samples</a></li>
+        <li><a href="#submit-raw-reads">Submit raw reads</a></li>
+        <li><a href="#submit-sequence-assemblies">Submit sequence assemblies</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+          </aside>
+        </div>
+        <div class="col-md-9 order-md-first content" id="content"><h2 id="when-to-use-this-route">When to use this route</h2>
+<p>Route 1 is recommended for users with little to no experience using the command line, and for small scale (usually 1-10, but could be more) or infrequent submissions. It makes use of a combination of a web submission interface (Webin submission portal) and a command-line tool (Webin-CLI).</p>
+<h2 id="data-required-for-route-1">Data required for route 1</h2>
+<p>All of the data required to complete this submission can be downloaded together in a single zip file by clicking <a href="/ENA_tutorial_data/example_data.zip">here</a>. In this part of the tutorial, we will make use of the information in the &lsquo;01-route&rsquo; and &lsquo;data&rsquo; subfolders.</p>
+<p><strong>Note:</strong> If you use your own data, you can fill in the metadata template, for instructions on how to do this, please see <a href="/support_services/tutorial_ena/tutorial_ena_subprep/#preparing-the-metadata">this section in the preparation for submissions tab</a>.</p>
+<h2 id="doing-a-test-submission-vs-a-real-submission">Doing a test submission vs a &lsquo;real&rsquo; submission</h2>
+<p>ENA provides two sites for submission; one for <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin">test submissions</a> and one for <a href="https://www.ebi.ac.uk/ena/submit/webin">&lsquo;real&rsquo; submissions</a> (i.e. an actual submission to ENA). We recommend doing a test submission first, using the example data provided, in order to get an understanding of the different steps. Please note though, that the test service is refreshed every night. This means that any test submissions will be removed before the following day, so it is not possible to begin a submission one day and continue the next.</p>
+<h2 id="install-webin-cli">Install Webin-CLI</h2>
+<p>The Webin command line submission interface (Webin-CLI) is used to validate, upload, and submit raw reads and sequence assemblies. In order to use it, it must be installed alongside Java and a Java Runtime Environment. Follow the below instructions to complete the required installations:</p>
+<ul>
+<li>
+<p>Download <a href="https://java.com/en/download/">Java version 1.8 or newer</a>.</p>
+</li>
+<li>
+<p>Download <a href="https://www.azul.com/downloads/?package=jdk">Zulu Open JDK for the Java Runtime Environment (JRE)</a>.</p>
+</li>
+<li>
+<p>Download the Webin-CLI Java jar file from <a href="https://github.com/enasequence/webin-cli/releases">this GitHub repository</a>. Put it in an easily accessible folder, e.g. Downloads. For convenience, create a path variable named DOWNLOADS in a terminal window using the below code:</p>
+</li>
+</ul>
+<blockquote>
+<p>export DOWNLOADS=&quot;/path/to/Downloads/&quot;</p>
+</blockquote>
+<h2 id="the-webin-submission-portal">The Webin submission portal</h2>
+<p>The Webin submission portal will be required to complete a Route 1 submission. You will need an account to access the portal. You can register for an account <a href="https://www.ebi.ac.uk/ena/submit/webin/accountInfo">here</a>. After logging in, you will see the landing page (shown below) that includes multiple options for completing your submission. In this section, you can get more information on what each of the options do. The options that you will need to complete a submission using Route 1 are explained in the subsequent sections of this page.</p>
+<br>
+<div class="text-center">
+  <img src="/img/ena_tutorial/ENA_landing_page.png" height="400" class="rounded">
+</div>
+<br>
+<div id="dwbuttons"><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
+    Click here for more details on the different sections of the portal indicated in the above image
+  </button>
+  </div>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+        <span>
+<ul>
+<li>
+<p><strong>Header Bar (Label 1 in the above figure)</strong>: Use the <strong>Support</strong> option to request assistance from the ENA helpdesk. Click <strong>Manage Account</strong> to e.g. change your contact information or centre name.</p>
+</li>
+<li>
+<p><strong>Studies (Projects) (Label 2 in the above figure)</strong>: All related options are coloured yellow. The <strong>Register Study</strong> option leads to an interface where you can register new studies. The <strong>Submit XMLs</strong> interface enables studies to be submitted in XML format. The <strong>Studies Report</strong> option allows you to review and edit previously submitted studies, and to change their release date.</p>
+</li>
+<li>
+<p><strong>Samples (Label 3 in the above figure)</strong>: All related options are coloured green. The <strong>Register Samples</strong> option allows you to select and customise a sample checklist, download a template spreadsheet, and then upload a completed spreadsheet in order to register your samples. The <strong>Register Taxonomy</strong> option enables you to request that another taxa is added to the taxonomy database (in the event that your submission includes a taxa that is not currently included). The <strong>Studies Report</strong> option allows you to review and edit previously submitted samples.</p>
+</li>
+<li>
+<p><strong>Raw Reads (Experiments and Runs) (Label 4 in the above figure)</strong>: All related options are coloured orange. The <strong>Submit reads</strong> option enables you to select a type of read data, download an appropriate template spreadsheet, and then upload a completed spreadsheet to register your read data. The <strong>Submit XMLs</strong> interface enables experiments and runs to be submitted in XML format. The <strong>Runs Report</strong> option allows you to review and edit previously submitted runs and experiments. The <strong>Run Files Report</strong> option allows you to review the status of files associated with previously submitted runs. The <strong>Run Processing Report</strong> option allows you to review the processing status of files associated with previously submitted runs. The <strong>Unsubmitted Files Report</strong> option allows you to review the status of unsubmitted files (before you can submit a run file, you must upload it to your accounts FTP area, and these are considered &lsquo;unsubmitted&rsquo;).</p>
+</li>
+<li>
+<p><strong>Data Analyses (Label 5 in the above figure)</strong>: All related options are coloured blue. The <strong>Create annotated sequence spreadsheet</strong> option allows you to select, download, and customise a template that can be used to make a submission via Webin-CLI. The <strong>Submit XMLs</strong> interface enables analyses to be submitted in XML format. The <strong>Analyses Report</strong> option enables you to review and edit previously submitted analyses. The <strong>Analysis File Report</strong> option enables you to review the status of files associated with previously submitted analyses. The <strong>Analysis Processing Report</strong> option enables you to review the processing status of files associated with previously submitted analyses.</p>
+</li>
+</ul>
+<p>You can gain more information about how to use the options to complete the functions outlined above by clicking on them in the landing page.</p>
+</span>
+  </div>
+</div>
+<h2 id="how-to-do-a-route-1-submission">How to do a route 1 submission</h2>
+<h3 id="register-a-study-project">Register a study (project)</h3>
+<p>First, log in to the <a href="https://wwwdev.ebi.ac.uk/ena/submit/webin">Webin submission portal test service</a> with your Webin username and password. In the top left of the welcome page, there is a Dashboard menu that expands when you click on it. Click it and select <strong>Register Study (Project)</strong> (as shown in the first picture below), or click on the <strong>Register Study</strong> option in the <strong>Studies (Projects)</strong> section on the landing page. The options for &lsquo;Study&rsquo; are shown in yellow on the welcome page. See label 2 in the image above to determine where the &lsquo;Study&rsquo; options are on the welcome page, and refer to the second image below for a more &lsquo;zoomed in&rsquo; image of the options.</p>
+<br>
+<div class="text-center">
+  <img src="/img/ena_tutorial/Step1_register_study.png" height="400" class="rounded">
+</div>
+<br>
+<div class="text-center">
+  <img src="/img/ena_tutorial/Step1_register_study_picb.png" height="400" class="rounded">
+</div>
+<br>
+<p>Second, enter the details of the project, such as title and description. Asterisks (*) denote mandatory fields. The &lsquo;Release date&rsquo; is the date that the record should become publicly available. This can be updated later, so if you are unsure on a precise date, you can provide an estimated date. If you do this though, please remember to update it accordingly.</p>
+<br>
+<div class="text-center">
+  <img src="/img/ena_tutorial/Step2_register_study.png" height="400" class="rounded">
+</div>
+<br>
+<p>Lastly, click <strong>Submit</strong>. A pop-up window will appear, check that the submission was successful by reading the content of the window, then click <strong>Close</strong>.</p>
+<p>Please see <a href="https://youtu.be/3nArbshyzIk">this video by ENA</a> for further guidance on how to register studies using the Webin Submissions Portal.</p>
+<h3 id="prepare-information-for-samples">Prepare information for samples</h3>
+<p>Before registering the samples, you must prepare the spreadsheets for submission. For instructions on how to do this, please see <a href="/support_services/tutorial_ena/tutorial_ena_subprep">this section on preparing for submissions</a>.</p>
+<p>The information that you need to provide will differ dependent on e.g. the type of sampling done. Some fields are mandatory, whilst others are recommended or optional (summarised in the below image). The ENA provides a virus pathogen metadata checklist (<a href="https://www.ebi.ac.uk/ena/browser/view/ERC000033">ERC000033</a>) that should be used as guidance for the submission of samples for SARS-CoV2.</p>
+<div class="text-center">
+  <img src="/img/ena_tutorial/Register_sample_metadata_opt.png" height="400" class="rounded">
+</div>
+<p><em>The above image is adapted from one produced by Sam Holt for the ENA Facility Day 2020.</em></p>
+<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+    Genomics data
+  </a>
+</p>
+<div class="collapse" id="collapseExample1">
+  <div class="card card-body">
+        <span>Some metadata fields are mandatory. However, in some cases, data for these fields is unavailable for some reason. This will not prevent submission, but any such missing data must be reported appropriately in ENA. In order to do this, users should fill the respective fields using the appropriate INSDC-approved term, which are used to indicate not only that data is missing, but also why. For more information about reporting missing metadata values and the INSDC-approved terms that can be used, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/samples/missing-values.html?highlight=insdc%20missing#reporting-missing-values">here</a>. </span>
+  </div>
+</div>
+<h3 id="submit-samples">Submit samples</h3>
+<p>You can register samples either by clicking on the Dashboard menu (top left of the page, refer to images in the above section) and selecting <strong>Register Samples</strong> or by clicking on the <strong>Register Samples</strong> option in the <strong>Samples</strong> section of the landing page (all related options in green).</p>
+<p>Both of the above options lead to the same place, which gives two options: (1) Download spreadsheet to register samples, and (2) Upload filled spreadsheet to register samples.</p>
+<br>
+<div class="text-center">
+  <img src="/img/ena_tutorial/Register_sample_options.png" height="250" class="rounded">
+</div>
+<br>
+<p>Select the latter and upload the filled sample template that you made when <a href="/support_services/tutorial_ena/tutorial_ena_subprep">preparing your submission</a>. Click on <strong>Submit Completed Spreadsheet</strong>, verify that the submission was successful in the pop-up Submission window, and then click <strong>Close</strong>.</p>
+<p><strong>Note:</strong> Example data for three samples is provided in the &lsquo;data/samples/&rsquo; folder of the example data provided with this tutorial in both .xlsx and .tsv formats. &lsquo;sample_spreadsheet.xlsx&rsquo; is annotated such that different features are colour coded, and important features are highlighted. &lsquo;sample_spreadsheet.tsv&rsquo; contains the same data in a tab-separated format, which is the format accepted for submission. Each row of these datasets represents a sample, while each column represents a metadata field.</p>
+<br>
+<div class="text-center">
+  <img src="/img/ena_tutorial/Register_sample_success.png" height="500" class="rounded">
+</div>
+<br>
+<h3 id="submit-raw-reads">Submit raw reads</h3>
+<h4 id="explore-the-example-data">Explore the example data</h4>
+<p>In this section, we will use the materials in the <em>runs</em> subfolder of the route-01 folder of the example data that you downloaded earlier.</p>
+<p>To view the contents of this folder, you can open it using a file explorer or using a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the <em>runs</em> subfolder. You can do this by typing <code>cd</code> in the terminal followed by the filepath (depicted as &lsquo;$WORKSHOP/01-route/runs/&rsquo; in the example below). Then, on a new line (that you can create by pressing &lsquo;enter&rsquo; on your keyboard), type <code>ls</code>. The content of the subfolder will then be printed.</p>
+<blockquote>
+<p>cd $WORKSHOP/01-route/runs/<br>ls</p>
+</blockquote>
+<p><strong>Note</strong>: Windows users should replace the forward slashes (<code>/</code>) in the code above with backslashes (<code>\</code>).</p>
+<p>This subfolder contains three manifest files, each named &lsquo;paired_fastq_manifest_sample*.txt&rsquo; (where * represents a number between 1 and 3). These manifest files contain the metadata for raw read files, which is used to connect the samples with the raw sequences. Preparation of such manifest files are key when submitting raw reads.</p>
+<h4 id="prepare-manifest-files">Prepare manifest files</h4>
+<p>A manifest file includes details on how the sequencing was done and on which sample. Manifest files consist of two columns separated by a tab (or any white-space characters). The first column includes metadata field names, and the second column represents the corresponding value. Below, we list the metadata field names that can be included in manifest files and the type of value that can be provided for them:</p>
+<ul>
+<li><strong>STUDY</strong> - Study accession or unique name (alias)</li>
+<li><strong>SAMPLE</strong> - Sample accession or unique name (alias)</li>
+<li><strong>NAME</strong> - Unique experiment name</li>
+<li><strong>PLATFORM</strong> - <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#platform">Refer to ENA to see permitted values</a></li>
+<li><strong>INSTRUMENT</strong> - <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#instrument">Refer to ENA to see permitted values</a></li>
+<li><strong>INSERT_SIZE</strong> - Insert size for paired reads</li>
+<li><strong>LIBRARY_NAME</strong> - Library name (optional)</li>
+<li><strong>LIBRARY_SOURCE</strong> - <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#source">Refer to ENA to see permitted values</a></li>
+<li><strong>LIBRARY_SELECTION</strong> - <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#selection">Refer to ENA to see permitted values</a></li>
+<li><strong>LIBRARY_STRATEGY</strong> - <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#strategy">Refer to ENA to see permitted values</a></li>
+<li><strong>DESCRIPTION</strong> - Free text library description (optional)</li>
+<li><strong>FASTQ</strong> - Single fastq file (compressed)</li>
+</ul>
+<p><em>The above information was taken from <a href="https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html">documentation by ENA</a></em> <!-- Parul/Yvonne please check refs. LH was just trying to guess...--></p>
+<p>Manifest files can be created using a text editor of your choice (e.g. Notepad). Open one of the manifest files in the <em>runs</em> subfolder of the example data (e.g. paired_fastq_manifest_sample1.txt) to see an example of a typical manifest file for SARS-CoV-2 sequence data. Note though, that the field values might differ for your own project.</p>
+<p>It is important to note that you need to <em><strong>create one manifest file per sequence file</strong></em>. We recommend creating a template manifest file in which all field values that are shared between all the samples in your submission are pre-filled (e.g. STUDY, INSTRUMENT, LIBRARY_SOURCE). This will save time when producing the manifest files.</p>
+<p>The field values for STUDY and SAMPLE are taken from the study and samples metadata objects that you submitted earlier:</p>
+<ul>
+<li>
+<p>Go to the Webin submission portal, open the Dashboard menu (top left of the submission portal page), and click on <strong>Studies Report</strong>. Copy the accession number (which will start with PRJEB) and insert it into the manifest file as the value for the STUDY metadata field.</p>
+</li>
+<li>
+<p>Go to the Webin submission portal, open the Dashboard menu (top left of the submission portal page), and click on <strong>Samples Report</strong>. Find the accession number (which will start with ERS) for the sample that the associated sequence file belongs to. Copy that accession number into the manifest file as the value for the SAMPLE metadata field.</p>
+</li>
+</ul>
+<h4 id="submit-using-webin-cli">Submit using Webin-CLI</h4>
+<p>Open a command prompt window and navigate to the <em>runs</em> subfolder of the 01-route folder of the example data files, using the <code>cd</code> command (e.g. <code>cd $WORKSHOP/01-route/runs/</code>). Remember to use <code>\</code> instead on Windows.</p>
+<p>The Webin-CLI requires that you provide information about who you are and what you want to do before use. You can do this by using one of the available <strong>’options’</strong>. In the command prompt window, type in the appropriate command from the list below to see the available options. Please note that the filepath should give the location of Webin-CLI. Below, it is assumed that a path variable (&lsquo;DOWNLOADS&rsquo;) has been created that contains the full path to the folder where the program was downloaded. See <a href="/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data">this section in the preparation for submissions tab</a> to see how to do this.</p>
+<ul>
+<li><strong>On Windows</strong> - java -jar $DOWNLOADS\webin-cli-4.2.3.jar –help</li>
+<li><strong>On Mac</strong> - java -jar $DOWNLOADS/webin-cli-4.2.3.jar -help</li>
+</ul>
+<p>You&rsquo;ll see that multiple options are available. You will use the following:</p>
+<ul>
+<li><code>-context</code>: the submission type (reads).</li>
+<li><code>-userName</code>: the Webin submission account name.</li>
+<li><code>-password</code>: the Webin submission account password.</li>
+<li><code>-manifest</code>: the manifest file name.</li>
+<li><code>-outputDir</code>: directory for output files.</li>
+<li><code>-inputDir</code>: input directory for files declared in manifest file.</li>
+<li><code>-validate</code>: validates the files defined in the manifest file.</li>
+<li><code>-submit</code>: validates and submits the files defined in the manifest file.</li>
+<li><code>-test</code>: use Webin test service instead of the production service.</li>
+</ul>
+<p><em>The above definitions were taken from <a href="https://ena-docs.readthedocs.io/en/latest/submit/general-guide/webin-cli.html#command-line-options">ENA documentation</a>, where you can also find more information about the command line options available for Webin-CLI.</em> <!-- Yvonne/Parul, please check this ref--></p>
+<p>You will first use the <code>-validate</code> and <code>-test</code> options to perform a validation of the test server. Use the <code>$WORKSHOP\data\raw</code> folder as the input directory, and <code>$WORKSHOP\01-route\runs</code> as output directory. Use the commands below to do this. Remember to modify the commands according to your filepath, and to replace <code>Webin-XXX</code> and <code>myPassword</code> with your own account credentials:</p>
+<ul>
+<li>
+<p><strong>Windows</strong> - <code>java -jar $DOWNLOADS\webin-cli-4.2.3.jar -context reads -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP\01-route\runs\paired_fastq_manifest_sample1.txt -outputDir $WORKSHOP\01-route\runs -inputDir $WORKSHOP\data\raw -validate -test</code></p>
+</li>
+<li>
+<p><strong>Mac</strong> - <code>java -jar $DOWNLOADS/webin-cli-4.2.3.jar -context reads -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP/01-route/runs/paired_fastq_manifest_sample1.txt -outputDir $WORKSHOP/01-route/runs -inputDir $WORKSHOP/data/raw -validate -test</code></p>
+</li>
+</ul>
+<p>Once your command is entered correctly into your command prompt window, press &lsquo;Enter&rsquo; on your keyboard. If the validation was successful, the last line of the resultant output will read:</p>
+<blockquote>
+<p>INFO : The submission has been validated successfully.</p>
+</blockquote>
+<p>If the validation fails, a message will direct you to a report file. The report file will contain a list of error messages that explain the reason for the failure. Please use the information in this report file to address any faults before re-attempting the validation step.</p>
+<p>After a successful validation, you can now perform a test submission (using the <code>-submit</code> option in place of the <code>-validate</code> option in the commands listed above). The processing at this stage could take a while, but errors are unlikely, and may only result from the upload of the sequence file.</p>
+<p>If the submission is successful the last output row will read:</p>
+<blockquote>
+<p>INFO : The submission has been completed successfully.</p>
+</blockquote>
+<p>The assigned accession number will also be displayed. As with failed validation, a failed submission results in the provision of directions to a report file that explains the errors.</p>
+<p>When doing a real submission to ENA, you use the same commands as those given above (modified as indicated) but with the <code>-test</code> option removed from the commands. In the event that you have multiple manifest files, you can generate a file script that would enable more automation. See for example:</p>
+<p><code>ls -t ./path/to/manifests/*.manifest | xargs -L 1 -I {} java -jar ./path/to/webin.jar &quot;-manifest={}&quot; -other -params -here</code></p>
+<h3 id="submit-sequence-assemblies">Submit sequence assemblies</h3>
+<h4 id="explore-the-example-data-1">Explore the example data</h4>
+<p>In this section, we will use the materials in the <em>sequences</em> subfolder of the route-01 folder in the example data that you downloaded earlier.</p>
+<p>To view the contents of this folder, open it using the file explorer or a command line interface. To do the latter, open a command prompt window (Terminal) on your computer and navigate to the <em>sequences</em> subfolder. Do this by typing <code>cd</code> followed by the filepath (depicted as $WORKSHOP/01-route/sequences/ below). Press enter and then type <code>ls</code> and press enter again. The content of the subfolder will then be printed in the window.</p>
+<blockquote>
+<p>cd $WORKSHOP/01-route/sequences/<br>ls</p>
+</blockquote>
+<p>Windows users should replace <code>/</code> in the above with <code>\</code>.</p>
+<p>In the folder, you&rsquo;ll see that there are three manifest files (named &lsquo;hCov-19_isolate_*_manifest.txt&rsquo;, where * is a number between 1 and 3); one for each of the 3 example sample data files. The manifest files contain information about the corresponding sequence, including the name of the FASTA file containing that sequence.</p>
+<p>There are 6 files in the subfolder in the example data <code>$WORKSHOP/data/sequences/</code>; one FASTA sequence file and one chromosome list file for each of the three samples. The chromosome list file defines the list of &lsquo;chromosomes&rsquo;, in the case of SARS-CoV-2, we simply list the sequences as &lsquo;chromosome 1&rsquo;. Please remember that the sequences must be given a unique name within the submission that is provided in the FASTA files. It is also essential that the sequence names are consistent between files, for example, the chromosome list file must refer to the chromosome sequences using the unique sequence names.</p>
+<h4 id="prepare-manifest-files-1">Prepare manifest files</h4>
+<p>Manifest files, which provide information about data files, need to be prepared before a submission. Manifest files comprise of two columns separated by a tab (or any white-space characters). The first column contains a field name, whilst the second contains the corresponding value. The following metadata field names can be used in the manifest file:</p>
+<ul>
+<li><strong>STUDY</strong> - Study accession or unique name (alias).</li>
+<li><strong>SAMPLE</strong> - Sample accession or unique name (alias).</li>
+<li><strong>RUN_REF</strong> - Comma separated list of Run accession number(s) corresponding to the raw read data it was built from (if available).</li>
+<li><strong>ASSEMBLYNAME</strong> - Unique assembly name.</li>
+<li><strong>ASSEMBLY_TYPE</strong> - For SARS-CoV2 assembly_type is ‘COVID-19 outbreak’.</li>
+<li><strong>COVERAGE</strong> - The estimated depth of sequencing coverage.</li>
+<li><strong>PROGRAM</strong> - The assembly program used.</li>
+<li><strong>PLATFORM</strong> - The sequencing platform, or comma-separated list of platforms.</li>
+<li><strong>MINGAPLENGTH</strong> - Minimum length of consecutive Ns to be considered a gap (optional).</li>
+<li><strong>MOLECULETYPE</strong> - For SARS-CoV2 molecule type will be either genomic RNA or viral cRNA, depending on your library preparation strategy.</li>
+<li><strong>DESCRIPTION</strong> - Free text description (optional).</li>
+<li><strong>FASTA</strong> - Single FASTA file (compressed format).</li>
+<li><strong>CHROMOSOME_LIST</strong> - Chromosome list file (compressed format).</li>
+</ul>
+<p><em>The above information was adapted from <a href="https://buildmedia.readthedocs.org/media/pdf/ena-docs/latest/ena-docs.pdf">documentation from ENA</a></em> <!-- Parul/Yvonne please check refs. LH was just trying to guess...--></p>
+<p>The manifest file can be created in a text editor (e.g. Notepad) of your choice. You can use one of the manifest files in the example data folder (that you downloaded earlier for this tutorial) as a reference when making your own manifest file for SARS-CoV-2 sequence data. Please note though, that the field values might differ for your own project.</p>
+<p>As you need to create one manifest file per sequence assembly file, we recommend making a template manifest file that you can use as a basis to create all the manifest files that you require. In such a template, you could pre-fill all of the metadata field values that are shared between all samples included in your submission (e.g. STUDY, PLATFORM, MOLECULETYPE). Then, you need only fill in the values that differ when you create a new manifest file.</p>
+<p>The field values for STUDY, SAMPLE, and RUN_REF (if raw reads have been submitted) need to be collected from the study, sample, and &lsquo;raw&rsquo; reads metadata objects that you submitted earlier:</p>
+<ul>
+<li>
+<p>Log in to the <a href="https://www.ebi.ac.uk/ena/submit/webin/login">Webin Submissions Portal</a>, go to the Dashboard menu (top left of the page), and click on <strong>Studies Report</strong>. Copy the accession number (starting with PRJEB) and then paste the accession number into the manifest file as the STUDY field value.</p>
+</li>
+<li>
+<p>Go back to the Dashboard menu (top left of the Webin Submissions Portal) and click on <strong>Samples Report</strong>. Find the accession number (starting with ERS) for the sample that the sequence file belongs to. Copy this and paste it into the manifest file as the SAMPLE field value.</p>
+</li>
+<li>
+<p><strong>Only needed if you have previously submitted the related raw reads</strong> - go to the Dashboard menu (top left of the Webin Submissions Portal) and click on <strong>Runs Report</strong>. Locate the accession number(s) (starting with ERR) for the raw read(s) that the assembly sequence file is based on. Copy the number(s), and paste it/them into the manifest file as the RUN_REF field value.</p>
+</li>
+</ul>
+<h4 id="submit-using-webin-cli-1">Submit using Webin-CLI</h4>
+<p>In a command prompt window, type the command <code>cd</code> followed by the filepath to the sequences subfolder of the example data that you downloaded earlier (e.g. <code>cd $WORKSHOP/01-route/sequences/</code>). Windows users should use <code>\</code> in place of <code>/</code>.</p>
+<p>You then need to &lsquo;tell&rsquo; Webin-CLI who you are and what you want to do. This can be done using &lsquo;options&rsquo;. You can use the below commands to view the available options:</p>
+<ul>
+<li><strong>On Windows</strong> - java -jar $DOWNLOADS\webin-cli-4.2.3.jar –help</li>
+<li><strong>On Mac</strong> - java -jar $DOWNLOADS/webin-cli-4.2.3.jar -help</li>
+</ul>
+<p>In the above commands, you need to provide the location of Webin-CLI. Here we assume that &lsquo;DOWNLOADS&rsquo; has been created as a path variable, which contains the full path to the folder where the program was downloaded. See <a href="/support_services/tutorial_ena/tutorial_ena_subprep/#obtaining-example-data">this section in the preparation for submissions tab</a> for information on how to do this.</p>
+<p>You will make use of following options:</p>
+<ul>
+<li><code>-context</code>: the submission type (genome).</li>
+<li><code>-userName</code>: the Webin submission account name.</li>
+<li><code>-password</code>: the Webin submission account password.</li>
+<li><code>-manifest</code>: the manifest file name.</li>
+<li><code>-outputDir</code>: directory for output files.</li>
+<li><code>-inputDir</code>: input directory for files declared in manifest file.</li>
+<li><code>-validate</code>: validates the files defined in the manifest file.</li>
+<li><code>-submit</code>: validates and submits the files defined in the manifest file.</li>
+<li><code>-test</code>: use Webin test service instead of the production service.</li>
+</ul>
+<p><em>Adapted from <a href="https://nbisweden.github.io/module-repository">documents by ENA</a> that also provide more detail regarding the command line options of Webin-CLI</em> <!-- Yvonne/Parul, please check this ref--></p>
+<p>You will use the <code>-validate</code> and <code>-test</code> options to complete a validation to the test server. When doing this, use <code>$WORKSHOP\data\sequences</code> folder as the input directory, and <code>$WORKSHOP\01-route\sequences</code> as the output directory. Input the appropriate command from below into your command prompt window. Remember to replace both <code>Webin-XXX</code> and <code>myPassword</code>, with your own account credentials:</p>
+<ul>
+<li>
+<p><strong>Windows</strong> - <code>java -jar $DOWNLOADS\webin-cli-4.2.3.jar -context genome -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP\01-route\sequences\hCoV-19_isolate_1_manifest.txt -outputDir $WORKSHOP\01-route\sequences -inputDir $WORKSHOP\data\sequences -validate -test</code></p>
+</li>
+<li>
+<p><strong>Mac</strong> - <code>java -jar $DOWNLOADS/webin-cli-4.2.3.jar -context genome -userName Webin-XXXXX -password myPassword -manifest $WORKSHOP/01-route/sequences/hCoV-19_isolate_1_manifest.txt -outputDir $WORKSHOP/01-route/sequences -inputDir $WORKSHOP/data/raw -validate -test</code></p>
+</li>
+</ul>
+<p>Press <strong>Enter</strong>. If the validation was successful, the last row of the output will read:</p>
+<blockquote>
+<p>INFO : The submission has been validated successfully.</p>
+</blockquote>
+<p>If the submission fails, you will be directed to a report file. The report file will contain a list of error messages that explain the reason for the failure. You can address any issue(s) before re-attempting the validation.</p>
+<p>If a validation is successful, you can do a test submission (this is done by using the <code>-submit</code> option in place of <code>-validate</code> in the commands given above). Continue using the test server (by keeping the <code>-test</code> option), and keep the same input and output directories as for the validation option.</p>
+<p>When you move on to doing a real submission, use the same commands as those given above but with the <code>-test</code> option removed. If you have multiple manifest files, you can put the commands in a script file instead, so that the process can run automatically. See for example <code>$WORKSHOP/01-route/sequences/manifest_upload.sh</code> in the example data.</p>
+<h4 id="what-happens-after-submission">What happens after submission</h4>
+<p>Once the submitted sequence assemblies have been processed, they will be distributed as <strong>EMBL flat files</strong>, see <a href="https://ena-docs.readthedocs.io/en/latest/submit/fileprep/flat-file-example.html">this example from ENA</a> to understand the format. These files largely comprise of:</p>
+<ol>
+<li>Metadata, such as author names and addresses (contained in lines beginning with <code>R</code>, e.g. <code>RA</code>, <code>RL</code>, <code>RG</code>)</li>
+<li>Sample information, located inside a <code>source</code> block</li>
+<li>The sequence itself</li>
+</ol>
+<p>Upon generation of the EMBL file, sequences also acquire a sequence accession number. This accession number will comprise of 2 upper case letters followed by 6 numbers, e.g. <a href="https://www.ebi.ac.uk/ena/browser/api/embl/LR991698.2?lineLimit=1000">LR991698</a>.</p>
+<p>For each assembly submission, Webin will report a unique accession number (starting with ERZ). For most assemblies, this number is only used for internal processing and will not be visible in the browser. However, for SARS-CoV-2 assemblies, the ERZ records will also be available in the browser to provide a point of access for the submitted file(s).</p>
+</div>
+    </div>
+</div>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

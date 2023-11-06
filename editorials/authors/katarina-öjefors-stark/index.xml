@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katarina Öjefors Stark on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/editorials/authors/katarina-%C3%B6jefors-stark/</link>
+    <description>Recent content in Katarina Öjefors Stark on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/editorials/authors/katarina-%C3%B6jefors-stark/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The pandemic has paved the way for data sharing</title>
+      <link>https://www.pathogens.se/editorials/pandemic_data_sharing/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/editorials/pandemic_data_sharing/</guid>
+      <description>Details the importance of sharing data, tools, and techniques in the COVID-19 pandemic and for future pandemic preparedness. Highlights how this applies to this year’s Nobel Prize in Medicine.</description>
+    </item>
+    
+  </channel>
+</rss>

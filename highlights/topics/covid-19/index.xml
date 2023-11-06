@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/highlights/topics/covid-19/</link>
+    <description>Recent content in COVID-19 on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/highlights/topics/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>METTL3 localisation during SARS-CoV-2 infection could highlight new novel antiviral strategy</title>
+      <link>https://www.pathogens.se/highlights/mettl3_localisation/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/mettl3_localisation/</guid>
+      <description>Vaid and Mendez, and collaborators, studied how the gene expression profile of m6A mRNA is affected both during and after COVID-19 infection. All sequencing data and the source code for analysis are shared.</description>
+    </item>
+    
+    <item>
+      <title>Variability in IGH antibody genes influences the response to SARS-CoV-2</title>
+      <link>https://www.pathogens.se/highlights/igh_antibody_genes/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/igh_antibody_genes/</guid>
+      <description>Pushparaj and colleagues use genotyping and haplotype analysis to show high genetic diversity in IGH genes among humans, which may influence our response to infections. Data, and IgDiscover software shared.</description>
+    </item>
+    
+    <item>
+      <title>A wider variety of data sources contribute to better spatio-temporal predictions of COVID-19 test positivity</title>
+      <link>https://www.pathogens.se/highlights/covidtest_spatiotemp_uppsala/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/covidtest_spatiotemp_uppsala/</guid>
+      <description>Van Zoest &lt;em&gt;et al&lt;/em&gt; (2022) developed and evaluated the performance of four different statistical single models and one ensemble model to predict trends in COVID-19 test positivity. Data are shared openly in GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Data-driven research shows that Neanderthal gene connected to severity of COVID-19 (Update)</title>
+      <link>https://www.pathogens.se/highlights/neanderthal_gene_data_driven/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/neanderthal_gene_data_driven/</guid>
+      <description>Study by Hugo Zeberg and Svante Pääbo fully based on openly available data published open access in &lt;em&gt;Nature&lt;/em&gt;.&lt;br&gt;&lt;br&gt;Now a Nobel Prize winner!!</description>
+    </item>
+    
+    <item>
+      <title>Direct RT-PCR used to monitor Omicron BA.1/BA.2 variant transition in Sweden (Update)</title>
+      <link>https://www.pathogens.se/highlights/omicron_variant_transition/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/omicron_variant_transition/</guid>
+      <description>Lentini and collegues used direct RT-PCR to show the transition from Omicron BA.1 to sub-variant BA.2 in Sweden Jan-March 2022. New Preprint from Reinius lab which shares data and code.</description>
+    </item>
+    
+    <item>
+      <title>Large scale immunofluorescence to explore the host cell response to SARS-CoV-2 infection</title>
+      <link>https://www.pathogens.se/highlights/immunofluorescence/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/immunofluorescence/</guid>
+      <description>Expression of 602 host proteins were evaluated in populations of infected and non-infected cells using immunofluorescence. ≈75,000 images have been published as a resource for further studies.</description>
+    </item>
+    
+    <item>
+      <title>Interactions between fragments and SARS-CoV-2 nsp10 provide insight into the viral replications</title>
+      <link>https://www.pathogens.se/highlights/fragments_nsp10/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/fragments_nsp10/</guid>
+      <description>Interactions between fragments and SARS-CoV-2 nsp10 have been successfully identified and characterised by Kozielski and colleagues. Data shared on the Protein Data Bank and Zenodo.</description>
+    </item>
+    
+    <item>
+      <title>Study provides important insights for future predictions of SARS CoV-2 infection</title>
+      <link>https://www.pathogens.se/highlights/sars-cov2_t-cell_response/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/sars-cov2_t-cell_response/</guid>
+      <description>Mangsbo and colleagues investigated sensitivity and specificity of a SARS-CoV-2 T-cell assay. Research warrants further research into that future T-cell receptor sequencing as future tools for prediction of previous infections.</description>
+    </item>
+    
+    <item>
+      <title>Newly discovered Fu2 nanobody hold potential for future antiviral development</title>
+      <link>https://www.pathogens.se/highlights/bispecific_monomeric_nanobody/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/bispecific_monomeric_nanobody/</guid>
+      <description>In this study, Hanke and colleagues discovered a new nanobody. The new RBD-specific Fu2 nanobody was found to utilize a unique neutralization mechanism. Data was shared openly in, eg. The Electron Microscopy Data Bank.</description>
+    </item>
+    
+    <item>
+      <title>OAS1 splicing found to be associated with risk of severe COVID-19</title>
+      <link>https://www.pathogens.se/highlights/oas1_splicing_and_severe_covid/</link>
+      <pubDate>Wed, 09 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/oas1_splicing_and_severe_covid/</guid>
+      <description>In this article, Huffman et al studied individuals across different ancestry groups and discusses the association between OAS1 splicing and severity of COVID-19. Data related to this study is shared publicly.</description>
+    </item>
+    
+    <item>
+      <title>Mass spectrometry suggested as a future essential analytical contribution to Covid-19 pandemic readiness</title>
+      <link>https://www.pathogens.se/highlights/massspec_pandemic_prep/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/massspec_pandemic_prep/</guid>
+      <description>Hober et al. present how LC-MRM/MS could form the basis of a scalable method that should facilitate future pandemic preparedness. The data has been openly shared.</description>
+    </item>
+    
+    <item>
+      <title>Host factor interaction between human G3BP proteins and SARS-CoV-2 N-protein could represent an antiviral target</title>
+      <link>https://www.pathogens.se/highlights/g3bp_antivirual_target/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/g3bp_antivirual_target/</guid>
+      <description>Kruse and Benz et al. describe a scalable method of investigating virus-host interactions that can be used as a means of identifying potential targets for novel antiviral drugs. All data from the study have been shared publicly.</description>
+    </item>
+    
+    <item>
+      <title>Drug repurposing identifies Fostamatinib as a drug with potentially high efficacy in COVID-19 treatment</title>
+      <link>https://www.pathogens.se/highlights/drug_repurposing/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/drug_repurposing/</guid>
+      <description>Recent study finds that drug repurposing can offer an average of an 11-fold increase in disease coverage and demonstrates its value for COVID-19. All data and code that support the findings have been made publicly available.</description>
+    </item>
+    
+    <item>
+      <title>Clues to the genetic factors underlying greater susceptibility to severe COVID-19 in men</title>
+      <link>https://www.pathogens.se/highlights/x_linked_genes/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/x_linked_genes/</guid>
+      <description>The COVID Human Genetic Efforts consortium published a study on genetic factors underlying greater susceptibility to the severe COVID-19 in men. Relevant RNA-seq data were shared in Gene Expression Omnibus (GEO).</description>
+    </item>
+    
+    <item>
+      <title>Reliable profiling of IgG and IgM levels in home-sampled dried blood spots</title>
+      <link>https://www.pathogens.se/highlights/serology_in_home_sampled_dbs/</link>
+      <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/serology_in_home_sampled_dbs/</guid>
+      <description>Roxhed et al. demonstrate how self sampling at home can be effective by profiling IgG and IgM levels against several versions of SARS-CoV-2 proteins (S, RBD, N) in home-sampled dried blood spots. Metadata records and the analysis scripts used in the study are shared.</description>
+    </item>
+    
+    <item>
+      <title>Metabolic perturbation of SARS-CoV-2 as a potential future therapeutic target</title>
+      <link>https://www.pathogens.se/highlights/metabolic_perturbation_therapeutic_target/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/metabolic_perturbation_therapeutic_target/</guid>
+      <description>Krishnan et al. showed that the SARS-CoV-2 virus can use and rewire metabolic pathways to their benefit in replication. Their findings indicate that host metabolic perturbation could be an attractive strategy to limit replication. Code and data from the study have been shared pubicly.</description>
+    </item>
+    
+    <item>
+      <title>Human genetic mapping can provide insight about COVID-19 pathogenesis and drug development</title>
+      <link>https://www.pathogens.se/highlights/insights_from_genetic_mapping/</link>
+      <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/insights_from_genetic_mapping/</guid>
+      <description>Researchers in the COVID-19 Host Genetics initiative performed genome-wide association meta-analyses to examine the loci involved in the variation of COVID-19 disease severity and susceptibility between individuals. The data and code used in the project have been made available.</description>
+    </item>
+    
+    <item>
+      <title>New phenomics method for antiviral drug discovery may help to fight COVID-19</title>
+      <link>https://www.pathogens.se/highlights/phenomics_method_drug_discovery/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/phenomics_method_drug_discovery/</guid>
+      <description>Rietdijk and colleagues used a new phenomics approach to aid in the discovery of both novel drugs and drugs that could potentially be repurposed to fight COVID-19. Both data and code are published.</description>
+    </item>
+    
+    <item>
+      <title>Interferon signatures in SARS-CoV-2 infected liver cells could provide knowledge for new antiviral therapies</title>
+      <link>https://www.pathogens.se/highlights/interferon_signatures_liver/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/interferon_signatures_liver/</guid>
+      <description>Chen and Saccon et al. used a proteomics-based approach to study how SARS-CoV-2 infection affected Type-1 interferon signalling in liver cells. Both data and code are published.</description>
+    </item>
+    
+    <item>
+      <title>Cost-effective COVseq method could be used for large-scale genomic surveillance of VOCs</title>
+      <link>https://www.pathogens.se/highlights/covseq_surveillance_vocs/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/covseq_surveillance_vocs/</guid>
+      <description>Simonetti, Zhang, and Harbers et al. have shared a cost-effective, scalable and versatile method (alongside associated data and code) that could facilitate large-scale genomic surveillance of variants of concern (VOCs).</description>
+    </item>
+    
+    <item>
+      <title>Quantitative proteomic provides important knowledge about cellular response against SARS CoV-2</title>
+      <link>https://www.pathogens.se/highlights/cellular_response/</link>
+      <pubDate>Wed, 19 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/cellular_response/</guid>
+      <description>Saccon and colleagues studied changes in protein abundance caused by SARS-CoV-2 virus in susceptible cell lines using quantitative proteomics. All proteomics were made data openly available in different repositories.</description>
+    </item>
+    
+    <item>
+      <title>Proteomic profiling in COVID-19 patients as biomarkers to monitor disease severity</title>
+      <link>https://www.pathogens.se/highlights/proteomic_blood_profiling/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/proteomic_blood_profiling/</guid>
+      <description>Recent study examined a large number of inflammatory, immune response, cardiovascular, and neurological markers in the blood of patients variously impacted by COVID-19. Data and analysis code were shared in public repositories.</description>
+    </item>
+    
+    <item>
+      <title>Swedish COVID-19 symptom data contribute to accelerating research about pandemic</title>
+      <link>https://www.pathogens.se/highlights/symptom-study-sweden/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/symptom-study-sweden/</guid>
+      <description>COVID Symptom Study Sweden collects data through a smartphone app to investigate prevalence, risk factors, and symptoms associated with COVID-19. To date, over 200.000 volunteers have enrolled in the study.</description>
+    </item>
+    
+    <item>
+      <title>Neanderthal gene protecting against severe COVID-19 could be potential new drug target</title>
+      <link>https://www.pathogens.se/highlights/neanderthal-gene-protecting/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/neanderthal-gene-protecting/</guid>
+      <description>A new study largely relying on existing data re-use identified circulating proteins influencing COVID-19 susceptibility and severity. Based on these results, work on repurposing relevant existing drugs work can now be launched.</description>
+    </item>
+    
+    <item>
+      <title>Bevacizumab treatment beneficial for patients with severe COVID-19</title>
+      <link>https://www.pathogens.se/highlights/bevacizumab_treatment/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/bevacizumab_treatment/</guid>
+      <description>A recently published clinical study investigating bevacizumab, a humanized anti-VEGF monoclonal antibody, offers promising results in fighting severe COVID-19. Treatment progress data and analysis code were shared publicly.</description>
+    </item>
+    
+    <item>
+      <title>Nanobodies promising new therapeutics for treatment of SARS CoV-2</title>
+      <link>https://www.pathogens.se/highlights/nanobodies_treatment/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/nanobodies_treatment/</guid>
+      <description>A recently published study characterizes the mechanisms by which nanobodies neutralize or prevent of infection in molecular detail. Crystallographic coordinates, cryo-EM density maps, and atomic coordinates were deposited to public databases.</description>
+    </item>
+    
+    <item>
+      <title>Mechanism of entry used by human species D adenoviruses proving important for COVID-19 vaccine development</title>
+      <link>https://www.pathogens.se/highlights/adenovirus/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/adenovirus/</guid>
+      <description>New study identifies a noncanonical entry mechanism used by human adenoviruses, important for development of adenovirus-based vaccine vectors. The reported X-ray structural data was made available through the Protein Data Bank.</description>
+    </item>
+    
+    <item>
+      <title>A novel approach to discover and characterize broad-spectrum antivirals</title>
+      <link>https://www.pathogens.se/highlights/antivirals/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/antivirals/</guid>
+      <description>Newly discovered antiviral compounds showed broad-range antiviral activity against pathogenic RNA viruses such as SARS-CoV-2. The authors share data freely in open repositories.</description>
+    </item>
+    
+    <item>
+      <title>Pathogenesis of hyperinflammatory syndrome associated with COVID-19 in children</title>
+      <link>https://www.pathogens.se/highlights/multisystem_inflammatory_syndrome/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/multisystem_inflammatory_syndrome/</guid>
+      <description>Multiple autoantibodies and specific cytokines could be involved in the pathogenesis of MIS-C associated with COVID-19. Data and code made available in open repositories.</description>
+    </item>
+    
+    <item>
+      <title>An alpaca-derived nanobody can potently neutralize SARS-CoV-2</title>
+      <link>https://www.pathogens.se/highlights/alpaca-nanobody/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/alpaca-nanobody/</guid>
+      <description>Leo Hanke and colleagues identified a SARS-CoV-2 RBD-specific single domain antibody fragment, &lt;em&gt;Ty1&lt;/em&gt;, that potently neutralizes the virus. Ty1 should now be further investigated as a candidate for antiviral therapy.</description>
+    </item>
+    
+    <item>
+      <title>Synthetic nanobodies are easy to produce and can effectively neutralize SARS-CoV-2</title>
+      <link>https://www.pathogens.se/highlights/synthetic_nanobodies/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/synthetic_nanobodies/</guid>
+      <description>Recently published study demonstrates that it is possible to select highly specific binders with neutralizing activity against SARS-CoV-2 from a synthetic nanobody library in a short timeframe.</description>
+    </item>
+    
+    <item>
+      <title>MAIT cell activation and dynamics studied in relation to COVID-19 disease severity</title>
+      <link>https://www.pathogens.se/highlights/immunopathogenesis/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/immunopathogenesis/</guid>
+      <description>Tiphaine Parrot and colleagues studied changes in conventional and unconventional T cell subsets in patients with various disease severity using flow cytometry. The results were published along with the data.</description>
+    </item>
+    
+    <item>
+      <title>Crystal structure of SARS CoV-2 nsp-10 - a potential drug target for COVID-19</title>
+      <link>https://www.pathogens.se/highlights/nsp10_crystal_structure/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/nsp10_crystal_structure/</guid>
+      <description>A study by Rogstam and colleagues published along with the crystal structure of SARS CoV-2 non-structural protein 10 in the Protein Data Bank provides a starting point for structure-guided drug discovery and design.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian model for estimating the impact of mobility patterns on COVID-19 infection</title>
+      <link>https://www.pathogens.se/highlights/estimating_impact_mobility_patterns/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/estimating_impact_mobility_patterns/</guid>
+      <description>Patrick Bryant and Arne Elofsson shared code and instructions for modelling COVID-19 development using MCMC simulations based on mobile phone mobility data from Google mobility reports.</description>
+    </item>
+    
+    <item>
+      <title>First study using data collected as part of the large-scale serology testing at SciLifeLab published</title>
+      <link>https://www.pathogens.se/highlights/serological_investigation_collaborations/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/serological_investigation_collaborations/</guid>
+      <description>This study used only a fraction of the large volume of serology data continuously collected by the ScilifeLab Autoimmunity and Serology profiling facility.</description>
+    </item>
+    
+    <item>
+      <title>Method circumventing RNA extraction in RT-PCR COVID-19 testing published along with data</title>
+      <link>https://www.pathogens.se/highlights/rna_extraction_free_rt_pcr/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/rna_extraction_free_rt_pcr/</guid>
+      <description>Study by Björn Reinius and co-workers published open access in &lt;em&gt;Nature Communications&lt;/em&gt; along with source data and the computational code.</description>
+    </item>
+    
+  </channel>
+</rss>

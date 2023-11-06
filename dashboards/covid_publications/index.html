@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications | The Swedish Pathogens Portal</title>
+  <meta name="description" content='A summary of the COVID-19 and SARS-CoV-2 publications produced involving at least one contributor from a Swedish university or research institute. Shows publications over time and key words/phrases within them.'>
+  
+  <link rel="alternate" hreflang="sv" href="/sv/dashboards/covid_publications/" title="Svenska">
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications" />
+<meta property="og:description" content="A summary of the COVID-19 and SARS-CoV-2 publications produced involving at least one contributor from a Swedish university or research institute. Shows publications over time and key words/phrases within them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/dashboards/covid_publications/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="dashboards" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications"/>
+<meta name="twitter:description" content="A summary of the COVID-19 and SARS-CoV-2 publications produced involving at least one contributor from a Swedish university or research institute. Shows publications over time and key words/phrases within them."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/covid_publications/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/covid_publications/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/covid_publications/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/covid_publications/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/">The Swedish Pathogens Portal</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/dashboards/">Dashboards</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<p>The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves <a href="/publications/">can be found on this page</a>, and is available for download, please see <a href="https://doi.org/10.17044/scilifelab.14124014">DOI: 10.17044/scilifelab.14124014</a> for details. The database is manually curated, so may not be exhaustive. From May 2023, we began to use the Europe PMC REST API to idenfy publications. The scripts that we use to do this are <a href="https://github.com/ScilifelabDataCentre/covid-portal-scripts/tree/main/All_publications">openly available on GitHub</a> and can be reused for work with other pathogens. The database is updated monthly at the start of the month.</p>
+<p>The code used to produce the visulations on this page can be found on <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations">GitHub</a>. Specifically, code related to the number of publications can be found in the <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Count_publications">&lsquo;Count_publications&rsquo; folder of the repository</a>, and code used to generated the wordclouds can be found in the <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud">&lsquo;Wordcloud&rsquo; folder</a>.</p>
+<h2 id="number-of-new-publications">Number of new publications</h2>
+<p>This graph displays the number of publications (including both journal publications and preprints) published each month, as well as the cumulative daily total of publications contained in the database. The dates reflect either the dates that the articles were uploaded to preprint servers (in the case of preprints) or the official journal publication date, whichever is the most recent. Where a given day of publication is not specified, we assign the date as the first of the month. This causes the appearance of a relatively sharp increase at the start of each month.</p>
+<div class="d-md-none alert alert-info">
+  Rotating your phone may improve graph layout
+</div>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">
+
+<div id="https://blobserver.dc.scilifelab.se/blob/COVID_publication_count.json" class="plotly" style="height:600px"></div>
+<script>
+Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/COVID_publication_count.json", function(err, fig) {
+    var config = {responsive: true};
+    
+    
+    
+    
+    Plotly.plot('https:\/\/blobserver.dc.scilifelab.se\/blob\/COVID_publication_count.json', fig.data, fig.layout, config);
+});
+</script>
+</div>
+</div>
+<!-- <div class="table-responsive">
+<div>
+  <div id="a2f7babf-25ab-4815-ba09-0909f42ebaca" class="plotly-graph-div" style="height: 500px; width: 1000px;"></div>
+  <script
+    type="text/javascript">Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/covid-portal-publication-counts.json", function (error, dyndata) { window.PLOTLYENV = window.PLOTLYENV || {}; if (document.getElementById("a2f7babf-25ab-4815-ba09-0909f42ebaca")) { Plotly.newPlot("a2f7babf-25ab-4815-ba09-0909f42ebaca", [{ hovertemplate: "Month: %{x|%B %Y}<br>Publications Added: %{y}", marker: { color: "rgb(222,44,108)" }, name: "Added Per Month", type: "bar", x: dyndata["months"], y: dyndata["per_month"] }, { hovertemplate: "Date: %{x}<br>Total Publications: %{y}", line: { width: 5 }, marker: { color: "rgb(46,104,165)" }, mode: "lines", name: "Cumulative Total", type: "scatter", x: dyndata["dates"], y: dyndata["cumsums"] }], { font: { size: 14 }, height: 500, margin: { r: 150 }, plot_bgcolor: "white", template: { data: { bar: [{ error_x: { color: "#2a3f5f" }, error_y: { color: "#2a3f5f" }, marker: { line: { color: "#E5ECF6", width: .5 } }, type: "bar" }], barpolar: [{ marker: { line: { color: "#E5ECF6", width: .5 } }, type: "barpolar" }], carpet: [{ aaxis: { endlinecolor: "#2a3f5f", gridcolor: "white", linecolor: "white", minorgridcolor: "white", startlinecolor: "#2a3f5f" }, baxis: { endlinecolor: "#2a3f5f", gridcolor: "white", linecolor: "white", minorgridcolor: "white", startlinecolor: "#2a3f5f" }, type: "carpet" }], choropleth: [{ colorbar: { outlinewidth: 0, ticks: "" }, type: "choropleth" }], contour: [{ colorbar: { outlinewidth: 0, ticks: "" }, colorscale: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], type: "contour" }], contourcarpet: [{ colorbar: { outlinewidth: 0, ticks: "" }, type: "contourcarpet" }], heatmap: [{ colorbar: { outlinewidth: 0, ticks: "" }, colorscale: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], type: "heatmap" }], heatmapgl: [{ colorbar: { outlinewidth: 0, ticks: "" }, colorscale: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], type: "heatmapgl" }], histogram: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "histogram" }], histogram2d: [{ colorbar: { outlinewidth: 0, ticks: "" }, colorscale: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], type: "histogram2d" }], histogram2dcontour: [{ colorbar: { outlinewidth: 0, ticks: "" }, colorscale: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], type: "histogram2dcontour" }], mesh3d: [{ colorbar: { outlinewidth: 0, ticks: "" }, type: "mesh3d" }], parcoords: [{ line: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "parcoords" }], pie: [{ automargin: true, type: "pie" }], scatter: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scatter" }], scatter3d: [{ line: { colorbar: { outlinewidth: 0, ticks: "" } }, marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scatter3d" }], scattercarpet: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scattercarpet" }], scattergeo: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scattergeo" }], scattergl: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scattergl" }], scattermapbox: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scattermapbox" }], scatterpolar: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scatterpolar" }], scatterpolargl: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scatterpolargl" }], scatterternary: [{ marker: { colorbar: { outlinewidth: 0, ticks: "" } }, type: "scatterternary" }], surface: [{ colorbar: { outlinewidth: 0, ticks: "" }, colorscale: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], type: "surface" }], table: [{ cells: { fill: { color: "#EBF0F8" }, line: { color: "white" } }, header: { fill: { color: "#C8D4E3" }, line: { color: "white" } }, type: "table" }] }, layout: { annotationdefaults: { arrowcolor: "#2a3f5f", arrowhead: 0, arrowwidth: 1 }, autotypenumbers: "strict", coloraxis: { colorbar: { outlinewidth: 0, ticks: "" } }, colorscale: { diverging: [[0, "#8e0152"], [.1, "#c51b7d"], [.2, "#de77ae"], [.3, "#f1b6da"], [.4, "#fde0ef"], [.5, "#f7f7f7"], [.6, "#e6f5d0"], [.7, "#b8e186"], [.8, "#7fbc41"], [.9, "#4d9221"], [1, "#276419"]], sequential: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]], sequentialminus: [[0, "#0d0887"], [.1111111111111111, "#46039f"], [.2222222222222222, "#7201a8"], [.3333333333333333, "#9c179e"], [.4444444444444444, "#bd3786"], [.5555555555555556, "#d8576b"], [.6666666666666666, "#ed7953"], [.7777777777777778, "#fb9f3a"], [.8888888888888888, "#fdca26"], [1, "#f0f921"]] }, colorway: ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], font: { color: "#2a3f5f" }, geo: { bgcolor: "white", lakecolor: "white", landcolor: "#E5ECF6", showlakes: true, showland: true, subunitcolor: "white" }, hoverlabel: { align: "left" }, hovermode: "closest", mapbox: { style: "light" }, paper_bgcolor: "white", plot_bgcolor: "#E5ECF6", polar: { angularaxis: { gridcolor: "white", linecolor: "white", ticks: "" }, bgcolor: "#E5ECF6", radialaxis: { gridcolor: "white", linecolor: "white", ticks: "" } }, scene: { xaxis: { backgroundcolor: "#E5ECF6", gridcolor: "white", gridwidth: 2, linecolor: "white", showbackground: true, ticks: "", zerolinecolor: "white" }, yaxis: { backgroundcolor: "#E5ECF6", gridcolor: "white", gridwidth: 2, linecolor: "white", showbackground: true, ticks: "", zerolinecolor: "white" }, zaxis: { backgroundcolor: "#E5ECF6", gridcolor: "white", gridwidth: 2, linecolor: "white", showbackground: true, ticks: "", zerolinecolor: "white" } }, shapedefaults: { line: { color: "#2a3f5f" } }, ternary: { aaxis: { gridcolor: "white", linecolor: "white", ticks: "" }, baxis: { gridcolor: "white", linecolor: "white", ticks: "" }, bgcolor: "#E5ECF6", caxis: { gridcolor: "white", linecolor: "white", ticks: "" } }, title: { x: .05 }, xaxis: { automargin: true, gridcolor: "white", linecolor: "white", ticks: "", title: { standoff: 15 }, zerolinecolor: "white", zerolinewidth: 2 }, yaxis: { automargin: true, gridcolor: "white", linecolor: "white", ticks: "", title: { standoff: 15 }, zerolinecolor: "white", zerolinewidth: 2 } } }, width: 1e3, xaxis: { dtick: "M1", linecolor: "black", showgrid: true, tick0: "2020-01-01", tickangle: 45, title: { text: "<b>Date</b>" } }, yaxis: { gridcolor: "grey", linecolor: "black", range: dyndata["range"], showgrid: true, title: { text: "<b>Number of Publications</b>" } } }, { responsive: true }) } });</script>
+</div>
+</div> -->
+<p><strong>Code used to produce plot:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Count_publications/count_publications.py">Script to produce plot</a>.</p>
+<h2 id="ten-most-recent-publications">Ten most recent publications</h2>
+<p>This table displays the ten most recent publications in our database (including both journal publications and preprints). The date reflects the preprint upload date or the official journal publication date, whichever is the most recent. Authors are summarised in the same format as expected in &lsquo;in text&rsquo; citations. Clicking on the title for a given publication will take you directly to that publication. Note though, that it will only be possible to read the full text of publication if it is open access or if you are granted access via a subscription (e.g. an institutional subscription, or private journal subscripton). Any additions to the manually curated publications database will become visible on this table within a day.</p>
+<div class="table-responsive">
+
+
+<div>
+  <table id="topTenPubTable" class="table table-striped">
+    <thead>
+      <tr>
+        <th style="width:20%" scope="col">Published</th>
+        <th style="width:20%" scope="col">Authors</th>
+        <th style="width:60%" scope="col">Title</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+
+
+<script type="text/javascript">
+  Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/covid-portal-recent10.json", function (error, dyndata) {
+    let tbody = document.getElementById("topTenPubTable").getElementsByTagName('tbody')[0];
+    dyndata["publications"].forEach(function (item) {
+      let row = tbody.insertRow();
+      let td = row.insertCell();
+      td.textContent = item.published;
+      td = row.insertCell();
+      td.textContent = item.authors;
+      td = row.insertCell();
+      let doiLink = document.createElement("a");
+      doiLink.href = "https://doi.org/" + item.doi;
+      doiLink.text = item.title;
+      td.appendChild(doiLink);
+    });
+  });
+</script>
+</div>
+<h2 id="most-frequent-words-or-two-word-phrases-in-the-titles">Most frequent words or two word phrases in the titles</h2>
+<p>These wordclouds display the words and two word phrases that appear most frequently in the titles of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. &lsquo;the&rsquo;, &lsquo;a&rsquo;, &lsquo;this&rsquo;) as well as the words &lsquo;COVID-19&rsquo; and &lsquo;SARS-CoV-2&rsquo;, since these appeared in almost all titles. The wordclouds are updated weekly.</p>
+<p><strong>Code used to produce plot:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Wordcloud/livewordcloud.py">Script to produce wordclouds</a>. Note that the script relies on multiple external files that can be found in the <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud">same folder in the GitHub repository</a>.</p>
+<h4 id="all-publications">All publications</h4>
+<div class="row my-4"><div class="col-md-8"><img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-titles_all.png"></div></div>
+<h4 id="publications-attributed-to-particular-research-funders">Publications attributed to particular research funders</h4>
+<p>Wordclouds are displayed for each funder that we identified as having been associated with at least 20 publications in the database.</p>
+<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-titles_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-titles_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-titles_h2020.png"> </div> </div> </div> </div>
+<h2 id="most-frequent-words-or-two-word-phrases-in-the-abstracts">Most frequent words or two word phrases in the abstracts</h2>
+<p>These wordclouds display the words and two word phrases that appear most frequently in the abstracts of preprints or journal publications within the database. Note that we have filtered out commonly used words that are uninformative (e.g. &lsquo;the&rsquo;, &lsquo;a&rsquo;, &lsquo;this&rsquo;) as well as the words &lsquo;COVID-19&rsquo; and &lsquo;SARS-CoV-2&rsquo;, since these appeared in almost all abstracts. The wordclouds are updated weekly.</p>
+<p><strong>Code used to produce plot:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/Wordcloud/livewordcloud.py">Script to produce wordclouds</a>. Note that the script relies on multiple external files that can be found in the <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/Wordcloud">same folder in the GitHub repository</a>.</p>
+<h4 id="all-publications-1">All publications</h4>
+<div class="row my-4"><div class="col-md-8"><img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-abstracts_all.png"></div></div>
+<h4 id="publications-attributed-to-particular-research-funders-1">Publications attributed to particular research funders</h4>
+<p>Wordclouds are displayed for each funder that we identified as having been associated with at least 20 publications in the database.</p>
+<div class="container"> <div class="row mt-2"> <div class="col-md mr-4"> <div class="row"> <h5>Swedish Research Council:</h5> </div> <div class="row"> <img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-abstracts_vr.png"> </div> </div> <div class="col-md mr-4"> <div class="row"> <h5>SciLifeLab/KAW:</h5> </div> <div class="row"> <img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-abstracts_kaw.png"> </div> </div> <div class="col-md"> <div class="row"> <h5>Horizon 2020:</h5> </div> <div class="row"> <img src="https://blobserver.dc.scilifelab.se/blob/covid-portal-abstracts_h2020.png"> </div> </div> </div> </div>
+
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

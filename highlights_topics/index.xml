@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Highlights_topics on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/highlights_topics/</link>
+    <description>Recent content in Highlights_topics on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/highlights_topics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infectious diseases</title>
+      <link>https://www.pathogens.se/highlights/topics/infectious-diseases/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/topics/infectious-diseases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://www.pathogens.se/highlights/topics/covid-19/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/topics/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antibiotic resistance</title>
+      <link>https://www.pathogens.se/highlights/topics/antibiotic-resistance/</link>
+      <pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/topics/antibiotic-resistance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enteric viruses</title>
+      <link>https://www.pathogens.se/highlights/topics/enteric-viruses/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/topics/enteric-viruses/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

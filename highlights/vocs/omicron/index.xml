@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omicron on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/highlights/vocs/omicron/</link>
+    <description>Recent content in Omicron on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.pathogens.se/highlights/vocs/omicron/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Direct RT-PCR used to monitor Omicron BA.1/BA.2 variant transition in Sweden (Update)</title>
+      <link>https://www.pathogens.se/highlights/omicron_variant_transition/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/highlights/omicron_variant_transition/</guid>
+      <description>Lentini and collegues used direct RT-PCR to show the transition from Omicron BA.1 to sub-variant BA.2 in Sweden Jan-March 2022. New Preprint from Reinius lab which shares data and code.</description>
+    </item>
+    
+  </channel>
+</rss>

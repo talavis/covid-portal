@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ | The Swedish Pathogens Portal</title>
+  <meta name="description" content=''>
+  
+  <meta http-equiv="content-language" content="en">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ" />
+<meta property="og:description" content="Dahmane et al (2022) used Cryo-electron tomography to provide an integrated structural framework for multiple stages of the poliovirus life cycle. Data and code are shared openly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/highlights/poliovirus_replication/" /><meta property="og:image" content="https://www.pathogens.se/highlights/banners/segmentation_highReso.jpeg" /><meta property="article:section" content="highlights" />
+<meta property="article:published_time" content="2022-12-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-12-19T00:00:00+00:00" /><meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/highlights/banners/segmentation_highReso.jpeg"/>
+
+<meta name="twitter:title" content="Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ"/>
+<meta name="twitter:description" content="Dahmane et al (2022) used Cryo-electron tomography to provide an integrated structural framework for multiple stages of the poliovirus life cycle. Data and code are shared openly."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+          </li>
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/highlights/poliovirus_replication/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          <li class="nav-item"><a class="nav-link" href="/sv/highlights/"><span lang="sv">sv <img
+                  src="/img/flag-sv.svg" alt=""></span></a></li>
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/about/">About</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/contact/">Contact</a>
+        </li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/highlights/poliovirus_replication/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        <li class="nav-item"><a class="nav-link" href="/sv/highlights/"><span lang="sv">sv <img
+                src="/img/flag-sv.svg" alt=""></span></a></li>
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Contribute</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/share-data/"><i class="bi bi-server me-2"></i>Share data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/support/"><i class="bi bi-people-fill me-2"></i>Get support</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataAndHighlight" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataAndHighlight">
+             <i class="bi bi-table"></i> Available Data & Highlights <i class="bi bi-caret-down-fill small"></i>
+           </a>
+            <div class="collapse main_menu_item_sub ps-4" id="dataAndHighlight">
+              <a href="#availableData" data-bs-toggle="collapse"  role="button"
+                 aria-expanded="false" aria-controls="availableData">
+                 Available Datasets <i class="bi bi-caret-down-fill small"></i>
+              </a>
+              <div class="collapse main_menu_item_sub ps-4" id="availableData">
+                
+                <a class="d-block m-0" href="/datasets/all/">All data types</a>
+                
+                <a class="d-block m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                
+                <a class="d-block m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                
+                <a class="d-block m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                
+                <a class="d-block m-0" href="/datasets/health/">Health data</a>
+                
+                <a class="d-block m-0" href="/datasets/imaging/">Imaging data</a>
+                
+                <a class="d-block m-0" href="/datasets/other/">Other data</a>
+                
+                <a class="d-block m-0" href="/datasets/protein/">Protein data</a>
+                
+                <a class="d-block m-0" href="/datasets/public-health/">Public health data</a>
+                
+                <a class="d-block m-0" href="/datasets/serology/">Serology data</a>
+                
+                <a class="d-block m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                
+              </div>
+              <a class="d-block" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+             <i class="bi bi-graph-up"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+            <a class="d-block" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="d-block" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="d-block" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="d-block" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="d-block" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="d-block" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="d-block" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="d-block" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="d-block" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#researchAndFunding" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="researchAndFunding">
+            <i class="bi bi-inboxes-fill"></i> Research & Funding <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="researchAndFunding">
+            <a class="d-block" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="d-block" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="d-block" href="/register-based-research/">Register-based research</a>
+            
+            <a class="d-block" href="/funding/">Funding opportunities</a>
+            
+            <a class="d-block" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <a href="#topics" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="topics">
+            <i class="bi bi-card-list"></i> Topics <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="topics">
+            
+            <a class="d-block" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="d-block" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="d-block" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="d-block" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="d-block" href="/topics/influenza/">Influenza</a>
+            
+            <a class="d-block" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item pb-1">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+    <div class="col-lg">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-table"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+             data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+             aria-expanded="false">Available Data & Highlights</a>
+            <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropend">
+                <a class="dropdown-item dropdown-toggle m-0" href="#" id="navbarDropdownMenuLink"
+                   data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Available Datasets</a>
+                <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+                  
+                  <a class="dropdown-item m-0" href="/datasets/all/">All data types</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/biochemistry/">Biochemistry data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/drug-discovery/">Drug discovery data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/genomics-transcriptomics/">Genomics &amp; transcriptomics data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/health/">Health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/imaging/">Imaging data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/other/">Other data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/protein/">Protein data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/public-health/">Public health data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/serology/">Serology data</a>
+                  
+                  <a class="dropdown-item m-0" href="/datasets/social-science-humanities/">Social science and humanities data</a>
+                  
+                </div>
+              </div>
+              <a class="dropdown-item m-0" href="/highlights/">Data Highlights</a>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-graph-up"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data Dashboards</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/dashboards/serology-statistics/">Antibody tests for SARS-CoV-2 at SciLifeLab</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/symptom_study_sweden/">COVID Symptom Study Sweden (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/covid_publications/">COVID-19 publication overview</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/crush_covid/">CRUSH Covid Uppsala (Partner)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/post_covid/">Post COVID-19 condition</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/recovac/">Register-based vaccination (RECOVAC)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/variants_region_uppsala/">SARS-CoV-2 whole genome sequencing (Region Uppsala)</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/vaccines/">Vaccine administration: COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/dashboards/wastewater/">Wastewater-based epidemiology</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-inboxes-fill"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research & Funding</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item m-0" href="/resources/">Pandemic Preparedness</a>
+            
+            <a class="dropdown-item m-0" href="/research_projects/">Ongoing research projects</a>
+            
+            <a class="dropdown-item m-0" href="/register-based-research/">Register-based research</a>
+            
+            <a class="dropdown-item m-0" href="/funding/">Funding opportunities</a>
+            
+            <a class="dropdown-item m-0" href="/publications/">Swedish COVID-19 Publications</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg mt-3 mt-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-clipboard-data"></i> <a href="/pathogens/">Emerging Pathogens</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/data-management/">Research Data Management</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-collection"></i> <a href="/biobanks/">Sample Collection Database</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg my-3 my-lg-0">
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-card-list"></i>
+          <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-auto-close="outside"
+            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+          <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+            
+            <a class="dropdown-item m-0" href="/topics/antibiotic-resistance/">Antibiotic resistance</a>
+            
+            <a class="dropdown-item m-0" href="/topics/covid-19/">COVID-19</a>
+            
+            <a class="dropdown-item m-0" href="/topics/enteric-viruses/">Enteric viruses</a>
+            
+            <a class="dropdown-item m-0" href="/topics/infectious-diseases/">Infectious diseases</a>
+            
+            <a class="dropdown-item m-0" href="/topics/influenza/">Influenza</a>
+            
+            <a class="dropdown-item m-0" href="/topics/mpox/">Mpox</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-pencil-square"></i> <a href="/editorials/">Editorials</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col main_menu_item">
+          <i class="bi bi-calendar-event"></i> <a href="/events/">Events & Training</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/">The Swedish Pathogens Portal</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/highlights/">Data highlights</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+
+  <div class="bg-light-gray border rounded py-2 px-4 my-3 fst-italic" style="background-color: #E5E5E5;">
+    This data highlight was also <a href="https://data.scilifelab.se/highlights/poliovirus_replication/">published on the SciLifeLab Data Platform</a>, as the work described in this highlight constitutes data-driven life science. The Platform is a hub for data-driven life science in Sweden, containing multiple relevant resources, tools, and services. It includes information on multiple subjects, including infectious diseases, please check out the <a href="https://data.scilifelab.se/">Data Platform</a> for more.
+  </div>
+
+
+<h2>Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ</h2>
+<p class="text-muted">Published: 2022-12-19</p>
+
+<figure class="figure float-md-end mx-2">
+  <img src="/highlights/banners/segmentation_highReso_large.jpeg" alt="Cryo-electron tomography allows new knowledge about poliovirus replication and assembly sites in situ" class="img-thumbnail">
+  <figcaption class="figure-caption mt-1"><i>A cryo-electron tomogram gives a 3D view of a poliovirus-infected cell six hours after infection. Newly produced virus capsids that have not yet been loaded with the viral genome are shown in white, whereas new particles that are loaded with the viral genome, and thus infectious, are shown in red. Double-membrane structures, that related to the cellular pathway of autophagy, are shown in purple. For scale, the capsids have a diameter of 30 nanometers.</i></figcaption>
+</figure>
+
+<p>Over the latest three years, the COVID-19 pandemic has had significant effects on global society, economy, and health. Vaccines have mitigated the effects of the pandemic, though COVID-19 disease outbreaks are still common. Global pandemic preparedness efforts are now underway to build capacity to tackle old and new pathogens as well as viruses with the potential to cause a significant threat to public health.</p>
+<p>Up until the 20th century, millions of people were affected by Poliomyelitis (polio) annually, and the disease has been known since historic times. Whilst most people infected with poliovirus do not have any symptoms, one in four will exhibit flu-like symptoms, including a sore threat, fever, headache, tiredness, and GI symptoms. In a small number of cases, infection can lead to more severe effects, such as meningitis, or paralysis of the arms or legs. In 1948-1955, before a vaccine was readily available in 1955, several global polio epidemics affected the every day life and life quality of many people, but especially families with children. Parents would avoid crowds, check for symptoms, and avoid public places and sports events. Effective global vaccination campaigns followed, and in 1988 there were only 350,000 cases of polio registered worldwide. Today, polio is uncommon, though there are still confirmed cases in non-endemic countries in Europe, Asia, Africa, and US, as well as outbreaks in polio-endemic areas in Afghanistan and Pakistan. However, polio eradication is proving more challenging than hoped for, as shown by recent detection of poliovirus in London sewage and the first new case in decades of poliomyelitis (i.e. polivirus-caused paralysis) in New York, USA. As part of pandemic preparedness efforts, the U.S. Centers for Disease Control and Prevention (CDC) recently announced it would expand wastewater testing to include poliovirus, not just for New York (NY), but also other cities in the US <a href="https://www.cdc.gov/polio/index.htm">CDC, 2022</a>.</p>
+<p>Polio is caused by poliovirus, which is an enterovirus in the Picornaviridae family. Enteroviruses can cause a number of different human diseases, such as poliomyelitis (poliovirus), related acute flaccid myelitis conditions (e.g. EV-D68), and viral myocarditis (Coxsackievirus B3). In brief, the enterovirus particle is a non-enveloped particle (~30 nm diameter), which encapsidates a single-stranded RNA genome of ~7500 nucleotides. Enteroviruses are known to be rapidly multiplied. This is due to remodeling of cytoplasmic membranes for viral genome replication. However, knowledge of how new virions assemble around the newly synthesised genomes and how they are released through secretory autophagy is still warranted. Recent research has shed light on some aspects on enterovirus assembly and release, but key questions have remained unanswered. This is largely due to limitations of the electron microscopy methodology used, which has not allowed visualisation of virus formation inside infected cells.</p>
+<p>In a recent article published in Nature Communications, researchers from Umeå University collaborated with colleagues from Stockholm University (SciLifeLab), US, and Australia, used cryo-electron tomography to study how enteroviruses are assembled and packaged into autophagosomes (First author: Selma Dahmane, Umeå University; Corresponding author: Lars-Anders Carlson, Umeå University).</p>
+<p>Dahmane and colleagues infected HeLa cells with poliovirus type 1, imaged the cytoplasm with cryo-electron tomography, and followed the process post-infection in order to investigated enterovirus assembly <em>in situ</em>. The tomograms revealed that poliovirus assembles directly on replication membranes. Further, the researchers found that to complete the virus assembly the host lipid kinase VPS34 is necessary. In addition, the researchers showed that the balance between ULK1-induced canonical autophagy and virus-induced proviral autophagy determines the virion production level. Inhibiting the initiation of canonical autophagy, though pharmacological inhibition of ULK1, increased the virion production and release. The poliovirus appears to be able to optimize its environment e.g. by turning off the master switch for canonical autophagy (ULK-1).</p>
+<p>In addition, cryo-electron tomograms revealed a multi-layer selectivity in enterovirus-induced autophagy. The autophagy was shown to be able to selectively choose RNA-containing virions over empty capsids, and segregating virions from other types of autophagosome contents. These results have contributed novel insights into the structural framework for multiple stages of the poliovirus life cycle. Future studies to build on this knowledge and further elucidate enterovirus-induced autophagy are warranted and important for pandemic preparedness efforts.</p>
+<h4 id="data-and-code-availability">Data and code availability</h4>
+<ul>
+<li>The subtomogram average maps have been deposited in the Electron Microscopy Data Bank (EMDB) under accession codes <a href="https://www.ebi.ac.uk/emdb/EMD-15390">EMD-15390</a> (empty capsid), <a href="https://www.ebi.ac.uk/emdb/EMD-15391">EMD-15391</a> (RNA-loaded virion), <a href="https://www.ebi.ac.uk/emdb/EMD-15392">EMD-15392</a> (tethered virion), and <a href="https://www.ebi.ac.uk/emdb/EMD-13682">EMD-13682</a> (filament). <a href="https://www.nature.com/articles/s41467-022-33483-7#Sec29">Source data</a> are provided with this paper.</li>
+<li>The script used to pick filament subtomograms from Amira filament tracings is available at <a href="https://github.com/Lars-AndersCarlson/Filament">GitHub</a>.</li>
+</ul>
+<h4 id="article">Article</h4>
+<p>DOI: <a href="https://doi.org/10.1038/s41467-022-33483-7">10.1038/s41467-022-33483-7</a></p>
+<p>Dahmane, S., Kerviel, A., Morado, D.R., Shankar, K., Ahlman, B., Lazarou, M., Altan-Bonnet, N., Carlson, L.A. (2022). Membrane-assisted assembly and selective secretory autophagy of enteroviruses. <em>Nature Commununications</em>,  <em>13</em>, 5986.</p>
+<h4 id="funding">Funding</h4>
+<p>This study was funded by the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie, the Human Frontier Science Program Career Development Award, and the Knut and Alice Wallenberg Foundation (through the Wallenberg Centre for Molecular Medicine Umeå).</p>
+<p>Read more about the research group at Umeå university/Wallenberg Centre for Molecular Medicine (WCMM) <a href="https://www.umu.se/forskning/grupper/lars-anders-carlson/">here</a>.</p>
+
+
+
+<div class="row">
+  <div class="col-md">
+    <span><b>Topics: </b></span>
+    
+    <span class="topic_badge_small"><a href="/highlights/topics/infectious-diseases/">Infectious diseases</a></span>
+    
+    <span class="topic_badge_small"><a href="/highlights/topics/enteric-viruses/">Enteric viruses</a></span>
+    
+  </div>
+  <div class="col-md text-md-end mt-2 mt-md-0">
+    <span><b>Share this: </b></span>
+    <a target="_blank" class="share-button" href="https://twitter.com/intent/tweet?text=Data%20highlight%20on%20the%20Pathogens%20Portal:%20Cryo-electron%20tomography%20allows%20new%20knowledge%20about%20poliovirus%20replication%20and%20assembly%20sites%20in%20situ, https%3a%2f%2fwww.pathogens.se%2fhighlights%2fpoliovirus_replication%2f"><i class="bi bi-twitter-x me-1"></i></a>
+    <a target="_blank" class="share-button" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fwww.pathogens.se%2fhighlights%2fpoliovirus_replication%2f"><i class="bi bi-linkedin me-1"></i></a>
+    <a target="_blank" class="share-button" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.pathogens.se%2fhighlights%2fpoliovirus_replication%2f"><i class="bi bi-facebook me-1"></i></a>
+  </div>
+</div>
+
+<div class="containerborder">
+
+
+
+  <div class="mt-4">
+    <h3>Similar data highlights</h3>
+    
+    
+
+
+
+
+
+
+
+  
+
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4
+            g-2 g-lg-3">
+
+  
+  <div class="col data-highlight" 
+    >
+    <div class="bg-highlight">
+      <div>
+        <a href="/highlights/covidtest_spatiotemp_uppsala/">
+          <img class="img-fluid rounded-top" src="/highlights/banners/COV_spatiopredict_fig7.png" alt="A wider variety of data sources contribute to better spatio-temporal predictions of COVID-19 test positivity">
+        </a>
+      </div>
+      <div class="mt-2">
+              <small>November 22, 2022</small>
+      </div>
+      <div>
+        <h6 class="my-1"><a href="/highlights/covidtest_spatiotemp_uppsala/">A wider variety of data sources contribute to better spatio-temporal predictions of COVID-19 test positivity</a></h6>
+      </div>
+      
+    </div>
+  </div>
+
+  
+  <div class="col data-highlight" 
+    >
+    <div class="bg-highlight">
+      <div>
+        <a href="/highlights/symptom-study-sweden/">
+          <img class="img-fluid rounded-top" src="/highlights/banners/csss.png" alt="Swedish COVID-19 symptom data contribute to accelerating research about pandemic">
+        </a>
+      </div>
+      <div class="mt-2">
+              <small>March 29, 2021</small>
+      </div>
+      <div>
+        <h6 class="my-1"><a href="/highlights/symptom-study-sweden/">Swedish COVID-19 symptom data contribute to accelerating research about pandemic</a></h6>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+</div>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">About</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/about/">About the portal</a></li>
+        
+        <li><a href="/updates/">Portal news</a></li>
+        
+        <li><a href="/partners/">Other National Portals</a></li>
+        
+        <li><a href="/contact/">Support &amp; Feedback</a></li>
+        
+        <li><a href="/privacy/">Privacy notice</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Website code (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Other sections</h2>
+      <ul class="list-unstyled">
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/pathogens/">Emerging Pathogens</a></li>
+        
+        <li><a href="/research_projects/">Ongoing research projects</a></li>
+        
+        <li><a href="/register-based-research/">Register-based research</a></li>
+        
+        <li><a href="/funding/">Funding opportunities</a></li>
+        
+        <li><a href="/publications/">Swedish COVID-19 Publications</a></li>
+        
+      </ul>
+    </div>
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Data</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/dashboards/">Dashboards</a></li>
+        <li><a href="/biobanks/">Sample collection database</a></li>
+        
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Connect</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

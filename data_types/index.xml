@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data_types on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/data_types/</link>
+    <description>Recent content in Data_types on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/data_types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>National Health Metadata Repository - RUT</title>
+      <link>https://www.pathogens.se/data_types/health_data/rut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/data_types/health_data/rut/</guid>
+      <description>The Swedish Research Council has set up a single national entry point, RegisterResearch.se, which provides information and support on register-based research in Sweden. Rich metadata descriptions from public authority register, national quality registers and biobank sample collections can be found via the digital infrastructure and metadata platform RUT (Register Utiliser Tool). RUT currently includes metadata with COVID-19 variables from the National Quality Register for intensive care (SIR). Addition of COVID-19 variables to registers is currently taking place.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://www.pathogens.se/data_types/compound_and_target_data/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/data_types/compound_and_target_data/services/</guid>
+      <description>Small molecule screening and drug repurposing research Chemical Biology Consortium Sweden (CBCS) From the Compound Center at the facility for Chemical Biology (CBCS) you may access ~200 000 compounds. The collection comprises sets that are chemical diverse and suitable for target based or cell based phenotypic screens identifying new compounds modelling a pathway or a target. Also known drugs and tool compounds are available for screening and for drug repurposing projects.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://www.pathogens.se/data_types/imaging_data/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/data_types/imaging_data/services/</guid>
+      <description>Facilities which offer data generation services for imaging:
+  ALM Advanced Light Microscopy facility give support with advanced fluorescence microscopy for nanoscale biological visualization using SIM, STED, STORM/PALM superresolution imaging. The facility also support single molecule spectroscopy measurement and analysis with fluorescence correlation spectroscopy (FCS), as well as combined with superresolution dynamical studies (STED-FCS). Moreover, light-sheet fluorescence microscopy support allow users to image live and/or optically cleared larger samples. Submit your application at the NMI (National Microscopy Infrastructure) project portal.</description>
+    </item>
+    
+    <item>
+      <title>Services</title>
+      <link>https://www.pathogens.se/data_types/protein_data/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/data_types/protein_data/services/</guid>
+      <description>Protein analysis can be conducted using different types of methodologies and across different types of samples. A brief description of technologies using affinity proteomics or mass spectrometry is listed below:
+Affinity-based protein detection   Multiplexed analysis of proteins in body fluids at Plasma Profiling
+  Array-based analysis of antibodies and autoantibody repertoires at Autoimmunity Profiling
+  Proximity-based assays for high-specificity protein analyses at Proximity Assay
+  Single cell and multi-target analysis in blood at Mass Cytometry</description>
+    </item>
+    
+    <item>
+      <title>Services: genomics &amp; transcriptomics</title>
+      <link>https://www.pathogens.se/data_types/genomics_transcriptomics/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/data_types/genomics_transcriptomics/services/</guid>
+      <description>SciLifeLab Genomics Platform The SciLifeLab Genomics Platform has a number of different facilities offering services to researchers across a range of techniques.
+Clinical Genomics Stockholm (Diagnostics Development) In collaboration with Clinical Microbiology department at Karolinska University Hospital, Clinical Genomics Stockholm facility provides sequencing of SARS-CoV-2 using the ARTIC protocol. As part of this collaboration we can provide access to BSL-3 laboratories, high capacity DNA extraction, amplicon sequencing and bioinformatic analylsis. We have capacity to handle projects with thousands of samples, or projects in need of services in prospective manner.</description>
+    </item>
+    
+  </channel>
+</rss>

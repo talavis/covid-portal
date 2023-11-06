@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infectious diseases on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/dashboards/topics/infectious-diseases/</link>
+    <description>Recent content in Infectious diseases on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/dashboards/topics/infectious-diseases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>COVID Symptom Study Sweden</title>
+      <link>https://www.pathogens.se/dashboards/symptom_study_sweden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/symptom_study_sweden/</guid>
+      <description>COVID Symptom Study Sweden is a national research initiative for large-scale data collection and analysis of symptoms, exposure, and risk factors associated with the COVID-19 infection. The project is run by Lund University and Uppsala University in collaboration with King’s College London and Zoe Global Ltd. COVID Symptom Study Sweden is led by prof. Paul Franks and prof. Maria Gomez (Lund University) as well as prof. Tove Fall (Uppsala University).</description>
+    </item>
+    
+    <item>
+      <title>CRUSH Covid data and dashboard, Region Uppsala</title>
+      <link>https://www.pathogens.se/dashboards/crush_covid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/crush_covid/</guid>
+      <description>CRUSH Covid Uppsala is a research project in which Region Uppsala collaborates with researchers from five different research departments at Uppsala University. The purpose of the project is to map outbreaks of COVID-19 in Uppsala County and to try to mitigate the impact of outbreaks by informing the public.
+CRUSH Covid is led by Mats Martinell (senior lecturer at the Department of Public Health and Caring Sciences, General Medicine and Preventive Medicine, Uppsala University) and Tove Fall (professor of Molecular Epidemiology at the Department of Medical Sciences, Molecular Epidemiology, Uppsala University).</description>
+    </item>
+    
+    <item>
+      <title>National Pandemic Centre SARS-CoV-2 (COVID-19) test statistics</title>
+      <link>https://www.pathogens.se/dashboards/npc-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/npc-statistics/</guid>
+      <description>The National Pandemic Centre (NPC) at Karolinska Institute ceased operations of high throughput PCR diagnostics on 2020-12-21.
+The data presented here is no longer updated but is kept for historical reference.
+KI Press Release  The dataset visualised in the graphs on this page is available here. The numbers reported here were compiled automatically and, as such, might not correspond to the numbers reported through other sources for different reasons.</description>
+    </item>
+    
+    <item>
+      <title>Post COVID-19 condition in Sweden: statistics, research projects, and available data</title>
+      <link>https://www.pathogens.se/dashboards/post_covid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/post_covid/</guid>
+      <description>Since the beginning of 2020, the COVID-19 pandemic has challenged healthcare and dramatically changed daily life for people worldwide. The severity of symptoms experienced by patients during the acute infection phase of COVID-19 disease varies between individuals from mild to severe. After this phase, there are usually no indications that the disease will have any long-term effects on their health, regardless of the severity of symptoms experienced during the acute infection phase.</description>
+    </item>
+    
+    <item>
+      <title>Register-based COVID-19 vaccination study (RECOVAC)</title>
+      <link>https://www.pathogens.se/dashboards/recovac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/recovac/</guid>
+      <description>RECOVAC project overview The RECOVAC project (register-based large-scale national population study to monitor COVID-19 vaccination effectiveness and safety) is a register-based national population study focused on monitoring the effectiveness and safety of COVID-19 vaccinations. It is a subproject of SCIFI-PEARL (the Swedish COVID-19 Investigation for Future Insights – a Population Epidemiology Approach using Register Linkage). The RECOVAC project uses a multi-register observational research approach to track the effectiveness of COVID-19 vaccination research and vaccine safety in Sweden.</description>
+    </item>
+    
+    <item>
+      <title>SARS-CoV-2 variants detected in Region Uppsala</title>
+      <link>https://www.pathogens.se/dashboards/variants_region_uppsala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/variants_region_uppsala/</guid>
+      <description>Introduction Surveillance of a viral pathogen is essential for minimising the impacts of that pathogen on society. Without surveillance, it is difficult to understand whether a given pathogen occurs in the area, whether new strains have appeared, or if an outbreak may be likely.
+Throughout the pandemic and until present day, the section for Clinical Microbiology and Hospital Hygiene at Uppsala University Hospital have conducted surveillance for SARS-CoV-2 in Uppsala. To do this, they performed whole genome sequencing on samples from SARS-CoV-2 positive patients in the Uppsala region.</description>
+    </item>
+    
+    <item>
+      <title>SciLifeLab Autoimmunity and Serology profiling facility SARS-CoV-2 antibody test statistics</title>
+      <link>https://www.pathogens.se/dashboards/serology-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/serology-statistics/</guid>
+      <description>Graphs on this page are based on data as per  var xmlhttp = new XMLHttpRequest(); xmlhttp.onreadystatechange = function() { if (this.readyState == 4 &amp;&amp; this.status == 200) { var dataset_info = JSON.parse(this.responseText); document.getElementById(&#34;last_modified&#34;).innerText = String(dataset_info.modified).substring(0,10); } }; xmlhttp.open(&#34;GET&#34;, &#34;https://datagraphics.dc.scilifelab.se/api/dataset/6d6f551abc10413a97a6ab64ebac46bd&#34;, true); xmlhttp.send();  . Total serology test numbers The total number of tests run at SciLifeLab Autoimmunity and Serology profiling facility since the start, split into tests with a positive IgG-result, tests with a negative IgG-result, and R&amp;amp;D tests.</description>
+    </item>
+    
+    <item>
+      <title>The Administration and Study of COVID-19 Vaccines in Sweden</title>
+      <link>https://www.pathogens.se/dashboards/vaccines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/vaccines/</guid>
+      <description>The data on this page is no longer updated at the data source. We are currently assessing the use of other data sources for vaccine data. Please see our RECOVAC dashboard for information on vaccine effectiveness and safety.  General information on COVID-19 vaccines Over the last two years, the COVID-19 pandemic has challenged societies and healthcare systems worldwide. In response, vaccines and therapeautic treatments have been rapidly developed. To date (October 2022), the European Medicines Agency (EMA) has approved six vaccines against COVID-19:</description>
+    </item>
+    
+    <item>
+      <title>Visualisation of COVID-19 and SARS-CoV-2 research in Sweden as reflected in publications</title>
+      <link>https://www.pathogens.se/dashboards/covid_publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/covid_publications/</guid>
+      <description>The visualisations on this page evaluate the development of COVID-19 and SARS-CoV-2 research across Sweden by assessing publication output. Specifically, we consider multiple aspects of journal publications and preprints where at least one author has an affiliation with a Swedish research institute. The database containing the publications themselves can be found on this page, and is available for download, please see DOI: 10.17044/scilifelab.14124014 for details. The database is manually curated, so may not be exhaustive.</description>
+    </item>
+    
+    <item>
+      <title>Wastewater-based epidemiology in Sweden</title>
+      <link>https://www.pathogens.se/dashboards/wastewater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/dashboards/wastewater/</guid>
+      <description>Introduction Wastewater surveillance can be used to effectively monitor the levels of pathogens, including SARS-CoV-2, in the population. It can even help to predict upcoming outbreaks, thus acting as an &amp;lsquo;early-warning system&amp;rsquo;. See below for a general introduction to wastewater epidemiology.
+This dashboard presents wastewater epidemiology data from various Swedish cities. Combined, the cities included here have a total population of over 3.5 million people (or 34% of the Swedish population).</description>
+    </item>
+    
+  </channel>
+</rss>

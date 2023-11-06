@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emerging pathogens on The Swedish Pathogens Portal</title>
+    <link>https://www.pathogens.se/pathogens/</link>
+    <description>Recent content in Emerging pathogens on The Swedish Pathogens Portal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.pathogens.se/pathogens/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Children with acute hepatitis of unknown etiology</title>
+      <link>https://www.pathogens.se/pathogens/hepatitis_unknown_origin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/pathogens/hepatitis_unknown_origin/</guid>
+      <description>Background Hepatitis (severe liver inflammation) can result from pathogens, toxins, or autoimmune reactions. Most often, it is caused by the hepatitis A, B, D, or E viruses (hepatitis D is always found together with B). However, other viruses, such as the Epstein-Barr virus or Cytomegalovirus (CMV), may cause hepatitis in children.
+Patients often exhibit a yellowish colouration in the skin and whites of the eye, as well as gastrointestinal symptoms, such as vomiting, diarrhea, and light faeces.</description>
+    </item>
+    
+    <item>
+      <title>Mpox: ongoing research, data, publications and preprints</title>
+      <link>https://www.pathogens.se/pathogens/mpox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.pathogens.se/pathogens/mpox/</guid>
+      <description>General information Mpox a.k.a. Monkeypox is a zoonotic disease (i.e. one that is transmitted from animals to humans) caused by the mpox virus. The virus is a member of the Orthopoxvirus genus in the family Poxviridae. There are currently two clades of mpox virus: the West African clade and the Congo Basin (Central African) clade according to WHO. It is closely related to the virus that causes smallpox (variola virus), which has had a major negative impact on human populations throughout history.</description>
+    </item>
+    
+  </channel>
+</rss>

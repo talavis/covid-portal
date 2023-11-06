@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="sv"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester | The Swedish Pathogens Portal</title>
+  <meta name="description" content='SARS-CoV-2 antikoppstestning utförs av SciLifeLab Autoimmunology and Serology Profiling Facility. Denna dashboard visa totalt antal tester, positiva och negativa, som utförts över tid.'>
+  
+  <link rel="alternate" hreflang="en" href="/dashboards/serology-statistics/" title="English">
+  
+  <meta http-equiv="content-language" content="sv">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester" />
+<meta property="og:description" content="SARS-CoV-2 antikoppstestning utförs av SciLifeLab Autoimmunology and Serology Profiling Facility. Denna dashboard visa totalt antal tester, positiva och negativa, som utförts över tid." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.pathogens.se/sv/dashboards/serology-statistics/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="article:section" content="dashboards" />
+
+<meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester"/>
+<meta name="twitter:description" content="SARS-CoV-2 antikoppstestning utförs av SciLifeLab Autoimmunology and Serology Profiling Facility. Denna dashboard visa totalt antal tester, positiva och negativa, som utförts över tid."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Hoppa till innehållet</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/sv">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/serology-statistics/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/serology-statistics/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/serology-statistics/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/serology-statistics/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+            <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+              <a class="d-block" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+            
+              <a class="d-block" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+            
+              <a class="d-block" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+              <a class="d-block" href="/sv/dashboards/post_covid/">Postcovid</a>
+            
+              <a class="d-block" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+            
+              <a class="d-block" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+            
+              <a class="d-block" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+            
+              <a class="d-block" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-window-stack"></i>
+        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+         data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+         aria-expanded="false">Data Dashboards</a>
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/post_covid/">Postcovid</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+          
+        </div>
+      </div>
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+      </div>
+  </div>
+</div>
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/sv/">Patogens Portal Sverige</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/">Dashboards</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">SciLifeLab Autoimmunity and Serology profiling facility, statistik för SARS-CoV-2 antikroppstester</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<div class="alert alert-info">Grafiken på denna sida är baserad på data senast uppdaterad den <span id="last_modified"></span><script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var dataset_info = JSON.parse(this.responseText);
+    document.getElementById("last_modified").innerText = String(dataset_info.modified).substring(0,10);
+  }
+};
+xmlhttp.open("GET", "https://datagraphics.dc.scilifelab.se/api/dataset/6d6f551abc10413a97a6ab64ebac46bd", true);
+xmlhttp.send();
+</script>
+.</div>
+<h4 id="totala-antalet-tester">Totala antalet tester</h4>
+<p>Det totala antalet SARS-CoV-2 antikroppstester analyserade vid SciLifeLab Autoimmunity and Serology profiling facility, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&amp;D-tester (research and development).</p>
+<div class="d-lg-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="total-number"></div>
+</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt. <br>**"Proportion positive" motsvarar proportionen av tester med positivt IgG-testresultat bland alla tester som inte var R&D (d.v.s., summan av tester med positivt IgG-testresultat och tester med negativt IgG-testresultat).</div>
+<h4 id="veckovis-antal-tester">Veckovis antal tester</h4>
+<p>Antalet SARS-CoV-2 antikroppstester analyserade per vecka vid SciLifeLab Autoimmunity and Serology profiling facility, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&amp;D-tester (research and development).</p>
+<div class="d-lg-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="bar-chart"></div>
+</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+<h4 id="kumulativt-antal-tester">Kumulativt antal tester</h4>
+<p>Det totala antalet SARS-CoV-2 antikroppstester analyserade på SciLifeLab Autoimmunity and Serology profiling facility sedan start, uppdelade i positivt IgG-testresultat, negativt IgG-testresultat, och R&amp;D-tester (research and development).</p>
+<div class="d-lg-none alert alert-info">
+  Scroll the plot sideways to view all data.
+</div>
+<div class="plot_wrapper">
+  <div class="w-100" id="cumulative-plot"></div>
+</div>
+<div class="small text-muted">*Kategorin som benämns som "R&D" (research and development) inkluderar alla återstående serum-, plasma- och salivprover där nivåer av IgG-, IgM- eller IgA-antikroppar riktade mot SARS-CoV-2-proteiner mätts. Kategorin innehåller alla positiva och negativa kontrollprover, alla replikat och omkörningar av prover och analyser, alla prover som analyserats som en del av utveckling och optimering, tekniskt misslyckade prover och prover inom forskningsassocierade projekt.</div>
+<h4 id="om-tester-vid-scilifelab-autoimmunity-and-serology-profiling-facility">Om tester vid SciLifeLab Autoimmunity and Serology profiling facility</h4>
+<p>Under den tidig fasen av covid-19-pandemin, påbörjade tre forskargrupper på <a href="https://www.kth.se">KTH</a> tillsammans med <a href="https://www.scilifelab.se/facilities/autoimmunity-profiling/">Autoimmunity profiling facility</a> vid SciLifeLab arbetet att <a href="https://www.scilifelab.se/covid-19/kaw-program/serology/">utveckla en serologisk analysmetod</a> för att möjliggöra storskalig testning av  plasma- och  serumprover för antikroppar mot SARS-CoV-2. Arbetet initierades och  koordinerades  av tre KTH-professorer,  Peter Nilsson, Sophia Hober och My Hedhammar.</p>
+<p>Utvecklingsarbetet har finansierats av Knut och Alice Wallenbergs Stiftelse, Familjen Erling-Perssons Stiftelse, KTH, SciLifeLab, KTH, Region Stockholm, Atlas Copco, Mercodia, Familjen Christian och Jennifer Dahlberg, Familjen Birgitta Klasén.</p>
+<p>Genom att jämföra och kombinera ett stort antal variationer av SARS- CoV- 2-proteiner som antigener, har en specifik array-baserad teknologi med hög känslighet etablerats och applicerats för storskalig analys av upp till 8000 prover per vecka. De allra flesta prover som hittills analyserats har samlats in från vårdpersonal och inom befolknings-baserade studier, från personal inom läkemedels- och bioteknikindustrin samt genom ett antal forskningssamarbeten.</p>
+<p>Provinsamlingsenheter och forskningssamarbeten inkluderar <a href="https://www.scilifelab.se/news/four-out-of-five-still-have-antibodies-against-sars-cov-2">Danderyds Universitetssjukhus</a>, Karolinska Universitetssjukhuset, Akademiska sjukhuset i Uppsala, Skånes universitetssjukhus,  Örebro  Universitetssjukhus, Sophiahemmet, Folkhälsomyndigheten,  RISE Research Institutes of Sweden,  AstraZeneca,  Cytiva, SVPH, Karolinska  Institutet, KTH, Uppsala universitet och Lunds universitet.</p>
+<p>SciLifeLab faciliteten har ny bytt namn - <a href="https://www.scilifelab.se/facilities/autoimmunity-profiling/">Autoimmunity and Serology Profiling facility</a>.</p>
+<h4 id="publicerade-vetenskapliga-artiklar-och-preprint">Publicerade vetenskapliga artiklar och preprint</h4>
+<p>Senast uppdaterad: 2021-11-15</p>
+<ul>
+<li>
+<p>Peter Bergman, Ola Blennow, Lotta Hansson, Stephan Mielke, Piotr
+Nowak, Puran Chen, Gunnar Söderdahl, Anders Österborg, Edvard Smith, David Wullimann, Jan Vesterbacka, Gustaf Lindgren,
+Lisa Blixt, Gustav Friman, Emilie Wahren Borgstrom, Anna Nordlander, Angelica Cuapio Gomez, Mira Akber, Davide Valentini,
+Anna-Carin Norlin, Anders Thalme, Gordana Bogdanovic, Sandra Muschiol, Peter Nilsson, Sophia Hober, Karin Lore, Margaret
+Sällberg Chen, Marcus Buggert, Hans-Gustav Ljunggren, Per Ljungman, Soo Aleman. Safety and efficacy of the mRNA BNT162b2 vaccine against SARS-CoV-2 in five groups of immunocompromised patients and
+healthy controls in a prospective open-label clinical trial. <em>EBioMedicine</em> <strong>in press</strong>. <a href="https://doi.org/10.1101/2021.09.07.21263206">https://doi.org/10.1101/2021.09.07.21263206</a></p>
+</li>
+<li>
+<p>Raphael Carapito, Richard Li, Julie Helms, Christine Carapito, Sharvari Gujja, Véronique Rolli, Raony Guimaraes, Jose Malagon-
+Lopez, Perrine Spinnhirny, Razieh Mohseninia, Aurélie Hirschler, Leslie Muller, Paul Bastard, Adrian Gervais, Qian Zhang,
+Francois Danion, Yvon Ruch, Maleka Schenck-Dhif, Olivier Collange, Thiên-Nga Chamaraux-Tran, Anne Molitor, Angélique
+Pichot, Alice Bernard, Ouria Tahar, Sabrina Bibi-Triki, Haiguo Wu, Nicodème Paul, Sylvain Mayeur, Annabel Larnicol, Geraldine
+Laumond, Julia Frappier, Sylvie Schmidt, Antoine Hanauer, Cécile Macquin, Tristan Stemmelen, Michael Simons, Xavier
+Mariette, Olivier Hermine, Samira Fafi-Kremer, Bernard Goichot, Bernard Drenou, Khaldoun Kuteifan, Julien Pottecher, Paul-
+Michel Mertes, Shweta Kailasan, M. Javad Aman, Elisa Pin, Peter Nilsson, Anne Thomas, Alain Viari, Damien Sanlaville, Francis
+Schneider, Jean Sibilia, Pierre-Louis Tharaux, Jean-Laurent Casanova, Yves Hansmann, Daniel Lidar, Mirjana Radosavljevic,
+Jeffrey Gulcher, Ferhat Meziani, Christiane Moog, Thomas W Chittenden, Seiamak Bahram. Identification of driver genes for severe forms of COVID-19 in a deeply phenotyped young patient cohort. <em>Science Translational Medicine</em> (2021). <a href="https://doi.org/10.1126/scitranslmed.abj7521">https://doi.org/10.1126/scitranslmed.abj7521</a></p>
+</li>
+<li>
+<p>Sara Mravinacova, Malin Jönsson, Jonas Klingström, Jamil Yousef, Cecilia Hellström, Sebastian Havervall, Sara Kanje, Charlotte Thålin, Elisa Pin, Hanna Tegel, Peter
+Nilsson, Anna Månberg, Sophia Hober. A cell free high-throughput assay for assessment of SARS-CoV-2 neutralization capability. <em>New Biotechnology</em> <strong>66</strong> (2022). <a href="https://doi.org/10.1016/j.nbt.2021.10.002">https://doi.org/10.1016/j.nbt.2021.10.002</a></p>
+</li>
+<li>
+<p>Sebastian Havervall, Ulrika Marking, Nina Greilert-Norin, Max Gordon, Henry Ng, Wanda Christ, Kim Blom, Mia Phillipson, Peter Nilsson, Sophia Hober, Jonas Klingström,
+Sara Mangsbo, Mikael Åberg, Charlotte Thålin. Impact of SARS-CoV-2 infection on vaccine-induced immune responses over time. <em>medRxiv</em> (2021). <a href="https://doi.org/10.1101/2021.10.16.21264948">https://doi.org/10.1101/2021.10.16.21264948</a></p>
+</li>
+<li>
+<p>Katie Healy, Elisa Pin, Puran Chen, Gunnar Söderdahl, Piotr Nowak, Stephan Mielke, Lotta Hansson, Peter Bergman,
+Edvard Smith, Per Ljungman, Davide Valentini, Ola Blennow, Anders Österborg, Giorgio Gabarrini, Khaled Al-Manei, Hassan
+Alkharaan, Michal Jacek Sobkowiak, Xinling Xu, Mira Akber, Karin Loré, Cecilia Hellström, Sandra Muschiol, Gordana
+Bogdanovic, Markus Buggert, Hans-Gustaf Ljunggren, Sophia Hober, Peter Nilsson, Soo Aleman, Margaret Sällberg Chen. Appearance of IgG to SARS-CoV-2 in saliva effectively indicates seroconversion in mRNA vaccinated immunocompromised
+individuals. <em>medRxiv</em> (2021). <a href="https://doi.org/10.1101/2021.09.30.21264377">https://doi.org/10.1101/2021.09.30.21264377</a></p>
+</li>
+<li>
+<p>Sara M Mangsbo, Sebastian Havervall, Ida Laurén, Robin Lindsay, August Jernbom Falk, Ulrika Marking, Martin Lord, Marcus Buggert, Pierre
+Dönnes, Gustaf Christoffersson, Peter Nilsson, Sophia Hober, Mia Phillipson, Jonas Klingström, Charlotte Thålin. An evaluation of a FluoroSpot assay as a diagnostic tool to determine SARS-CoV-2 specific T-cell responses. <em>PLOS ONE</em> <strong>16(9)</strong> (2021). <a href="https://doi.org/10.1371/journal.pone.0258041">https://doi.org/10.1371/journal.pone.0258041</a></p>
+</li>
+<li>
+<p>Lisa Blixt, Gordana Bogdanovic, Marcus Buggert, Yu Gao, Sophia Hober, Katie Healy, Hemming
+Johansson, Christian Kjellander, Sara Mravinacova, Sandra Muschiol, Peter Nilsson, Marzia Palma, Elisa Pin, C.I. Edvard Smith,
+Olga Stromberg, Margaret Sällberg Chen, Rula Zain, Lotta Hansson and Anders Österborg. Covid-19 in patients with chronic lymphocytic leukemia: Clinical outcome and B- and T-cell immunity during 13 months in
+consecutive patients. <em>Leukemia</em> (2021). <a href="https://doi.org/10.1038/s41375-021-01424-w">https://doi.org/10.1038/s41375-021-01424-w</a></p>
+</li>
+<li>
+<p>Klara Asplund Högelin; Nicolas Ruffin; Elisa Pin; Anna Månberg; Sophia Hober; Guro Gafvelin; Hans Grönlund;
+Peter Nilsson; Mohsen Khademi; Tomas Olsson; Fredrik Piehl; Faiez Al Nimer. Development of humoral and cellular immunological memory against SARS-CoV-2 despite B-cell depleting treatment in
+multiple sclerosis. <em>iScience</em> <strong>24(9)</strong>. <a href="https://doi.org/10.1016/j.isci.2021.103078">https://doi.org/10.1016/j.isci.2021.103078</a></p>
+</li>
+<li>
+<p>Sebastian Havervall, Henry Ng, August Jernbom Falk, Nina Greilert-Norin, Anna Månberg, Ulrika
+Wimmercranz-Marking, Ida Laurén, Lena Gabrielsson, Ann-Christin Salomonsson, Katherina Aguilera, Martha Kihlgren, Maja
+Månsson, Cecilia Hellström, Eni Andersson, Jennie Olofsson, Lovisa Skoglund, Jamil Yousef, Elisa Pin, Martin Lord, My
+Hedhammar, Hanna Tegel, Pierre Dönnes, Mia Phillipson, Peter Nilsson, Jonas Klingström, Sara Mangsbo, Sophia Hober,
+Charlotte Thålin. Robust humoral and cellular immune responses and low risk for reinfection at least eight months following asymptomatic
+to mild COVID-19. <em>J Internal Medicine</em> (2021). <a href="https://doi.org/10.1111/joim.13387">https://doi.org/10.1111/joim.13387</a></p>
+</li>
+<li>
+<p>Miriam Elfström, Jonas Blomqvist, Peter Nilsson, Sophia Hober, Elisa Pin, Anna Månberg, Ville N. Pimenoff, Laila Sara Arroyo Mühr, Kalle Conneryd Lundgren, Joakim Dillner. Differences in risk for SARS-CoV-2 infection among healthcare workers. <em>Preventive Medicine Reports</em> <strong>24</strong> (2021). <a href="https://doi.org/10.1016/j.pmedr.2021.101518">https://doi.org/10.1016/j.pmedr.2021.101518</a></p>
+</li>
+<li>
+<p>Sebastian Havervall, Ulrika Marking, Nina Greilert-Norin, Henry Ng, Ann-Christin Salomonsson, Cecilia Hellström, Elisa
+Pin, Kim Blom, Sara Mangsbo, Mia Phillipson, Jonas Klingström, Mikael Åberg, Sophia Hober, Peter Nilsson, Charlotte Thålin. Antibody Responses After a Single Dose of ChAdOx1 nCoV-19 Vaccine in Healthcare Workers Previously Infected with SARS-
+CoV-2. <em>EBioMedicine</em> <strong>70</strong> (2021). <a href="https://doi.org/10.1016/j.ebiom.2021.103523">https://doi.org/10.1016/j.ebiom.2021.103523</a></p>
+</li>
+<li>
+<p>Sebastian Havervall, Ulrika Marking, Max Gordon, Henry Ng, Nina Greilert-Norin, Sarah Lindbo, Kim Blom, Peter Nilsson, Mia Phillipson, Jonas Klingström, Sara Mangsbo, Mikael
+Åberg, Sophia Hober, Charlotte Thålin. Neutralization of VOCs including Delta one year post COVID-19 or vaccine. <em>medRxiv</em> (2021). <a href="https://doi.org/10.1101/2021.08.12.21261951">https://doi.org/10.1101/2021.08.12.21261951</a></p>
+</li>
+<li>
+<p>Sophia Hober, Cecilia Hellström, Jennie Olofsson, Eni Andersson, Sofia Bergström, August Jernbom Falk, Shaghayegh Bayati,
+Sara Mravinacova, Ronald Sjöberg, Jamil Yousef, Lovisa Skoglund, Sara Kanje, Anna Berling, Anne-Sophie Svensson, Gabriella
+Jenssen, Henric Enstedt, Delaram Afshari, Lan Xu, Martin Zwahlen, Kalle von Feilitzen, Leo Hanke, Ben Murrell, Gerald
+McInerney, Gunilla B. Karlsson Hedestam, Christofer Lendel, Robert G. Roth, Ingmar Skoog, Elisabet Svenungsson, Tomas
+Olsson, Anna Fogdell-Hahn, Ylva Lindroth, Maria Lundgren, Kimia T. Maleki, Nina Lagerqvist, Jonas Klingström, Rui Da Silva
+Rodrigues, Sandra Muschiol, Gordana Bogdanovic, Laila Sara Arroyo Mühr, Carina Eklund, Camilla Lagheden, Joakim Dillner,
+Åsa Sivertsson, Sebastian Havervall, Charlotte Thålin, Hanna Tegel, Elisa Pin, Anna Månberg, My Hedhammar, Peter Nilsson. Systematic evaluation of SARS-CoV-2 antigens enables a highly specific and sensitive multiplex serological COVID-19 assay. <em>Clinical &amp; Translational Immunology</em> <strong>e1312</strong> (2021). <a href="http://dx.doi.org/10.1002/cti2.1312">http://dx.doi.org/10.1002/cti2.1312</a></p>
+</li>
+<li>
+<p>Susanna Klevebro, Fuad Bahram, Miriam Elfström, Ulrika Hellberg, Sophia Hober, Simon Kebede Merid, Inger Kull, Peter Nilsson, Per
+Tornvall, Gang Wang, Kalle Conneryd Lundgren, Sari Ponzer, Joakim Dillner, Erik Melén. Risk of SARS-CoV-2 exposure among hospital healthcare workers in relation to patient contact and type of care. <em>Scand J Publ Health</em> <strong>49</strong> (2021). <a href="https://journals.sagepub.com/doi/10.1177/14034948211022434">https://journals.sagepub.com/doi/10.1177/14034948211022434</a></p>
+</li>
+<li>
+<p>Thomas Åkerlund, Katherina Zakikhany, Charlotta Löfström, Evelina Lindmark, Henrik Källberg, Ulla Elofsson, Karin Cederbrant, Erik Nygren, Anders Kallin, Nina Lagerkvist, Peter
+Nilsson, Sophia Hober, Anna Ridderstad Wollberg, Åsa Szekely Björndal. Stable IgG-antibody levels in patients with mild SARS-CoV-2 infection. <em>medRxiv</em> (2021). <a href="https://doi.org/10.1101/2021.06.16.21258960">https://doi.org/10.1101/2021.06.16.21258960</a></p>
+</li>
+<li>
+<p>Hassan Alkharaan, Shaghayegh Bayati, Cecilia Hellström, Annika Olsson, Karin Lindahl, Gordana Bogdanovic, Soo Aleman, Georgios Tsilingaridis, Patricia De Palma, Sophia Hober, Anna Månberg, Peter Nilsson, Elisa Pin, Margaret Sällberg
+Chen. Persisting Salivary IgG against SARS-CoV-2 at 9 Months After Mild COVID-19 – A Complementary Approach to Population
+Surveys. <em>J Infectious Diseases</em> <strong>224</strong> (2021). <a href="https://doi.org/10.1093/infdis/jiab256">https://doi.org/10.1093/infdis/jiab256</a></p>
+</li>
+<li>
+<p>Nastya Kharlamova, Nicky Dunn, Sahl Khalid Bedri, Svante Jerling, Malin Almgren, Francesca Faustini, Iva Gunnarsson, Johan Rönnelid,
+Rille Pullerits, Inger Gjertsson, Karin Lundberg, Anna Månberg, Elisa Pin, Peter Nilsson, Sophia Hober, Katharina Fink and Anna
+Fogdell-Hahn. False positive results in SARS-CoV-2 serological tests for samples from patients with chronic inflammatory diseases. <em>Frontiers in Immunology</em> <strong>12</strong> (2021). <a href="https://doi.org/10.3389/fimmu.2021.666114">https://doi.org/10.3389/fimmu.2021.666114</a></p>
+</li>
+<li>
+<p>Sebastian Havervall, Axel Rosell, Mia Phillipson, Sara Mangsbo, Peter Nilsson, Sophia Hober, Charlotte Thålin. Symptoms and functional impairment assessed 8 months after mild COVID-19 among health care workers. <em>JAMA</em> <strong>325</strong> (2021).</p>
+</li>
+<li>
+<p>Sadaf Sakina Hassan, Åsa Seigerud, Roda Abdirahman, Laila Sara Arroyo Mühr, Sara Nordqvist-Kleppe, Elisa Pin, Anna Månberg, Sophia
+Hober, Peter Nilsson, Lars Engstrand, Miriam Elfström, Jonas Blomqvist, Kalle Conneryd-Lundgren, Joakim Dillner. SARS-CoV-2 infections among personnel providing home care services for older persons in Stockholm, Sweden. <em>J Internal Medicine</em> <strong>290</strong> (2021). <a href="https://doi.org/10.1111/joim.13274">https://doi.org/10.1111/joim.13274</a></p>
+</li>
+<li>
+<p>Joakim Dillner, Miriam Elfström, Jonas Blomqvist, Carina Eklund, Camilla Lagheden, Sara Nordqvist-Kleppe, Cecilia Hellström, Jennie Olofsson, Eni Andersson, August Jernbom Falk, Sofia
+Bergström, Emilie Hultin, Elisa Pin, Anna Månberg, Peter Nilsson, My Hedhammar, Sophia Hober, Johan Mattsson, Laila Sara
+Arroyo Mühr, Kalle Conneryd Lundgren. Antibodies to SARS-CoV-2 and risk of past or future sick leave. <em>Scientific Reports</em> <strong>11</strong> (2021). <a href="https://doi.org/10.1038/s41598-021-84356-w">https://doi.org/10.1038/s41598-021-84356-w</a></p>
+</li>
+<li>
+<p>Joakim Dillner, Miriam Elfström, Jonas Blomqvist, Lars Engstrand, Mathias Uhlén, Carina Eklund, Fredrik Boulund, Camilla Lagheden, Marica Hamsten, Sara
+Nordqvist-Kleppe, Maike Seifert, Cecilia Hellström, Jennie Olofsson, Eni Andersson, August Jernbom Falk, Sofia Bergström,
+Emilie Hultin, Elisa Pin, Ville N Pimenoff, Sadaf Hassan, Anna Månberg, Peter Nilsson, My Hedhammar, Sophia Hober, Johan
+Mattsson, Laila Sara Arroyo Mühr, Kalle Conneryd-Lundgren. High amounts of SARS-CoV-2 precede sickness among asymptomatic healthcare workers. <em>J Infectious Diseases</em> <strong>224</strong> (2021). <a href="https://doi.org/10.1093/infdis/jiab099">https://doi.org/10.1093/infdis/jiab099</a></p>
+</li>
+<li>
+<p>Sebastian Havervall, August Jernbom Falk, Jonas Klingström, Henry Ng, Nina Greilert-Norin, Lena Gabrielsson, Ann-Christin
+Salomonsson, Eva Isaksson, Ann-Sofie Rudberg, Cecilia Hellström, Eni Andersson, Jennie Olofsson, Lovisa Skoglund, Jamil
+Yousef, Elisa Pin, Wanda Christ, Mikaela Olausson, My Hedhammar, Hanna Tegel, Sara Mangsbo, Mia Phillipson, Anna
+Månberg, Sophia Hober, Peter Nilsson, Charlotte Thålin. SARS-CoV-2 induces a durable and antigen specific humoral immunity after asymptomatic to mild COVID-19 infection. <em>medRxiv</em> (2021) <a href="https://doi.org/10.1101/2021.01.03.21249162">https://doi.org/10.1101/2021.01.03.21249162</a></p>
+</li>
+<li>
+<p>Ann-Sofie Rudberg, Sebastian Havervall, Anna Månberg, August Jernbom Falk, Katherina Aguilera, Henry Ng, Lena Gabrielsson, Ann-Christin Salomonsson,
+Leo Hanke, Ben Murrell, Gerald McInerney, Jennie Olofsson, Eni Andersson, Cecilia Hellström, Shaghayegh Bayati, Sofia
+Bergström, Elisa Pin, Ronald Sjöberg, Hanna Tegel, My Hedhammar, Mia Phillipson, Peter Nilsson, Sophia Hober, Charlotte
+Thålin. SARS-CoV-2 exposure, symptoms and seroprevalence in healthcare workers in Sweden. <em>Nature Communications</em> <strong>11</strong> (2020). <a href="https://doi.org/10.1038/s41467-020-18848-0">https://doi.org/10.1038/s41467-020-18848-0</a></p>
+</li>
+</ul>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.12.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.12.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.8.0"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/e5c031600d334d889f33080d3f0ac0dd.js?id=bar-chart"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/4c635b2679e648e384d952dd3e506ff1.js?id=cumulative-plot"></script>
+<script src="https://datagraphics.dc.scilifelab.se/graphic/63d9201aee8747c9b37c17ebb6b01c35.js?id=total-number"></script>
+
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Om
+        dataportalen</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/sv/about/">Om dataportalen</a></li>
+        
+        <li><a href="/sv/partners/">Andra nationella dataportaler</a></li>
+        
+        <li><a href="/sv/contact/">Support och Feedback</a></li>
+        
+        <li><a href="/sv/privacy/">Integritetspolicy</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Webbplatskod (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Sektioner</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/sv/dashboards/">Dashboards</a></li>
+        <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Följ
+        oss</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>

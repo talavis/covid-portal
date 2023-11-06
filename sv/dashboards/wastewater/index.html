@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="sv"><head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <title>Avloppsvattensepidemiologiska analyser i Sverige | The Swedish Pathogens Portal</title>
+  <meta name="description" content='Monitorering av olika patogener i avloppsvatten kan vara ett effektivt sätt att förutse framtida virusutbrott. Denna dashboard innehåller data som ursprungligen samlats in av ett flertal olika forskargrupper runt om i Sverige.'>
+  
+  <link rel="alternate" hreflang="en" href="/dashboards/wastewater/" title="English">
+  
+  <meta http-equiv="content-language" content="sv">
+
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Avloppsvattensepidemiologiska analyser i Sverige" />
+<meta property="og:description" content="Monitorering av olika patogener i avloppsvatten kan vara ett effektivt sätt att förutse framtida virusutbrott. Denna dashboard innehåller data som ursprungligen samlats in av ett flertal olika forskargrupper runt om i Sverige." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.pathogens.se/sv/dashboards/wastewater/" /><meta property="og:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/><meta property="og:site_name" content="The Swedish Pathogens Portal" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.pathogens.se/img/swe_pathogens_social_media.png"/>
+
+<meta name="twitter:title" content="Avloppsvattensepidemiologiska analyser i Sverige"/>
+<meta name="twitter:description" content="Monitorering av olika patogener i avloppsvatten kan vara ett effektivt sätt att förutse framtida virusutbrott. Denna dashboard innehåller data som ursprungligen samlats in av ett flertal olika forskargrupper runt om i Sverige."/>
+
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="/css/styles.css">
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+  
+
+  
+
+  
+
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.58.4/plotly.min.js"></script>
+  
+
+  
+  
+  <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+  
+
+  
+  
+
+
+  
+
+</head>
+<body>
+        <a class="visually-hidden-focusable" href="#content">Hoppa till innehållet</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
+  <div class="container">
+    
+    <div class="d-flex navbar-brand">
+      <a href="/sv">
+        <img class="mt-1 me-lg-3" src="/img/site_logo/swe_pathogens_logo.svg" alt="Pathogens Portal Sweden">
+      </a>
+      <a href="https://www.scilifelab.se">
+        <img class="px-2 py-lg-1" src="/img/site_logo/SciLifeLab_logo.svg" alt="SciLifeLab Home">
+      </a>
+    </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapseBottom"
+      aria-controls="navbarCollapseBottom" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    
+    <div class="d-flex align-items-end flex-column collapse navbar-collapse">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/"><span
+                lang="en">en <img src="/img/flag-en.svg"
+                  alt=""></span></a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/"><span
+                lang="sv">sv <img src="/img/flag-sv.svg"
+                  alt=""></span></a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarCollapseBottom">
+      
+      
+      <ul class="d-lg-none navbar-nav nav-languages list-group-horizontal justify-content-end">
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/about/">Om dataportalen</a>
+        </li>
+        
+        <li class="nav-item"><a class="nav-link " href="/sv/contact/">Kontakt</a>
+        </li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/dashboards/wastewater/"><span
+              lang="en">en <img src="/img/flag-en.svg"
+                alt=""></span></a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/sv/dashboards/wastewater/"><span
+              lang="sv">sv <img src="/img/flag-sv.svg"
+                alt=""></span></a></li>
+        
+        
+      </ul>
+      <ul class="d-lg-none navbar-nav">
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/contribute/"><i class="bi bi-plus-circle-fill me-2"></i>Bidra till Portalen</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/share-data/"><i class="bi bi-server me-2"></i>Dela data</a>
+        </li>
+        
+        <li class="nav-item align-text-center"><a class="nav-link highlight" href="/sv/support/"><i class="bi bi-people-fill me-2"></i>Stödtjänster</a>
+        </li>
+        
+      </ul>
+      <hr class="d-lg-none">
+      
+      
+      
+      
+      
+      
+      <div class="d-lg-none">
+        
+        <div class="main_menu_item pb-1">
+          <a href="#dataDashboards" data-bs-toggle="collapse"  role="button"
+             aria-expanded="false" aria-controls="dataDashboards">
+            <i class="bi bi-window-stack"></i> Data Dashboards <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse main_menu_item_sub ps-4" id="dataDashboards">
+            
+              <a class="d-block" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+            
+              <a class="d-block" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+            
+              <a class="d-block" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+            
+              <a class="d-block" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+            
+              <a class="d-block" href="/sv/dashboards/post_covid/">Postcovid</a>
+            
+              <a class="d-block" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+            
+              <a class="d-block" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+            
+              <a class="d-block" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+            
+              <a class="d-block" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+            
+          </div>
+        </div>
+        
+        <div class="main_menu_item">
+          <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+        </div>
+      </div>
+      <hr class="d-lg-none">
+      
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+<div class="container mb-1 d-none d-lg-block">
+  <div class="row main_menu">
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-window-stack"></i>
+        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+         data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
+         aria-expanded="false">Data Dashboards</a>
+        <div class="dropdown-menu main_menu_item_sub" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/vaccines/">Administrering av covid-19 vaccin</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/wastewater/">Avloppsvattensepidemiologiska analyser</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/symptom_study_sweden/">COVID Symptom Study Sverige (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/crush_covid/">CRUSH Covid Uppsala (Partnerprojekt)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/npc-statistics/">National Pandemic Centre (Historic)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/post_covid/">Postcovid</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/recovac/">Registerbaserade vaccindata (RECOVAC)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/serology-statistics/">SARS-CoV-2 antikoppstester som utförts av SciLifeLab</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/variants_region_uppsala/">SARS-COV-2 helgenomsekvensering (Uppsala)</a>
+          
+            <a class="dropdown-item m-0" href="/sv/dashboards/covid_publications/">Översikt över COVID-19 publikationer</a>
+          
+        </div>
+      </div>
+      <div class="col-md-auto main_menu_item">
+        <i class="bi bi-journal-text"></i> <a href="/sv/biobanks/">Provsamlingsregistret</a>
+      </div>
+  </div>
+</div>
+
+
+<div class="header"
+  style="background-image: linear-gradient(to bottom, rgba(55, 174, 148, 0.52), rgba(55, 174, 148, 0.73)),
+         url('/img/csm_coronavirus_mc.jpg');">
+  <div class="container">
+    <h1>
+      Avloppsvattensepidemiologiska analyser i Sverige
+      </h1>
+  </div>
+</div>
+
+
+<nav class="breadcrumbs" aria-label="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+
+      
+
+      
+      
+      <li class="breadcrumb-item"><a href="/sv/">Patogens Portal Sverige</a></li>
+      
+
+      
+
+      
+      <li class="breadcrumb-item"><a href="/sv/dashboards/">Dashboards</a></li>
+      
+
+      <li class="breadcrumb-item active" aria-current="page">Avloppsvattensepidemiologiska analyser i Sverige</li>
+
+    </ol>
+  </div>
+</nav>
+
+
+
+        
+        
+            <div class="container content" id="content">
+
+<ul class="nav nav-tabs nav-justified">
+    
+    
+    <li class="nav-item">
+        <a class="nav-link active font-weight-bold"
+            href="#">Introduktion</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/sv/dashboards/wastewater/covid_quantification/">SARS-CoV-2 kvantifiering</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/sv/dashboards/wastewater/enteric_quantification/">Enteriska virus kvantifiering (GU)</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link"
+            href="/sv/dashboards/wastewater/influenza_quantification/">Influensa kvantifiering (SLU)</a>
+    </li>
+    
+</ul>
+
+<div class="container mt-4">
+    <div class="row">
+      
+        <div class="col-md-3 order-md-last toc">
+            <aside class="sticky-top toc pt-2">
+                <h5>I denna sektion:</h5>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduktion">Introduktion</a></li>
+    <li><a href="#navigering-på-dashboarden">Navigering på dashboarden</a></li>
+    <li><a href="#tillgänglighet-av-källkod">Tillgänglighet av källkod</a></li>
+    <li><a href="#insamlingsplatser-för-avloppsvatten">Insamlingsplatser för avloppsvatten</a></li>
+    <li><a href="#bakgrund-avloppsvattenbaserad-epidemiologi">Bakgrund: Avloppsvattenbaserad epidemiologi</a></li>
+  </ul>
+</nav>
+            </aside>
+        </div>
+        <div class="col-md-9 order-md-first content" id="content"><!-- markdownlint-disable MD051 -->
+<h2 id="introduktion">Introduktion</h2>
+<p>Avloppsvattenövervakning kan fungera som en effektiv metod för att kartlägga förekomsten av patogener, inklusive SARS-CoV-2, i befolkningen. Metoden kan också fungera som ett &lsquo;tidigt varningssystem&rsquo; som förutsäger kommande utbrott. Se nedan för <a href="#bakgrund-avloppsvattenbaserad-epidemiologi">en allmän introduktion till avloppsvattenbaserad epidemiologi</a>.</p>
+<p>I den här dashboarden presenteras data från avloppsvattenbaserad epidemiologi från olika svenska städer. Sammanlagt har städerna som ingår här en befolkning på över 3,5 miljoner invånare (eller 34% av Sveriges befolkning). Data och resultat som presenteras här kommer från analyser som utförts av tre laboratorier. Två av laboratorierna ingår i <a href="https://www.scilifelab.se/pandemic-response/pandemic-laboratory-preparedness/swedish-environmental-epidemiology-center-seec/">Svenskt Miljöepidemiologiskt Centrum (SEEC)</a>, etablerat av forskare vid fyra svenska universitet (Sveriges lantbruksuniversitet, Kungliga Tekniska högskolan, Karolinska institutet och Uppsala universitet) som ett projekt för att utveckla resurser för pandemiberedskap inom <a href="https://www.scilifelab.se/pandemic-response">SciLifeLab&rsquo;s Pandemic Preparedness Program</a>. De två noderna i SEEC som är involverade i avloppsvattenanalyser är <strong>SEEC-KTH</strong> baserat vid Kungliga Tekniska högskolan (KTH), under ledning av Zeynep Cetecioglu Gurol och <strong>SEEC-SLU</strong> baserat vid Institutionen för vatten och miljö, Sveriges lantbruksuniversitet (SLU), under ledning av docent Anna J. Székely och docent Maja Malmberg. Det tredje laboratoriet som presenterar sina analyser på denna dashboard är baserat vid <strong>Göteborgs universitet (GU)</strong> och leds av professor Heléne Norder. Se <a href="#navigering-p%C3%A5-dashboarden">&lsquo;Navigering på dashboarden&rsquo;</a> nedan för mer information kring var arbetet från de tre respektive laboratorierna återfinns på denna dashboard.</p>
+<p>Notera att det förekommer mindre skillnader mellan detektionsmetoderna som grupperna använder. Därför är de absoluta värden som mäts av olika laboratorier inte jämförbara med varandra, och små skillnader i trender kan förekomma. Detta innebär att du bör vara försiktig när du gör jämförelser. Titta på avsnitten &ldquo;Metoder&rdquo; under gruppernas flikar för att få information om metoderna som används av de olika laboratorierna.</p>
+<h2 id="navigering-på-dashboarden">Navigering på dashboarden</h2>
+<p>Data som visas på den här dashboarden är uppdelad efter de olika patogener som presenteras. Se listan nedan för en överblick av vilka resurser som finns tillgängliga:</p>
+<ul>
+<li>
+<p><a href="/sv/dashboards/wastewater/covid_quantification"><strong>Kvantifiering av SARS-CoV-2</strong></a>: Data, visualiseringar och information kopplad till kvantifiering av SARS-CoV-2 i avloppsvatten från olika delar av Sverige. Alla tre forskargrupperna delar data relaterat till SARS-CoV-2 i avloppsvatten, deras mätningar täcker olika områden i Sverige. Det går att navigera direkt till den grupp(er) som tillhandahåller data för ett geografiskt område som är av intresse.</p>
+</li>
+<li>
+<p><a href="/sv/dashboards/wastewater/enteric_quantification/"><strong>Kvantifiering av Enteriska virus</strong></a>: Data, visualiseringar och information kopplad till kvantifiering av Enteriska virus i avloppsvatten från Göteborg. Dessa data har samlats in, analyserats och delats av Nordergruppen vid Göteborgs universitet (GU).</p>
+</li>
+<li>
+<p><a href="/sv/dashboards/wastewater/influensa_quantification/"><strong>Kvantifiering av Influensa virus</strong></a>: Data, visualiseringar och information kopplad till kvantifiering av Influensa i avloppsvatten från olika delar av Sverige. Dessa data har samlats in, analyserats och delats av SEEC-noden vid Sveriges lantbruksuniversitet (SLU).</p>
+</li>
+</ul>
+<h2 id="tillgänglighet-av-källkod">Tillgänglighet av källkod</h2>
+<p>All källkod som skapats för visualiseringarna under de olika flikarna på denna dashboard finns öppet tillgänglig på <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/tree/main/wastewater">GitHub</a>. Skripten finns tillgängliga under respektive visualisering.</p>
+<h2 id="insamlingsplatser-för-avloppsvatten">Insamlingsplatser för avloppsvatten</h2>
+<p>Nedan finns en karta som visar de avloppsreningsverk (på engelska wastewater treatment plants, WWTP) från vilka avloppsprover samlas in och analyseras av de grupper som delar data på den här dashboarden.</p>
+<div class="plot_wrapper mb-3">
+  <div class="table-responsive">
+
+<div id="https://blobserver.dc.scilifelab.se/blob/wastewater_map_test.json" class="plotly" style="height:600px"></div>
+<script>
+Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/wastewater_map_test.json", function(err, fig) {
+    var config = {responsive: true};
+    
+    
+    
+    
+    Plotly.plot('https:\/\/blobserver.dc.scilifelab.se\/blob\/wastewater_map_test.json', fig.data, fig.layout, config);
+});
+</script>
+</div>
+</div>
+<p><strong>Källkod som använts för att skapa kartan:</strong> <a href="https://github.com/ScilifelabDataCentre/covid-portal-visualisations/blob/main/wastewater/interactive_wastewater_map.py">Källkod</a>.</p>
+<p>Tabellen nedan listar; städerna/orterna som monitoreras av de forskargrupper som delar data, vilka avloppsreningsverk (WWTP) som avloppsprover samlats in ifrån, antal personer i upptagningsområdet (Number of people), om övervakningen är pågående eller inte (Active?), vilket virus som övervakas på platsen (Viruses monitored) och forskargrupp(er) som har övervakat/övervakar platsen. En asterisk (*) bredvid antal personer indikerar att värdet är ett BO-7-värde (en uppskattning av de personer som är anslutna till ett avloppsreningsverk), snarare än antalet personer som är fysiskt anslutna. Informationen i tabellen nedan är <a href="https://blobserver.dc.scilifelab.se/blob/overall_ww_collection_sites.xlsx">tillgänglig för nedladdning som en excel-fil</a>.</p>
+  <div class="plot_wrapper mb-3">
+  <div class="table-responsive">
+
+<div id="https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json" class="plotly" style="height:875px"></div>
+<script>
+Plotly.d3.json("https://blobserver.dc.scilifelab.se/blob/wastewater_overallsites.json", function(err, fig) {
+    var config = {responsive: true};
+    
+    
+    
+    
+    Plotly.plot('https:\/\/blobserver.dc.scilifelab.se\/blob\/wastewater_overallsites.json', fig.data, fig.layout, config);
+});
+</script>
+</div>
+</div>
+<h2 id="bakgrund-avloppsvattenbaserad-epidemiologi">Bakgrund: Avloppsvattenbaserad epidemiologi</h2>
+<p>Många patogengenom, inklusive SARS-CoV-2, kan med hjälp av metoden polymeraskedjereaktion (PCR) detekteras i avföringsprov som har samlats in från infekterade individer (t.ex. COVID-19-patienter) <a href="https://doi.org/10.1016/S2468-1253(20)30083-2">Wu <em>et al</em>. (2020)</a>. Övervakning av nivåerna av patogener (t.ex. SARS CoV-2) i avloppsvatten från samhällen kan därför ge en tidig indikation på sjukdomsprevalensen på befolkningsnivå, så kallad avloppsvattenbaserad epidemiologi (<a href="https://doi.org/10.1016/j.scitotenv.2020.140910">Corpuz <em>et al.</em>, 2020</a>).</p>
+<p>Avloppsvatten av består spillvatten, dagvatten och kylvatten. Dagvatten kommer från hushåll och fastigheter, exempelvis från kök, toaletter och duschar. Det kan också inkludera vatten från regn och från industriellt bruk. Prover tas regelbundet vid avloppsreningsanläggningar, vilket gör det möjligt att jämföra virusbelastningen över tid. Det har tidigare visats att mängden SARS-CoV-2-virus i avloppsvatten kan ge en indikation på ökad smittspridning bland befolkningen och även att mängden SARS-CoV-2 i avloppsvatten korrelerar med antal fall av COVID-19 och antal patienter som behöver sjukhusvård, se <a href="https://doi.org/10.1038/s41587-020-0684-z">Peccia <em>et al.</em> (2020)</a>. Nyligen visade också <a href="https://pubmed.ncbi.nlm.nih.gov/36035197/">Wang <em>et al.</em> (2022)</a> att nivån av SARS-CoV-2 i avloppsvatten ökade 1-2 veckor innan det fanns en ökning av antalet COVID-19-patienter i behov av sjukhusvård. Under COVID-19-pandemin har övervakning av nivån av SARS-CoV-2 i avloppsvatten blivit en vanlig metod för att följa och förutsäga smittspridning.</p>
+<p>Analyser av avloppsvatten ska i första hand ses som ett övervakningssystem. Tillsammans med annan data, t.ex. infektionstestning, intensivvårdsinläggningar etc. kan analyser av avloppsvatten hjälpa till att förstå den regionala dynamiken i sjukdomsutbrott.</p>
+<script>
+   var metaDataFiles = new Array(
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_data_gu_allviruses.xlsx/info.json",
+       "to_update": ["last_modified_gu", "last_modified_enteric"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/SLU_wastewater_data.csv/info.json",
+       "to_update": ["last_modified_uppsala", "last_modified_slu_flu"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/stockholm_wastewater_method_Sep_2021.xlsx/info.json",
+       "to_update": ["last_modified_stockholm", "last_modified_malmo"],
+       "type": "dataset"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_slu.json",
+       "to_update": ["slu_comment_date", "slu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_kth.json",
+       "to_update": ["kth_comment_date", "kth_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/wastewater_comment_gu.json",
+       "to_update": ["gu_comment_date", "gu_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/enteric_ww_comment_gu.json",
+       "to_update": ["gu_enteric_comment_date", "gu_enteric_comment"],
+       "type": "content"
+     },
+     {
+       "url": "https://blobserver.dc.scilifelab.se/blob/influenza_comment_slu.json",
+       "to_update": ["slu_flu_comment_date", "slu_flu_comment"],
+       "type": "content"
+     }
+   );
+
+   metaDataFiles.forEach((file) => {
+     var request = new XMLHttpRequest();
+     request.open("GET", file.url, true);
+     request.onreadystatechange = function (oEvent) {
+       if (this.readyState == 4 && this.status == 200) {
+         var metaInfo = JSON.parse(this.responseText);
+         if (file.type === "dataset") {
+           file.to_update.forEach((dKey) => {
+             var lastModified = document.getElementById(dKey);
+             if (lastModified) {
+               lastModified.innerText = String(metaInfo.modified).substring(0, 10);
+             }
+           });
+         } else {
+           var commentDate = document.getElementById(file.to_update[0]);
+           if (commentDate){
+             commentDate.innerText = String(metaInfo.date);
+           };
+           var comment = document.getElementById(file.to_update[1]);
+           if (comment){
+             comment.innerText = String(metaInfo.comment);
+           };
+         };
+       };
+     };
+     request.send(null);
+   });
+
+</script>
+</div>
+      
+    </div>
+</div>
+
+
+            </div>
+        <footer class="container border-top mt-5 mb-5">
+  <div class="row border-bottom">
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">Om
+        dataportalen</h2>
+      <ul class="list-unstyled mb-1">
+        
+        <li><a href="/sv/about/">Om dataportalen</a></li>
+        
+        <li><a href="/sv/partners/">Andra nationella dataportaler</a></li>
+        
+        <li><a href="/sv/contact/">Support och Feedback</a></li>
+        
+        <li><a href="/sv/privacy/">Integritetspolicy</a></li>
+        
+        <li><a href="https://github.com/ScilifelabDataCentre/covid-portal/tree/develop">Webbplatskod (Github)</a></li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <h2 class="small text-uppercase text-black-50">
+        Sektioner</h2>
+      <ul class="list-unstyled mb-0">
+        
+        
+        <li><a href="/sv/dashboards/">Dashboards</a></li>
+        <li><a href="/sv/biobanks/">Provsamlingsregistret</a></li>
+        
+      </ul>
+      <h2 class="small text-uppercase text-black-50">Följ
+        oss</h2>
+      <div>
+        <a style="font-size:1.75em;" target="_blank"
+          href="https://linkedin.com/company/scilifelab-data-centre"><i class="bi bi-linkedin"></i></a>
+        <a class="ps-2" style="font-size:1.75em;" target="_blank" href="https://twitter.com/scilifelab_DC"><i
+            class="bi bi-twitter-x"></i></a>
+        <a class="ps-2" style="font-size:1.90em;" target="_blank" href="mailto:datacentre@scilifelab.se"><i
+            class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+    
+    
+    <div class="col-md px-5 px-md-2">
+      <div>
+        <a class="d-block">
+          <img style="max-height: 200px" src="/img/logos/complete_footer.png" alt="SciLifeLab, Knut and Alice Wallenberg Foundation and SSF Logos">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script>
+  var _paq = window._paq = window._paq || [];
+   
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function () {
+    var u = "//matomo.dc.scilifelab.se/";
+    _paq.push(['setTrackerUrl', u + 'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+</body>
+</html>
